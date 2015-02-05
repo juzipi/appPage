@@ -1,0 +1,120 @@
+@import "compass/css3";
+// 全局
+$fontBaseColor: #333;
+$fontGrayColor: #555;
+$fontBrightColor: #d9d9d9;
+$textContentColor: #b2b2b2;
+$fontOrang: #f60;
+$fontBlueColor: #25B0C7;
+$fontSizeNormal: 1.4rem;
+$fontSizeSmall: 1.2rem;
+$fontSizeBig: 1.8rem;
+$lineColor: #f4f4f4;
+$hoverbg: #f5f5f5;
+$baseColor: #E7AA73;
+$baseColorHover: #e99b54;
+
+$imgUrl: "../../game/img/";
+
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, hr, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figure, figcaption, hgroup, menu, footer, header, nav, section, summary, time, mark, audio, video { margin:0; padding:0;  border:0 }
+embed { width:100%; height:auto; }
+html {-ms-touch-action: manipulation;touch-action: manipulation; font-size: 62.5%; height:100%; -webkit-text-size-adjust:none;}/*延迟300秒click事件*/
+article, aside, canvas, figure,sub, figure img, figcaption, hgroup, footer, header, nav, section, audio, video { display:block }
+a, img { border:0 }
+dl, dt, dd, ul, ol, li { list-style:none }
+i, em { font-style:normal } 
+* { -webkit-tap-highlight-color:rgba(0,0,0,0); -webkit-user-select:none; -webkit-touch-callout:none; }
+input {font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; -webkit-user-select:auto;-webkit-appearance:none; border-style:none; background-color:transparent;  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);  outline: none;}
+input[type="checkbox"]:focus,input[type="submit"]:focus,input[type="reset"]:focus, input[type="radio"]:focus { 
+outline: 1px solid #6FA1D9 !important; } 
+body {font-family: "Helvetica Neue",Helvetica,"Hiragino Sans GB","Microsoft YaHei","΢���ź�",Arial,sans-serif; font-size: 1.4rem; line-height: 1.5;  color:$fontBaseColor; height:100%;}
+p { line-height:1.6 }
+h2,h3{font-size: 100%;}
+ul, li { margin:0px; padding:0px; list-style:none; }
+select { -webkit-appearance:none; }
+i{display:block;}
+.clear:after { display:block; content:''; clear:both; visibility:hidden }
+.f-left{float: left;}
+.f-right{float: right;}
+a.link-black:link, a.link-black:visited, a.link-black:hover, a.link-black:active { color:$fontBaseColor; text-decoration:none; }
+a.link-blue:link, a.link-blue:visited, a.link-blue:hover, a.link-blue:active { color:$fontBlueColor; text-decoration:none; }
+a.link-orange:link, a.link-orange:visited, a.link-orange:hover, a.link-orange:active { color:$fontOrang; text-decoration:none; }
+.bg-style{background-repeat: no-repeat; background-size: 100%; background-position: 0 0;}
+.p-normal{padding-top: 10px;}
+.none{display:none}
+
+.btn-orange-big{display:inline-block; vertical-align: middle; height:46px; line-height:46px; text-align: center; color:#fff; background: $baseColor; border-radius:20px; text-decoration:none; padding:0px 40px;}
+.btn-orange-big.hover{background: $baseColorHover;}
+
+.font-c-gray{color:$fontBrightColor;}
+.font-c-Perse{color:$fontGrayColor;}
+.font-s-small{font-size:$fontSizeSmall;}
+.font-s-big{font-size:$fontSizeBig;}
+.font-c-orang{color:$fontOrang;}
+.font-b{font-weight:bold;}
+
+// 布局
+.bg{background:url(../../game/img/bg.jpg) no-repeat top center #57bce3; background-size: 320px auto; -webkit-backgroud-size:320px auto; }
+.page{ }
+.bottom{background:url(../../game/img/bg_home.jpg) no-repeat bottom center ;background-size: 320px auto; height:80px;}
+.logo{background:url(../../game/img/logo.png) no-repeat center; background-size:47px auto; height:120px;}
+
+
+// main
+.game-defen{display:table; width:100%; height:32px; margin-top: 15px;}
+.game-cur-fen{display:table-cell; width:50%; text-align:right; background:url(../../game/img/user_benju_feng.png) no-repeat top left;background-size: 85% auto;}
+.game-cur-fen .num{font-size:1.8rem; color:#fff; position: relative; top:-2px; padding-right: 20px; }
+.game-cur-fen span{display:inline-block; width:45px; text-align: center;}
+.game-total{display:table-cell; width:50%; text-align:right; background:url(../../game/img/user_fengshu.png) no-repeat top right; background-size: 90% auto;}
+.game-total .num{font-size:1.8rem; color:#fff; position: relative; top:-2px; }
+.game-total span{display:inline-block; width:57px; text-align: center;}
+.game-main{position: relative; width:285px; margin:0 auto;}
+.game-select{height:280px;}
+.game-bg-over{background:url(../../game/img/main.png) no-repeat top center; background-size: 285px auto; height:285px; position: absolute; left:0px; top:0px; z-index:2; width:100%;}
+.game-dog-img{z-index: 1; position: absolute;left:0px; top:0px; width:100%; text-align:center;}
+.game-dog-img img{width:272px; margin-top: 5px; margin-left: 3px;}
+.game-img-list{text-align:left;}
+.game-img-list li{ height:93px; width:92.5px; display:block; float: left;}
+.game-img-list .img-over{background:url(../../game/img/main_over.png) no-repeat 8px 8px; background-size: 84px 85px; }
+.btn-share{background:url(../../game/img/btn_share.png) no-repeat right bottom; width:80px; height:50px; background-size: 100% auto; float: right;}
+.btn-select{background:url(../../game/img/btn.png) no-repeat; background-size: 100% auto; height:96px; padding:30px 0px 0px 30px;}
+.btn-select li{float:left; width:49%;  padding-left: 36px; padding-top: 6px; height:43px; box-sizing:border-box; -webkit-box-sizing:border-box;}
+.btn-select li.sec{padding-left: 52px;}
+.imgBorder{border:4px solid #fff ; border-radius:5px;}
+.game-tip{float: left; height:50px; position: relative; bottom:-2px; display:none;}
+.game-head-tip{margin-bottom: -4px;}
+.game-tip.suc{background:url(../../game/img/suc_tip.png) no-repeat bottom left; background-size: 200px auto; width:200px; display:block;}
+.game-tip.erro{background:url(../../game/img/erro_01.png) no-repeat bottom left; background-size: 130px auto; width:200px; display:block;}
+.btn-game-next{background:url(../../game/img/btn_next.png) no-repeat top center; background-size: auto 40px; height:40px; position:absolute; top:220px; z-index:3; width:100%;}
+.game-correct{ background:url(../../game/img/erro_02.png) no-repeat top center; background-size: auto 40px; height:40px; padding-top: 5px; color:#fff; position:absolute; top:120px; z-index:3; width:100%; text-align: center}
+// start
+.game-start{background:url(../../game/img/start_t.png) no-repeat center top; background-size: 300px auto; height:135px; padding-top: 190px; width:300px; margin:0px auto;}
+.btn-game-start{display:block; width:100px; height:35px; margin:0px auto;}
+.game-start-info{padding:20px 10px; font-size:$fontSizeSmall; text-indent:-1.1em; color:#fff; padding-left:2em; webkit-text-shadow:#bb2c2c 1px 0 0,#bb2c2c 0 1px 0,#bb2c2c -1px 0 0,#bb2c2c 0 -1px 0;  
+-moz-text-shadow:#bb2c2c 1px 0 0,#bb2c2c 0 1px 0,#bb2c2c -1px 0 0,#bb2c2c 0 -1px 0;  
+text-shadow:#bb2c2c 1px 0 0,#bb2c2c 0 1px 0,#bb2c2c -1px 0 0,#bb2c2c 0 -1px 0;}
+ 
+// end
+.game-end{background:url(../../game/img/score_tip.png) no-repeat center top; background-size: 280px auto; height:320px; padding-top: 40px;  position: relative;}
+.game-score{font-weight:700; font-size:2.6rem; color:#febf32; padding-left:150px;}
+.game-score-detail{padding-left:3.5rem; padding-right: 3.2rem; color:#5e4d4d;}
+.downloadApp{position: absolute; bottom:7rem; right:0; width:9rem; height:8rem; background-repeat:no-repeat; background-position:top center; background-size: auto 100%;}
+.score-levle-01{background-image: url("../../game/img/score_level_01.png")}
+.score-levle-02{background-image: url("../../game/img/score_level_02.png")}
+.score-levle-03{background-image: url("../../game/img/score_level_03.png")}
+.score-levle-04{background-image: url("../../game/img/score_level_04.png")}
+.score-levle-05{background-image: url("../../game/img/score_level_05.png")}
+.score-levle-06{background-image: url("../../game/img/score_level_06.png")}
+.score-levle-07{background-image: url("../../game/img/score_level_07.png")}
+.score-levle-08{background-image: url("../../game/img/score_level_08.png")}
+.score-levle-09{background-image: url("../../game/img/score_level_09.png")}
+.score-levle-10{background-image: url("../../game/img/score_level_10.png")}
+// popup
+.popup-share{}
+.popup-share .share-arrow{background:url(../../game/img/share_tip_arrow.png) no-repeat top right; background-size: auto 80px; height:80px; width:100%; position: absolute; top:10px; right:10px; z-index:162; }
+.popup-share .share-tip{background:url(../../game/img/share_tip.png) no-repeat top center; background-size: 30% auto; height:150px; width:100%; position:fixed; top:40%; margin-top: -50px; margin-left: -10px; z-index:162;}
+.mask{ width:100%; height:100%; position:fixed; top:0; left:0; background:rgba(0,0,0,.6); z-index:160; }
+
+
+.btn-clear{line-height:2.5rem; padding-left: 3rem;}
