@@ -113,9 +113,11 @@ function showHide (id,showEel,hideEel){
 
 }
 
-showHide("#J_noMianyi","#J_showno","#J_mianyi")
-showHide("#J_yesMianyi","#J_showyes","#J_mianyi")
+showHide("#J_none","#J_showNone","#J_selectBox")
+showHide("#J_true","#J_showTrue","#J_selectBox")
 
+
+//验证选择狗粮是否是第一个项目
 function ConfirmSelect(id){
 	var index = $(id).find(".select-01")[0].selectedIndex;
 	$(id).find(".select-01").parents(".col-2").removeClass("dou");
@@ -149,37 +151,109 @@ function showPaln(id){
 	}
 }
 // 选择狗粮
-$("#J_showyes").on("change",".select-01",function(){
-
-	showPaln("#J_showyes");
+$("#J_showTrue").on("change",".select-01",function(){
+	var t = $(this);
+	showPaln("#J_showTrue");
+	var index =t[0].selectedIndex;
+	var n = t.find("option").eq(index).attr("value");
+	 // console.log()
+	if(index!=0){
+		t.addClass('cur');
+	}else{
+		t.removeClass('cur')
+	}
+	if(n == 1){
+		t.before('<span class="tip-lable-tuijian">推荐</span>');
+	}else{
+		t.parent().find('.tip-lable-tuijian').remove();
+	}
 
 })
+
+
 // 选择时间
-$("#J_showyes").on("blur",".paln-time",function(){
-	showPaln("#J_showyes")
+$("#J_showTrue").on("blur",".paln-time",function(){
+	showPaln("#J_showTrue")
 })
 
 // 当选择没有免疫过 选择狗粮
-$("#J_showno").on("change",".select-01",function(){
-	var index = $("#J_showno").find(".select-01")[0].selectedIndex;
+$("#J_showNone").on("change",".select-01",function(){
+	var index = $("#J_showNone").find(".select-01")[0].selectedIndex;
 	if(index!=0){
-		$("#J_paln").show();
+		$("#J_palnNone").show();
+		$(this).addClass('cur');
+	}else{
+		$(this).removeClass('cur')
 	}
 })
 
-// 把“将注射”样式切换成“已注射”
-$("#J_selectPaln").on("tap",".selected .i-point",function(){
+// 通用多选购粮
+$(".select-02").on("change",function(){
 	var t = $(this);
-	t.parent().attr("class","dis").next().attr("class","selected").find(".content").append('<div class="tip-lable-mini">将注射</div>');
-	t.prev().find('.tip-lable-mini').html("已注射");
+	var index =t[0].selectedIndex;
+	var n = t.find("option").eq(index).attr("value");
+	if(index!=0){
+		t.addClass('cur');
+	}else{
+		t.removeClass('cur')
+	}
+	if(n == 1){
+		t.before('<span class="tip-lable-tuijian">推荐</span>');
+	}else{
+		t.parent().find('.tip-lable-tuijian').remove();
+	}
+
 })
+
+// // 把“将注射”样式切换成“已注射”
+// $(".selected").on("tap",".i-point",function(){
+// 	console.log($(this).parent().attr("class"));
+// 	var t = $(this);
+// 	$(this).parent().attr("class","dis").next().attr("class","selected").find(".tip-lable-mini").html("将注射");
+// 	console.log("erro");
+// 	$(this).prev().find('.tip-lable-mini').html("已注射");
+// })
+// // 取消“已注射”
+// $(".dis").on("tap",".i-point",function(){
+// 	console.log($(this).parent().attr("class"));
+// 	var t = $(this);
+// 	$(this).parent()[0].className="selected";
+// 	console.log("suc");
+// 	$(this).prev().find('.tip-lable-mini').html("将注射");
+// })
+
+
+// 把“将注射”样式切换成“已注射”
+$(".selected .i-point").on("tap",function(){
+	console.log($(this).parent().attr("class"));
+
+	// var t = $(this);
+	// $(this).parent().attr("class","dis").next().attr("class","selected").find(".tip-lable-mini").html("将注射");
+	// console.log("erro");
+	// $(this).prev().find('.tip-lable-mini').html("已注射");
+	// return false;
+})
+// 取消“已注射”
+$(".dis .i-point").on("tap",function(){
+	console.log($(this).parent().attr("class"));
+
+	// var c = $(this).parent().attr("class");
+
+	// 	var t = $(this);
+	// 	$(this).parent()[0].className="selected";
+	// 	console.log("suc");
+	// 	$(this).prev().find('.tip-lable-mini').html("将注射");
+	//   return false;
+
+})
+
 
 
 // 页面头部的报错信息
 				$(".btnSubmit").bind("tap",function(){
-						ConfirmData("#J_showyes");
-						ConfirmSelect("#J_showyes");
-						ConfirmSelect("#J_showno");
+						ConfirmData("#J_showTrue");
+						ConfirmSelect("#J_showTrue");
+						ConfirmSelect("#J_showNone");
 						$(".erro-tip-common").show().css("opacity",1);   
 
 						setTimeout("$('.erro-tip-common').animate({opacity: 0},500)",5000);

@@ -36,10 +36,10 @@
 		</li>
 	</ul>
 
-	<div class="select-fix clear b-t" id="J_mianyi">以前是否免疫过？ <span class="i-s i-selcet f-right" id="J_noMianyi">否</span><span class="i-s i-selcet f-right" id="J_yesMianyi">是</span></div>
+	<div class="select-fix clear" id="J_selectBox">以前是否免疫过？ <span class="i-s i-selcet f-right" id="J_none">否</span><span class="i-s i-selcet f-right" id="J_true">是</span></div>
 
 <!-- 没有免疫过 -->
-	<div class="b-t none" id="J_showno">
+	<div class="b-t none" id="J_showNone">
 		<div class="col-2 panl-list">
 			<div class="col-item">以前是否免疫过 </div>
 			<div class="col-item t-right"><span class="i-s i-selceted-dis">是</span><span class="i-s i-selceted">否</span></div>
@@ -56,35 +56,13 @@
 			</div>
 		</div>
 	</div>
-<!-- 免疫过 -->
-	<div class="b-t none" id="J_showyes">
-		<div class="col-2 panl-list">
-			<div class="col-item">以前是否免疫过 </div>
-			<div class="col-item t-right"><span class="i-s i-selceted">是</span><span class="i-s i-selceted-dis">否</span></div>
-		</div>
-		<div class="col-2 panl-list" id="J_t">
-			<div class="col-item">上次免疫时间 </div>
-			<div class="col-item t-right"><input type="date" name="user_date" class="paln-time" placeholder="上次免疫时间" /></div>
-		</div>
-		<div class="col-2 panl-list">
-			<div class="col-item">请选择品牌</div>
-			<div class="col-item t-right">
-				<!-- <span class="tip-lable-tuijian"></span> -->
-				<select class="select-01">
-					<option>点击选择</option>
-					<option>推荐-瑞彪</option>
-					<option>瑞彪21</option>
-				</select>
-			</div>
-		</div>
-	</div>
-
-	<div class="paln-wrap b-t none" id="J_paln">
-		<div>解决方案</div>
+	<!-- 没有计划选择完成 -->
+	<div class="paln-wrap b-t none" id="J_palnNone">
+		<div class="font-s-big">解决方案</div>
 		<div class="font-c-gray font-s-small">
 			提示：狗狗处于幼犬期，需要按照以下顺序注射疫苗
 		</div>
-		<ul class="paln-fangan" id="J_selectPaln">
+		<ul class="paln-fangan" id="">
 			<li class="dis">
 				<div class="paln-num">
 					<div class="i-num">1</div>
@@ -117,13 +95,86 @@
 				<div class="content">
 					<div class="">狂犬疫苗</div>
 					<div class="font-c-gray font-s-small">12天</div>
-					<!-- <div class="tip-lable-mini">将注射</div> -->
+					<div class="tip-lable-mini"></div>
 				</div>
 				<div class="i-point"></div>
 			</li>
 		</ul>
+
+	</div>
+
+<!-- 免疫过 -->
+	<div class="b-t none" id="J_showTrue">
+		<div class="col-2 panl-list">
+			<div class="col-item">以前是否免疫过 </div>
+			<div class="col-item t-right"><span class="i-s i-selceted">是</span><span class="i-s i-selceted-dis">否</span></div>
+		</div>
+		<div class="col-2 panl-list" id="J_t">
+			<div class="col-item">上次免疫时间 </div>
+			<div class="col-item t-right"><input type="text" name="user_date" class="paln-time" placeholder="点击选择" /></div>
+		</div>
+		<div class="col-2 panl-list">
+			<div class="col-item">上一次免疫的品牌</div>
+			<div class="col-item t-right">
+				<!-- <span class="tip-lable-tuijian"></span> -->
+				<select class="select-01">
+					<option>点击选择</option>
+					<option value="1">瑞彪</option>
+					<option>瑞彪21</option>
+				</select>
+			</div>
+		</div>
+
+		<!-- 上一次免疫阶段 -->
+		<div class="paln-wrap none" id="J_paln">
+		<div class="">上一次免疫阶段</div>
+		<div class="font-c-gray font-s-small">
+			提示：狗狗处于幼犬期，需要按照以下顺序注射疫苗
+		</div>
+		<ul class="paln-fangan" id="J_selectPaln">
+			<li class="dis">
+				<div class="paln-num">
+					<div class="i-num">1</div>
+					<div class="i-line"></div>
+				</div>
+				<div class="content">
+					<div class="">狂犬疫苗</div>
+					<div class="font-c-gray font-s-small">12天</div>
+					<div class="tip-lable-mini">已注射</div>
+				</div>
+				<div class="i-point" ><i class="icon-suc"></i></div>
+			</li>
+			<li class="selected">
+				<div class="paln-num">
+					<div class="i-num">2</div>
+					<div class="i-line"></div>
+				</div>
+				<div class="content">
+					<div class="">狂犬疫苗</div>
+					<div class="font-c-gray font-s-small">12天</div>
+					<div class="tip-lable-mini">将注射</div>
+				</div>
+				<div class="i-point"><i class="icon-suc"></i></div>
+			</li>
+			<li class="select">
+				<div class="paln-num">
+					<div class="i-num">3</div>
+					<div class="i-line"></div>
+				</div>
+				<div class="content">
+					<div class="">狂犬疫苗</div>
+					<div class="font-c-gray font-s-small">12天</div>
+					<div class="tip-lable-mini"></div>
+				</div>
+				<div class="i-point"><i class="icon-suc"></i></div>
+			</li>
+		</ul>
 	
 	</div>
+
+	</div>
+
+
 
 <div class="btn-common btnSubmit">
 	测试报错
