@@ -205,45 +205,24 @@ $(".select-02").on("change",function(){
 
 })
 
-// // 把“将注射”样式切换成“已注射”
-// $(".selected").on("tap",".i-point",function(){
-// 	console.log($(this).parent().attr("class"));
-// 	var t = $(this);
-// 	$(this).parent().attr("class","dis").next().attr("class","selected").find(".tip-lable-mini").html("将注射");
-// 	console.log("erro");
-// 	$(this).prev().find('.tip-lable-mini').html("已注射");
-// })
-// // 取消“已注射”
-// $(".dis").on("tap",".i-point",function(){
-// 	console.log($(this).parent().attr("class"));
-// 	var t = $(this);
-// 	$(this).parent()[0].className="selected";
-// 	console.log("suc");
-// 	$(this).prev().find('.tip-lable-mini').html("将注射");
-// })
-
-
-// 把“将注射”样式切换成“已注射”
-$(".selected .i-point").on("tap",function(){
-	console.log($(this).parent().attr("class"));
-
-	// var t = $(this);
-	// $(this).parent().attr("class","dis").next().attr("class","selected").find(".tip-lable-mini").html("将注射");
-	// console.log("erro");
-	// $(this).prev().find('.tip-lable-mini').html("已注射");
-	// return false;
-})
-// 取消“已注射”
-$(".dis .i-point").on("tap",function(){
-	console.log($(this).parent().attr("class"));
-
-	// var c = $(this).parent().attr("class");
-
-	// 	var t = $(this);
-	// 	$(this).parent()[0].className="selected";
-	// 	console.log("suc");
-	// 	$(this).prev().find('.tip-lable-mini').html("将注射");
-	//   return false;
+// 阶段样式切换
+$(".paln-fangan .i-point").on("click",function(){
+	var t = $(this);
+	var parentName = t.parent().attr("class");
+	switch (parentName){
+		case "dis" ://已勾选
+			t.parent().attr("class","selected");
+			t.parent().next().attr("class","select").find(".tip-lable-mini").html("");
+			t.prev().find('.tip-lable-mini').html("将注射");
+		break;
+		case "selected" ://未勾选
+			t.parent().attr("class","dis").next().attr("class","selected").find(".tip-lable-mini").html("将注射");
+			t.prev().find('.tip-lable-mini').html("已注射");
+			break;
+		default :
+			console.log("none");
+	}
+	
 
 })
 
