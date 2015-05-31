@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content=""/>
+<meta name="keywords" content=""/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no"/>
+<meta name="format-detection" content="telephone=no" />
+<meta name="format-detection" content="email=no" />
+<link rel="stylesheet" type="text/css" href="../../common/css/css.css">
+
+	<title>狗管家</title>
+</head>
+<body>
+
+<div class="bd wrap">
+
+<ul>
+
+	<li><div class="day-style">
+		<div class="i-line"></div>
+		<div class="icon-dot-circle"></div>
+		<div class="i-dot-bg"></div>
+		<div class="day-info">
+			<p class="font-c-base font-s-big">怀孕第4天</p>
+			<p class="font-s-small font-c-Perse">2015-09-03</p>
+		</div>
+		<div class="lable-levle cur">已经历</div>
+	</div>
+	<ul class="paln-tip paln-tip-02">
+		<li>
+			<!-- 点击触发事件加在 h4 标签上面 -->
+			<h4 class="tip-title"><i class="i-warning i-paln"></i>主人注意</h4>
+			<div class="tip-content">注射疫苗这个提醒的必要性，刚才上京东商城看了看，冠能的评论说是假的，也不知道还</div>
+			<div class="process-img ">
+										<div>
+											<img src="../../common/img/test.jpg" alt="" />
+										</div>
+										<div>
+											<img src="../../common/img/test.jpg" alt="" />
+										</div>
+										<div>
+											<img src="../../common/img/test.jpg" alt="" />
+										</div>
+							</div>
+		</li>
+		<li>
+			<h4 class="tip-title"><i class="i-food i-paln"></i>给狗妈妈吃什么</h4>
+			<div class="tip-content">注射疫苗这个提醒的必要性，刚才上京东商城看了看，冠能的评论说是假的，也不知道还</div>
+		</li>
+		
+	</ul></li>
+
+	<li>
+	<div class="day-style">
+		<div class="i-line"></div>
+		<div class="icon-dot-circle dis"></div>
+		<div class="i-dot-bg"></div>
+		<div class="day-info">
+			<p class=" font-s-big">怀孕第4天</p>
+			<p class="font-s-small font-c-Perse">2015-09-03</p>
+		</div>
+		<div class="lable-levle dis">未完成</div>
+	</div>
+	<ul class="paln-tip paln-tip-02">
+		<li>
+			<!-- 点击触发事件加在 h4 标签上面 -->
+			<h4 class="tip-title"><i class="i-warning i-paln"></i>主人注意</h4>
+			<div class="tip-content">注射疫苗这个提醒的必要性，刚才上京东商城看了看，冠能的评论说是假的，也不知道还</div>
+			<div class="process-img ">
+										<div>
+											<img src="../../common/img/test.jpg" alt="" />
+										</div>
+										<div>
+											<img src="../../common/img/test.jpg" alt="" />
+										</div>
+										<div>
+											<img src="../../common/img/test.jpg" alt="" />
+										</div>
+							</div>
+		</li>
+		<li>
+			<h4 class="tip-title"><i class="i-food i-paln"></i>给狗妈妈吃什么</h4>
+			<div class="tip-content">注射疫苗这个提醒的必要性，刚才上京东商城看了看，冠能的评论说是假的，也不知道还</div>
+		</li>
+		
+	</ul>
+	</li>
+
+	<li id="J_test" class="none">
+		<div class="day-style">
+		<div class="i-line"></div>
+		<div class="icon-dot-circle dis"></div>
+		<div class="i-dot-bg"></div>
+		<div class="day-info">
+			<p class=" font-s-big">怀孕第2天</p>
+			<p class="font-s-small font-c-Perse">2015-09-03</p>
+		</div>
+		<div class="lable-levle dis">完成</div>
+	</div>
+	<ul class="paln-tip paln-tip-02">
+		<li>
+			<!-- 点击触发事件加在 h4 标签上面 -->
+			<h4 class="tip-title"><i class="i-warning i-paln"></i>主人注意</h4>
+			<div class="tip-content">注射疫苗这个提醒的必要性，刚才上京东商城看了看，冠能的评论说是假的，也不知道还</div>
+			<div class="process-img ">
+										<div>
+											<img src="../../common/img/test.jpg" alt="" />
+										</div>
+										<div>
+											<img src="../../common/img/test.jpg" alt="" />
+										</div>
+										<div>
+											<img src="../../common/img/test.jpg" alt="" />
+										</div>
+							</div>
+		</li>
+		<li>
+			<h4 class="tip-title"><i class="i-food i-paln"></i>给狗妈妈吃什么</h4>
+			<div class="tip-content">注射疫苗这个提醒的必要性，刚才上京东商城看了看，冠能的评论说是假的，也不知道还</div>
+		</li>
+		
+	</ul>
+	</li>
+</ul>
+	
+	
+<div class="day-more" id="moreButton">加载中。。。</div>
+</div>
+  
+
+<script src="../../common/zepto/zepto.js" ></script>
+<script src="../../common/zepto/touch.js" ></script>
+<script src="../../common/zepto/fx.js" ></script>
+<script src="../../common/js/view.js" ></script>
+<script type="text/javascript">
+var footTime = 0;
+
+	$(window).scroll(function(){
+		if($('#moreButton').attr('data-loading') == '1'){
+			return false;
+		}
+		
+		if(footTime<4){
+		
+		var _windowTop=$(window).scrollTop();//滚动条距离顶部高度
+		var _windowHeight=$(window).height();//窗口高度
+		var _footer_top=$("#moreButton").offset().top;//距离页面最顶部高度
+
+		// console.log(_footer_top - _windowTop - _windowHeight)
+			if(_footer_top - _windowTop - _windowHeight < -47){
+			//加载ajax
+				// console.log(_footer_top - _windowTop - _windowHeight)
+				$("#J_test").show();
+				return footTime +=1;
+				
+				
+			}
+			
+		}
+	});
+</script>
+
+</body>
+</html>

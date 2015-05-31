@@ -15,8 +15,19 @@
 <div class="bd">
  <!-- <sub class="erro-tip-common"><span class="i-erro">!</span>账号名或密码错误</sub>   -->
 
-<!-- 没有驱虫过 -->
-	<div class="" >
+	<div class="">
+	<!-- 切换 -->
+		<div class="col-2 panl-list">
+			<div class="col-item">以前是否驱虫过 </div>
+			<div class="col-item t-right" id="J_toggle"><span class="i-s i-selceted">是</span><span class="i-s i-selceted-dis">否</span></div>
+		</div>
+
+		
+		<div id="J_editPaln">
+		<!-- 驱虫过 -->
+			<div class="editMain">
+				
+				<div class="b-t" >
 	<div class="col-2 panl-list">
 		<div class="col-item"><i class="i-name i-paln"></i>提醒名称 </div>
 			<div class="col-item t-right font-c-gray">注射疫苗</div>
@@ -33,20 +44,7 @@
 	
 	</div>
 
-
-
-	<div class="b-t">
-	<!-- 切换 -->
-		<div class="col-2 panl-list">
-			<div class="col-item">以前是否驱虫过 </div>
-			<div class="col-item t-right" id="J_toggle"><span class="i-s i-selceted">是</span><span class="i-s i-selceted-dis">否</span></div>
-		</div>
-
-		
-		<div id="J_editPaln">
-		<!-- 驱虫过 -->
-			<div class="editMain">
-				<div class="col-2 panl-list" id="J_t">
+				<div class="col-2 panl-list b-t" id="J_t">
 					<div class="col-item">上次驱虫时间 </div>
 					<div class="col-item t-right"><input type="text" name="user_date" class="paln-time" placeholder="设置时间" /></div>
 				</div>

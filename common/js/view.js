@@ -1,77 +1,67 @@
  $(document).ready(function(){ 
+
  
- var _G={
-		//判断安卓版本，低版本不支持fixed属性
-			fixAndroidPosition:function(){
-				var n=navigator.appVersion;
-				var onOff=n.indexOf("Android 2");//判断安卓2开头的版本修复fixed的bug
-				if(onOff>-1){
-					//$(".page").css("padding-top","0px");
-					//$(".header").css("position","relative");
-					$('.btn-fixed').css('position','absolute');
-						$(window).bind('scroll',function(){
-							var s = $(window).height();
-							var n=$(window).scrollTop();
-							var i=$('.btn-fixed').height();
-									var fixedTitle = $('.btn-fixed');
-									fixedTitle.css('position','absolute');
-									fixedTitle.css('top',((s+n)-i) + 'px');
-					});		
-				}				
-			},
-			//修复ios定位问题
-			fixIosPosition:function(){
-				
-				var n=navigator.appVersion;
-				var onOff=n.indexOf("iPhone");
-				var ipad=n.indexOf("iPad");
-				//判断ios设备
-				if(onOff>-1||ipad>-1){
-					// alert(navigator.appVersion)
-					$("input[type='text']").focus(function(){
 
-						$(".header").css("position","absolute");
-						
-					})
-					$("input[type='text']").blur(function(){
+var _defult={
+	// imgauto height width
+	imgAuto:function(imgID){
+		var img = $(imgID)[0];
+		var url = $(imgID).attr("src");
+		var W = $(".paln-head").width(), H = $(".paln-head").height();
+		var bl=W/H;
+		if(!$(imgID)[0]){
+			return;
+		}
+		
+		var loadHtml = "<div class='i-loading'><div><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div></div>";
+		$(imgID).parent().append(loadHtml);
+		$.ajax({
+		 	url: url,
+		 	type: 'GET',
+		 	global: false,
 
-						$(".header").css("position","fixed");
-					})
+		 	beforeSend : function(){
+		 	},
+		 // success: function(){
+		    
 				
-					
-				}
-			},
-			//修复魅族不支持fixed问题
-		fixMxFixed:function(){
-				var n=navigator.userAgent;
-				var onOff=n.indexOf("M040");
-				if(onOff>-1){
-					$(".page").css("padding-top","0px");
-					$(".pageNoHead").css("padding-bottom","0px");
-					$(".pageHeadBottom").css("padding-top","0px");
-					$(".header").css("position","relative");
-					$(".HomeFooterMod").css("position","relative");
-					$(".btn-fixed").css({"position":"relative","margin-top":"10px"})
-					$(".select-bank").css("padding-bottom","0px");
-					$(".choicePayment").css("padding","0px");
-					$(".tip-popup").css("position","absolute");
-					$(".lchd-Mod").css("padding-top","0");
-				}
-			},
-			//
-			fixPlacehold:function(){
-				$(".JNumber").focus(function(){
-					$(this).attr("type","number");
-				})
-				$(".JNumber").blur(function(){
-					$(this).attr("type","text");
-				})
-			}
-		};
-	//_G.fixAndroidPosition();
-	//_G.fixIosPosition();
-	_G.fixMxFixed();
-	_G.fixPlacehold();
+			// 			console.log("suc");
+		 //  },
+		  complete: function(){
+		  	var w=img.naturalWidth,h=img.naturalHeight,wh=w/h;
+		  	$(imgID).parent().find('.i-loading').remove();
+			  if(wh<bl){
+
+			    $(imgID).css("width","100%")
+			  }else{
+
+			  	$(imgID).css("height","100%")
+			  }
+			  $(imgID).show();
+
+		  }
+
+ });
+	}
+}
+_defult.imgAuto("#headImage");
+
+
+
+
+// 点击图片放大效果
+$(".head-nobg").on("tap",".image",function(){
+	var viewport = document.querySelector("meta[name=viewport]");
+	var url = $(this).attr("src");
+	var html = '<div class="img-popup" id="J_imgPopup"><img src='+url+' alt=""  /><div class="maskblack"></div></div>'
+	viewport.setAttribute('content', 'width=device-width');
+	$(this).parent().parent().before().append(html);
+})
+	// 关闭图片
+$(".bd").on("tap","#J_imgPopup", function(e) {
+	$(this).remove();
+});
+
 
 
 
@@ -103,31 +93,39 @@
 				tar.removeClass("hover");
 			})
 
-// 选择隐藏于显示
-function showHide (id,showEel,hideEel){
-	$(id).click(function(){
-		$(showEel).show();
-		$(hideEel).hide();
-		$("#J_fixBottom").removeClass('fixBottom');
-	});
 
-}
+//  开始选择是否
+$(".select-fix").on("tap","span",function(){
+	var t = $(this);
+	var index = t.index()-1;
+	// var i = t.index();
+	$("#J_selectbd").find('.selectbd').eq(index).show().siblings().hide();
+	$("#J_selectYesNo").show();
+	$("#J_selectYesNo .t-right").find('span').eq(index).removeClass('i-selceted-dis').addClass('i-selceted').siblings().removeClass('i-selceted').addClass('i-selceted-dis');
+	$(this).parent().hide();
+	$(".bd").removeClass('fixBottom');
+	$(window).scrollTop($(document).height());
+})
 
-showHide("#J_none","#J_showNone","#J_selectBox")
-showHide("#J_true","#J_showTrue","#J_selectBox")
-
+$("#J_selectYesNo .t-right").on("tap","span",function(){
+	var index = $(this).index();
+	$("#J_selectbd").find('.selectbd').eq(index).show().siblings().hide();
+	$(this).removeClass('i-selceted-dis').addClass('i-selceted');
+	$(this).siblings().removeClass('i-selceted').addClass('i-selceted-dis');
+})
 
 //验证选择狗粮是否是第一个项目
 function ConfirmSelect(id){
 	var index = $(id).find(".select-01")[0].selectedIndex;
 	$(id).find(".select-01").parents(".col-2").removeClass("dou");
-	console.log(index)
 	if(index!=0){
 		return true;
 	}else{
 		$(id).find(".select-01").parents(".col-2").addClass("dou");
 	}	
 }
+
+
 
 function ConfirmData(id){
 	var val = $(id).find(".paln-time").val();
@@ -144,9 +142,10 @@ function ConfirmData(id){
 
 // 当选择免疫过 － 是否显示计划
 function showPaln(id){
-	var val = $(id).find(".paln-time").val();
+	var val = $(id).find(".paln-time").attr("data-init");
+	var h = $(id).find(".paln-time").html();
 	var index = $(id).find(".select-01")[0].selectedIndex;
-	if(val!="" && index!=0 ){
+	if(val!=h && index!=0 ){
 		$("#J_paln").show();
 	}
 }
@@ -162,7 +161,7 @@ $("#J_showTrue").on("change",".select-01",function(){
 	}else{
 		t.removeClass('cur')
 	}
-	if(n == 1){
+	if(n == "PCF"){
 		t.before('<span class="tip-lable-tuijian">推荐</span>');
 	}else{
 		t.parent().find('.tip-lable-tuijian').remove();
@@ -197,7 +196,7 @@ $(".select-02").on("change",function(){
 	}else{
 		t.removeClass('cur')
 	}
-	if(n == 1){
+	if(n == "PCF"){
 		t.before('<span class="tip-lable-tuijian">推荐</span>');
 	}else{
 		t.parent().find('.tip-lable-tuijian').remove();
@@ -205,22 +204,107 @@ $(".select-02").on("change",function(){
 
 })
 
+function datainit(){
+	var t = $(".paln-fangan").find('.font-c-gray').attr("data-init");
+	$(".paln-fangan").find('.font-c-gray').html(t);
+}
 // 阶段样式切换
 $(".paln-fangan .i-point").on("click",function(){
-	var t = $(this);
-	var parentName = t.parent().attr("class");
+	var t = $(this),
+			tParent = t.parent(),
+			Prev = (tParent.prev().attr("class") == "electDis") ? false : true,
+			length = tParent.parent().find('li').length-1,
+			l = tParent.parent().find('li').length,
+			indexsSelf = tParent.index(),
+			lastIndex = (length==tParent.index()) ? true : false,
+			tParentIndex = tParent.index();
+
+	var parentName = tParent.attr("class");
 	switch (parentName){
-		case "dis" ://已勾选
-			t.parent().attr("class","selected");
-			t.parent().next().attr("class","select").find(".tip-lable-mini").html("");
+
+		case "dis" ://已注射
+			datainit();
+			tParent.parent().find('li').each(function(index) {
+
+				if($(this).hasClass("electDis")){
+					return;
+				}else{
+					if(indexsSelf < index){
+						$(this).attr("class","select")
+					}else{
+						$(this).attr("class","dis")
+					}
+				}
+				
+			});
+			tParent.attr("class","selected");
+			tParent.next().attr("class","select").find(".tip-lable-mini").html("");
 			t.prev().find('.tip-lable-mini').html("将注射");
+			tParent.find('.font-c-gray').html("建议下次注射日期:"+_sTime);
+			tParent.prev().find('.font-c-gray').html("上次注射日期:"+_dataTime);
+
 		break;
-		case "selected" ://未勾选
-			t.parent().attr("class","dis").next().attr("class","selected").find(".tip-lable-mini").html("将注射");
+
+		case "selected" ://将注射
+
+			datainit();
+			tParent.parent().find('li').each(function(index) {
+				if($(this).hasClass("electDis")){
+					return;
+				}
+				if(indexsSelf<index){
+					$(this).attr("class","select")
+				}
+			});
+			tParent.attr("class","dis").next().attr("class","selected").find(".tip-lable-mini").html("将注射");
 			t.prev().find('.tip-lable-mini').html("已注射");
+			tParent.find('.font-c-gray').html("上次注射日期:"+_dataTime);	
+			if(tParentIndex == 2){
+				tParent.next().find('.font-c-gray').html(_sYear);
+			}else{
+				tParent.next().find('.font-c-gray').html("建议下次注射日期:"+_sTime);
+			}
+
+			break;
+
+		case "select" ://未注射
+			datainit()
+				tParent.parent().find('li').each(function(index) {
+					if($(this).hasClass("electDis")){
+						return;
+					}else{
+						if(index < indexsSelf){
+							$(this).attr("class","dis");
+					}else{
+						$(this).attr("class","select");
+					}
+					if(tParent.prev().hasClass("electDis")){
+						tParent.attr("class","dis").next().attr("class","selected").find(".tip-lable-mini").html("将注射");
+						tParent.find('.font-c-gray').html("上次注射日期:"+_dataTime);
+						tParent.next().find('.font-c-gray').html("建议下次注射日期:"+_sTime);
+					}else{
+						tParent.attr("class","dis").next().attr("class","selected").find(".tip-lable-mini").html("将注射");
+						tParent.prev().attr("class","dis").find(".tip-lable-mini").html("已注射");
+						t.prev().find('.tip-lable-mini').html("已注射");
+						tParent.find('.font-c-gray').html("上次注射日期:"+_dataTime);
+
+						if(tParentIndex == 2){
+							tParent.next().find('.font-c-gray').html(_sYear);
+						}else{
+							tParent.next().find('.font-c-gray').html("建议下次注射日期:"+_sTime);
+						}
+
+					}
+					
+					
+				}
+				
+			});
+
+			
 			break;
 		default :
-			console.log("none");
+			// console.log("none");
 	}
 	
 
@@ -228,51 +312,73 @@ $(".paln-fangan .i-point").on("click",function(){
 
 
 
-// 页面头部的报错信息
-				$(".btnSubmit").bind("tap",function(){
-						ConfirmData("#J_showTrue");
-						ConfirmSelect("#J_showTrue");
-						ConfirmSelect("#J_showNone");
-						$(".erro-tip-common").show().css("opacity",1);   
 
-						setTimeout("$('.erro-tip-common').animate({opacity: 0},500)",5000);
-				})
+// 验证
+_yanzheng = {
+	// 判断选择是否的免疫，返回true则是选择“是”。
+	getYesNo : function(){
+		return $("#J_selectYesNo .t-right").find("span").first().hasClass('i-selceted');
+	},
 
-function scorllAuto (el){
-	var srollTop = $(el).scrollTop();
-	var setTop = $(el).offset().top;
-	console.log(srollTop+"he"+setTop);
+	// 获取选择框的值，id是这个选择框的id，需要加上
+	getSelectVal: function(id){
+		var i = $(id)[0].selectedIndex;
+		return $(id)[0].getElementsByTagName("option")[i].value;
+	},
+
+	// 获取选取的步骤，这里返回当前的值，1表示第一步，2表示第二步。
+	getLevel: function(id){
+		var length = $(id).find('.dis').length;
+		return length;
+	}
 }
 
 
+	// console.log(_yanzheng.getYesNo())
+	// console.log(_yanzheng.getLevel("#J_selectPaln"))
+	// console.log(_yanzheng.getSelectVal("#J_yimian"))
+
+// 页面头部的报错信息
+$(".btnSubmit").bind("tap",function(){
+		ConfirmData("#J_showTrue");
+		ConfirmSelect("#J_showTrue");
+		ConfirmSelect("#J_showNone");
+
+		$(".erro-tip-common").show().css("opacity",1);   
+
+		setTimeout("$('.erro-tip-common').animate({opacity: 0},500)",5000);
+
+})
 
 
-
-
+// 日期加减
+var _dataTime = "2015-02-12";
+var _sTime = dateOperator(_dataTime,"21","+");
+var _sYear = dateOperator(_dataTime,"356","+");
+function dateOperator(date,days,operator){
  
- // function showBanner(){
- // 	$("")
- // }
-//  if(document.getElementById("index_banner")){
-// 	document.getElementById("index_banner").onload=function(){
-// 	 	var indexBanner=setTimeout("$('.banner').removeClass('none')",3000);
-// 	 }
-// }
- // $(window).scroll(function() {
- // 		var top=$(window).scrollTop();
- // 		var docHeight=$(document).height();
- // });
+    date = date.replace(/-/g,"/"); //更改日期格式
+    var nd = new Date(date);
+    nd = nd.valueOf();
+    if(operator=="+"){
+     nd = nd + days * 24 * 60 * 60 * 1000;
+    }else if(operator=="-"){
+        nd = nd - days * 24 * 60 * 60 * 1000;
+    }else{
+        return false;
+    }
+    nd = new Date(nd);
+ 
+    var y = nd.getFullYear();
+    var m = nd.getMonth()+1;
+    var d = nd.getDate();
+    if(m <= 9) m = "0"+m;
+    if(d <= 9) d = "0"+d; 
+    var cdate = y+"-"+m+"-"+d;
+    return cdate;
+}
 
-//  $(window).scroll(function(){
-// 　　var scrollTop = $(this).scrollTop();
-// 　　var scrollHeight = $(document).height()-30;
-// 　　var windowHeight = $(this).height();
-// 　　if(scrollTop + windowHeight > scrollHeight){
-// 　　　　$("#J_downLoadTip").hide();
-// 　　}else{
-// 		$("#J_downLoadTip").show();
-// }
-// });
+
 
 
 
