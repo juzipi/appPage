@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content=""/>
+<meta name="keywords" content=""/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no"/>
+<meta name="format-detection" content="telephone=no" />
+<meta name="format-detection" content="email=no" />
+<link rel="stylesheet" type="text/css" href="../../common/css/css.css">
+<link rel="stylesheet" type="text/css" 
+href="../../common/css/tool.css">
+<title>工具－年龄填写</title>
+
+</head>
+<body>
+
+<div class="bd">
+<div class="dogLife-change">
+	<div class="user-img">
+		<img src="../../common/img/tool/dog_img.png">
+	</div>
+	<div class="dogLife-tip">
+	皮小记20岁2个月
+	<P>相当于人类</P>
+	<p><span class="font-c-base font-s-hug">100</span><span class="font-s-normal">岁</span></p>
+</div>
+</div>
+	
+	<div class="life-bg">
+		<div class="btn-share" id="J_showShare">分享</div>
+		<div class=""></div>
+		<div class="share-box none" id="J_shareBox">
+			<div class="weixin">
+				<i class="icon-weixin"></i>
+				<div class="">微信</div>
+				
+			</div>
+			<div class="weibo">
+				<i class="icon-weibo"></i>
+				<div class="">微博</div>
+				
+			</div>
+		</div>
+	</div>
+	
+</div>
+  
+
+<script src="../../common/zepto/zepto.js" ></script>
+<script src="../../common/zepto/touch.js" ></script>
+<script src="../../common/zepto/fx.js" ></script>
+<script src="../../common/js/view.js" ></script>
+<script type="text/javascript">
+
+$("#J_showShare").tap(function () {
+	$("#J_shareBox").css("display","inline-block");
+})
+
+
+
+</script>
+</body>
+</html>

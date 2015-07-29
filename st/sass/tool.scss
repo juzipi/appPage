@@ -1,0 +1,53 @@
+@import "globle.scss";
+body{background-color:#eee;}
+// 工具
+.tool-index{}
+.tool-index li{text-align: center; padding:1rem 1rem; display:inline-block; width:32%; box-sizing:border-box; -webkit-box-sizing:border-box; }
+.index-icon{width:7.2rem; height:7.2rem; display:inline-block; background-image: url("../img/tool/index_icon.png"); background-repeat: no-repeat; background-size:30rem auto;}
+.index-icon.hover{background-image: url("../img/tool/index_icon_tap.png"); }
+.nianlin{background-position: 0 0;}
+.xingming{background-position: -11.3rem 0;}
+.zhili{background-position: -23rem 0;}
+.zhongzheng{background-position: 0rem -11.5rem;}
+.jijiu{background-position: -11.3rem -11.5rem;}
+.yiyuan{background-position: -23rem -11.5rem;}
+.weiyao{background-position: 0rem -23rem;}
+.gouya{background-position: -11.3rem -23rem;}
+
+// 年龄转换
+.btn-style01{line-height:5rem; text-align: center; font-size:2rem; border-radius:2.5rem; background-color:$baseColor; display:inline-block; color:#fff; padding:0px 4rem;}
+.btn-style01.hover{background-color:$baseColorHover;}
+.btn-style01.dis{background-color:$fontGrayColor;}
+.btn-style01.dis.hover{background-color:$bgGray;}
+.life-ex{padding-top: 1rem; padding-bottom: 3rem; font-size:$fontSizeBig}
+.dog-show{background: url("../img/tool/dog_logo.png") no-repeat center top; background-size:10rem auto; height:18rem;  }
+.life-choose{color:#77b3d4; font-size:$fontSizeBig}
+.select-life{width:4.5rem; text-align:center; padding-left: 10px; font-size:1.8rem; border:1px solid #ccc; height:2.8rem; margin:0px 0.2rem;}
+.select-life option{text-align: center}
+
+.dogLife-change{position: relative; height:13rem;}
+.dogLife-tip{position: absolute; top:10px; right:20px;  color:#77b3d4; font-size:2.2rem; text-align: right }
+.life-bg{background: url(../img/tool/bg_life.png) no-repeat; background-size:100% auto; height:350px; position: absolute; bottom:0px; width:100%; text-align: center;  }
+
+
+.dogLife-tip p{line-height:1;}
+.user-img img{width:80px; margin-top: 20px; margin-left: 20px;}
+.btn-share{border-radius:2rem; background-color:$baseColor; color:#fff; font-size:1.8rem; text-align: center; display:inline-block; height:4rem; line-height:4rem; padding:0 40px; margin-top: 16rem;}
+.btn-share.hover{background-color:$baseColorHover}
+.share-box{background: url(../img/tool/share-box.png) no-repeat; background-size:100% auto; width:160px; height:100px;  }
+
+.share-box>div{width:45%; display:inline-block; color:#666666; font-size:1.6rem; line-height:1; padding-top: 25px;}
+
+.icon-weixin,.icon-weibo{background: url(../img/tool/icon_share.png) no-repeat; display:inline-block; width:35px; height:35px; background-size:100px auto; }
+.icon-weibo{background: url(../img/tool/icon_share.png) no-repeat -65px 0px; background-size:100px auto;}
+@media screen and (min-device-width : 321px ){
+	.life-bg{height:350px;}
+}
+@media screen and (min-device-width:375px){
+	.life-bg{height:450px;}
+	.btn-share{margin-top: 20rem;}
+}
+@media screen and (min-device-width : 414px ){
+	.life-bg{height:500px;}
+	.btn-share{margin-top: 20rem;}
+}

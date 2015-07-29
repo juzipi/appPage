@@ -1,0 +1,140 @@
+.activity-data-flow {
+  background: #6C6C6C;
+  text-align: center;
+  color: #CDAA7A;
+  padding: 0.5rem 0px; }
+  .activity-data-flow .d {
+    width: 25%;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 1.2rem; }
+    @media screen and (min-device-width: 320px) {
+      .activity-data-flow .d {
+        font-size: 1.2rem; } }
+    @media screen and (min-device-width: 375px) {
+      .activity-data-flow .d {
+        font-size: 1.4rem; } }
+    @media screen and (min-device-width: 414px) {
+      .activity-data-flow .d {
+        font-size: 1.6rem; } }
+  .activity-data-flow .l {
+    display: inline-block;
+    width: 10%;
+    height: 1px;
+    background-color: #fff;
+    vertical-align: middle; }
+
+.activity-title-img img {
+  width: 100%; }
+
+.activity-item {
+  border-bottom: 1px solid #F8F8F8;
+  margin: 1rem -1rem;
+  padding: 0 1rem 1rem; }
+
+.activity-title {
+  font-size: 2.6rem;
+  /*padding-bottom: 1rem;*/ }
+
+.activity-sub-title {
+  font-size: 1.8rem;
+  line-height: 3rem;
+  padding-bottom: 0.5rem; }
+
+.activity-content {
+  position: relative;
+  padding-left: 7rem;
+  min-height: 6rem; }
+  .activity-content img {
+    position: absolute;
+    left: 0px;
+    top: 4px;
+    width: 6rem;
+    height: 6rem; }
+
+.dogCol2-list {
+  display: flex;
+  -webkit-display: flex;
+  flex-direction: row;
+  -webkit-flex-direction: row;
+  flex-flow: wrap;
+  -webkit-flex-flow: wrap;
+  align-items: flex-start;
+  -webkit-align-items: flex-start; }
+  .dogCol2-list .dogBox {
+    width: 45%;
+    display: inline-block;
+    padding: 0.5rem;
+    background-color: #fff;
+    border-radius: 3px;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+    vertical-align: top; }
+
+.dogBox .headTip {
+  background-color: #BF5A5F;
+  box-sizing: border-box;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  height: 8rem;
+  width: 8rem;
+  position: absolute;
+  left: -4.5rem;
+  top: -4.5rem;
+  text-align: center;
+  color: #fff;
+  padding-top: 6.4rem;
+  font-size: 1.2rem; }
+.dogBox .itemBigImg {
+  width: 100%; }
+.dogBox .userHeadImg {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 20rem;
+  position: absolute;
+  left: 0px;
+  top: 0px; }
+.dogBox .dogInfo {
+  position: relative;
+  padding-left: 3.6rem;
+  font-size: 1.2rem;
+  color: #999; }
+  .dogBox .dogInfo h3 {
+    font-size: 1.6rem;
+    color: #222; }
+
+.dogClass {
+  display: inline-block;
+  background-color: #E2A975;
+  color: #fff;
+  font-size: 1rem;
+  text-align: center;
+  border-radius: 5px;
+  padding: 0 0.5rem; }
+
+.head-tab {
+  height: 5rem;
+  line-height: 5rem;
+  display: box;
+  display: -webkit-box;
+  text-align: center;
+  font-size: 2rem;
+  background-color: #6C6C6C;
+  color: #FFF;
+  position: relative; }
+  .head-tab .item {
+    box-flex: 1;
+    -webkit-box-flex: 1; }
+  .head-tab .item.cur {
+    color: #CDAA7A; }
+  .head-tab .curStyle {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    height: 4px;
+    background-color: #E6AA77;
+    width: 50%; }

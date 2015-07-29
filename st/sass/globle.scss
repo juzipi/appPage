@@ -1,0 +1,61 @@
+// 全局
+$fontBaseColor: #333;
+$fontGrayColor: #999;
+$fontBrightColor: #d9d9d9;
+$textContentColor: #b2b2b2;
+$fontOrang: #f60;
+$fontBlueColor: #25B0C7;
+$fontSizeNormal: 1.4rem;
+$fontSizeSmall: 1.2rem;
+$fontSizeBig: 1.8rem;
+$fontSizeVBig: 2.2rem;
+$lineColor: #f4f4f4;
+$hoverbg: #f5f5f5;
+$baseColor: #e1995e; 
+$baseColorHover: #c78249;
+$bgGray: #b2b2b2;
+// 两边边距
+$wrapSpace : 1rem;
+$wrapSpaceInstead : -1rem;
+// 媒体查询
+$breakpoints: (
+  small : 320px,
+  medium: 375px, // Previously 640px
+  large : 414px
+);
+
+$p-font-sizes: (
+  null  : 1.2rem,
+  small : 1.2rem,
+  medium: 1.4rem,
+  large : 1.6rem,
+);
+
+$h1-font-sizes: (
+  null  : 28px,
+  small : 31px,
+  medium: 33px,
+  large : 36px
+);
+
+
+@mixin font-size($fs-map, $fs-breakpoints: $breakpoints) {
+  @each $fs-breakpoint, $fs-font-size in $fs-map {
+    @if $fs-breakpoint == null {
+      font-size: $fs-font-size;
+    }
+    @else {
+      // If $fs-font-size is a key that exists in
+      // $fs-breakpoints, use the value
+      @if map-has-key($fs-breakpoints, $fs-breakpoint) {
+        $fs-breakpoint: map-get($fs-breakpoints, $fs-breakpoint);
+      }
+      @media screen and (min-device-width: $fs-breakpoint) {
+        font-size: $fs-font-size;
+      }
+    }
+  }
+}
+
+
+

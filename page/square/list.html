@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content=""/>
+<meta name="keywords" content=""/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no"/>
+<meta name="format-detection" content="telephone=no" />
+<meta name="format-detection" content="email=no" />
+<link rel="stylesheet" type="text/css" href="../../common/css/css.css">
+<link rel="stylesheet" type="text/css" href="../../common/css/square.css">
+<title>参赛情况</title>
+
+</head>
+<body>
+	<div class="bd">
+	
+		<!-- head tab -->
+			<div class="head-tab">
+				<div class="item cur" id="J_headLeft">最热</div>
+				<div class="item"  id="J_headRight">最新</div>
+				<div class="curStyle"></div>
+			</div>
+		<!-- list content -->
+			<div class="dogCol2-list box-border">
+				<style type="text/css">
+					body{background-color: #F4F4F5;}
+				</style>
+				<div class="dogBox">
+					<div class="headTip">1129票</div>
+					<img src="../../common/img/square/head_01.png" alt="" class="itemBigImg" />
+					<div class="dogInfo">
+						<img src="../../common/img/square/head_01.png" alt="" class="userHeadImg" />
+						<div class="dogInfo-c">
+							<h3 class="">大熊</h3>
+							<div class="">12岁21个月<span class="icon-life"></span> <span class="dogClass">泰迪泰迪泰迪</span></div>
+						</div>
+					</div>
+				</div>
+
+				<div class="dogBox">
+					<div class="headTip">1129票</div>
+					<img src="../../common/img/square/head_01.png" alt="" class="itemBigImg" />
+					<div class="dogInfo">
+						<img src="../../common/img/square/head_01.png" alt="" class="userHeadImg" />
+						<div class="dogInfo-c">
+							<h3 class="">大熊</h3>
+							<div class="">2岁2个月<span class="icon-life"></span> <span class="dogClass">泰迪</span></div>
+						</div>
+					</div>
+				</div>
+				
+
+				<div class="dogBox">
+					<img src="../../common/img/square/head_01.png" alt="" class="itemBigImg" />
+					<div class="dogInfo">
+						<img src="../../common/img/square/head_01.png" alt="" class="userHeadImg" />
+						<div class="dogInfo-c">
+							<h3 class="">大熊</h3>
+							<div class="">2岁2个月<span class="icon-life"></span> <span class="dogClass">泰迪</span></div>
+						</div>
+					</div>
+				</div>
+
+				<div class="dogBox">
+					<div class="headTip">1129票</div>
+					<img src="../../common/img/square/head_01.png" alt="" class="itemBigImg" />
+					<div class="dogInfo">
+						<img src="../../common/img/square/head_01.png" alt="" class="userHeadImg" />
+						<div class="dogInfo-c">
+							<h3 class="">大熊</h3>
+							<div class="">2岁2个月<span class="icon-life"></span> <span class="dogClass">泰迪</span></div>
+						</div>
+					</div>
+				</div>
+
+
+			</div>
+
+
+		
+	</div>
+	
+	<script src="../../common/zepto/zepto.js" ></script>
+	<script src="../../common/zepto/touch.js" ></script>
+	<script src="../../common/zepto/fx.js" ></script>
+	<script src="../../common/js/view.js" ></script>
+	<script type="text/javascript">
+	$(".head-tab .item").tap(function() {
+		var index =  $(this).index();
+		if(index == 1){
+			$(".curStyle").animate({"left":"50%"},200)
+		}else{
+			$(".curStyle").animate({"left":"0%"},200)
+		}
+		$(this).addClass('cur').siblings().removeClass('cur')
+	});
+
+	$("#J_headLeft").bind("swipeRight",function(){
+			$(".curStyle").animate({"left":"50%"},200);
+			$(this).removeClass('cur').siblings().addClass('cur')
+	})
+
+	$("#J_headRight").bind("swipeLeft",function(){
+			$(".curStyle").animate({"left":"0%"},200);
+			$(this).removeClass('cur').siblings().addClass('cur')
+	})
+	</script>
+</body>
+</html>

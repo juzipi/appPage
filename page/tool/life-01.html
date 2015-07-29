@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content=""/>
+<meta name="keywords" content=""/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no"/>
+<meta name="format-detection" content="telephone=no" />
+<meta name="format-detection" content="email=no" />
+<link rel="stylesheet" type="text/css" href="../../common/css/css.css">
+<link rel="stylesheet" type="text/css" href="../../common/css/tool.css">
+<title>工具－年龄填写</title>
+</head>
+<body>
+
+<div class="bd wrap">
+	
+	<div class="life-ex">根据狗狗的年龄就可以计算出狗狗相当于人类的年龄，很好玩吧！</div>
+	<div class="dog-show"></div>
+	<form id="lifeForm">
+	<div class="life-choose">
+		狗狗当前年龄：
+		<select class="select-life" name="lifeYear">
+			<option></option>		
+			<option>1</option>		
+			<option>2</option>		
+		</select>岁
+		<select class="select-life" name="lifeMonth">
+			<option></option>		
+			<option>1</option>
+			<option>2</option>
+		</select>
+		个月
+
+	</div>
+	<div class="">
+		<input type="text" name="lifeNum" value="" size="10" class="input-normal" />
+	</div>
+	<div class="t-c mt-normal">
+		<!-- <input class="btn-style01" value="转换" name="" type="submit" /> -->
+		<input class="btn-style01 dis" value="转换" name="" type="botton" />
+	</div>
+	</form>
+	
+</div>
+  
+
+<script src="../../common/zepto/zepto.js" ></script>
+<script src="../../common/zepto/touch.js" ></script>
+<script src="../../common/zepto/fx.js" ></script>
+<script src="../../common/js/view.js" ></script>
+<script type="text/javascript">
+
+$(".select-life").change(function() {
+		var N = 0;
+		var l = $(".select-life").length;
+		$(".select-life").each(function() {
+			var val =$(this).val();
+			if(val != ""){
+				N +=1;
+			}
+
+		});
+		if(N==l){
+			$(".btn-style01").removeClass('dis');
+		}else{
+			$(".btn-style01").addClass('dis');
+		}
+	});
+
+
+
+</script>
+</body>
+</html>
