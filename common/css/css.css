@@ -417,17 +417,17 @@ a.link-orange:link, a.link-orange:visited, a.link-orange:hover, a.link-orange:ac
 
 .paln-head h3 {
   position: absolute;
-  bottom: 8rem;
-  font-size: 2rem;
+  bottom: 3rem;
+  font-size: 2.2rem;
   display: inline;
   font-weight: 700;
   z-index: 3;
   width: 85%; }
 
 .paln-head sub {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   position: absolute;
-  top: 8rem;
+  top: 13.4rem;
   display: inline;
   z-index: 3;
   text-overflow: ellipsis;
@@ -438,8 +438,17 @@ a.link-orange:link, a.link-orange:visited, a.link-orange:hover, a.link-orange:ac
 .head-nobg {
   background: #fff; }
 
+.specialHead {
+  height: 9.4rem; }
+
+.specialHead sub {
+  top: 11rem; }
+
+.specialHead h3 {
+  bottom: 8rem; }
+
 .paln-head .btn-yellow02 {
-  margin-top: 1.2rem;
+  margin-top: 4.2rem;
   margin-right: 1.4rem;
   border-radius: 4px; }
 
