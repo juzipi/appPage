@@ -322,7 +322,9 @@ a.link-orange:link, a.link-orange:visited, a.link-orange:hover, a.link-orange:ac
   background-color: #f90; }
 
 .btn-yellow02 {
-  background-color: #F8D186; }
+  background-color: #F8D186;
+  position: relative;
+  z-index: 100; }
 
 .btn-yellow02.hover {
   background-color: #f90; }
