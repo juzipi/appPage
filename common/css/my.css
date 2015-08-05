@@ -100,6 +100,12 @@
     color: #000;
     font-size: 1.6rem;
     line-height: 1.8; }
+  .period-qa i {
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    vertical-align: text-bottom;
+    background-size: 22px auto; }
   .period-qa .content {
     color: #999;
     margin-bottom: 1rem; }
@@ -111,3 +117,9 @@
   padding: 1rem;
   color: #fff;
   text-align: center; }
+
+.i-q {
+  background: url(../img/icon.png) no-repeat 0px -168px; }
+
+.i-a {
+  background: url(../img/icon.png) no-repeat 0px -136px; }
