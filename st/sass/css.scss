@@ -42,6 +42,7 @@ a.link-orange:link, a.link-orange:visited, a.link-orange:hover, a.link-orange:ac
 .font-b{font-weight:bold;}
 .font-c-base{color:$baseColor;}
 .font-c-blue{color:#93B0C3;}
+.font-c-yellow{color:$fontYellowColor;}
 /*布局*/
 @media only screen and (-webkit-min-device-pixel-ratio : 1){
     .bd{min-width:320px; max-width:720px; margin:0 auto;}
