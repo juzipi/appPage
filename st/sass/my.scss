@@ -94,6 +94,39 @@
 	height: auto;
 }
 
+/*期间*/
+.period-tip{
+	background-color: #CACACB;
+	color: #fff;
+	text-align: center;
+	padding: 1rem;
+	p:nth-child(1){
+		font-size:1.8rem;
+	}
+}
+.period-qa{
+	margin-bottom: 1rem;
+	margin-top: 1rem;
+	h3{
+		color: #000;
+		font-size: 1.6rem;
+		line-height: 1.8;
+	}
+	.content{
+		color: $fontGrayColor;
+		margin-bottom: 1rem;
+	}
+	.qa-img{
+		width: 100%;
+	}
+
+}
+.period-tip02{
+	background-color: #6B6C6D;
+	padding: 1rem;
+	color: #fff;
+	text-align: center;
+}
 
 
 
