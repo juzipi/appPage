@@ -8,220 +8,81 @@
 <meta name="format-detection" content="telephone=no" />
 <meta name="format-detection" content="email=no" />
 <link rel="stylesheet" type="text/css" href="../../common/css/css.css">
+<link rel="stylesheet" type="text/css" href="../../common/css/plan.css">
 
-	<!-- <title>狗管家</title> -->
+	<title>狗管家</title>
 </head>
 <body>
-<div class="bd fixBottom" id="J_fixBottom">
- <!-- <sub class="erro-tip-common"><span class="i-erro">!</span>账号名或密码错误</sub>   -->
+<div class="bd wrap-big box-border">
+	<!-- 选择是否驱虫 -->
 
+	<div class="select-YesNo">
+	<div class="lineHeight-tiny">以前是否体内驱虫过？</div>
+		
 
-	<div class="paln-head">
-		<h3>狗狗驱虫</h3>
-		<sub>狗狗一定要，必不可少</sub>
+		<div class="select mt-mini" id="SelectLine">
+			<div class="icon-check2" data-select></div>
+			<div class="i-point-big"></div>
+			<div class="icon-cross" data-select></div>
+		</div>
+
+		<div class="col-between">
+			<div class="">是</div>
+			<div class="">否</div>
+		</div>
+		<div class="tip-text mt-mini">
+			注：狗管家会根据狗狗的年龄和所处阶段，科学计算出下一次驱虫的时间
+		</div>
 	</div>
 	
-	<ul class="paln-tip">
-		<li>
-			<h4 class="tip-title">解决问题</h4>
-			<div class="tip-content">注射疫苗这个提醒的必要性，刚才上京东商城看了看，冠能的评论说是假的，也不知道还</div>
-		</li>
-		<li>
-			<h4 class="tip-title">不适宜</h4>
-			<div class="tip-content">不适宜哈士奇不适宜，冬天不适宜不适宜哈士奇不适宜，冬天不适宜</div>
-		</li>
-		<li>
-			<h4 class="tip-title">标签</h4>
-			<div class="tip-content"><i class="tip-label">肠胃</i><i class="tip-label">拉肚子</i><i class="tip-label">拉肚子拉肚子</i><i class="tip-label">肠胃</i><i class="tip-label">肠胃</i></div>
-		</li>
-	</ul>
+	
+	<!-- 是否驱虫内容 -->
+	<div id="J_selectbd">
 
-
-	<div class="select-fix select-fix-green"><div class="t-left"> 以前是否驱过虫？</div> <span class="i-s i-selcet" >是</span><span class="i-s i-selcet">否</span></div>
-
-	<!-- 选择是否驱过虫 -->
-		<div class="none" id="J_selectYesNo">
-			<div class="b-t col-2 panl-list ">
-				<div class="col-item">以前是否驱过虫? </div>
-				<div class="col-item t-right"><span class="i-s i-selceted-dis">是</span><span class="i-s i-selceted">否</span></div>
+	<!-- 没有驱虫过  -->
+		<div class="selectbd b-top none" id="J_showNone">
+			<!-- 没有超过年龄 -->
+			<div class="tipNo">
+				<p class="font-s-normal">主人别着急</p>
+				<p class="font-s-normal">狗狗还不到打体内驱虫的时候</p>
+				<p class="font-s-small">点击右上角<span class="font-c-brown"> “确认” </span>按钮</p>
+				<p class="font-s-small">狗管家会及时提醒主人带狗狗去体内驱虫哦</p>
 			</div>
+			<!-- 超过年龄 -->
+			<div class="tipNo red">
+				<p class="font-s-normal">狗狗已经到了要体内驱虫的年龄了</p>
+				<p class="font-s-small">粗心的主人怎么还没有给狗狗驱过呢？</p>
+				<p class="font-s-small">狗管家建议主人<span class="font-c-brown">赶快给狗狗去体内驱虫哦！</span></p>
+			</div>
+			<div class="lineHeight-tiny mt-mini">准备给狗狗体内驱虫的时间</div>
+			<input type="text" placeholder="请输入时间" class="input-col-1 font-c-base" />
+			<div class="tip-text mt-mini">
+			注：这里应该填写<span class="font-c-base">准备给狗狗</span>体内驱虫的<span class="font-c-base">时间</span>
+		</div>
 		</div>
 
-
-<div id="J_selectbd">
-	<!-- 驱过虫 -->
-	<div class="selectbd none" id="J_showTrue">
-		<div class="col-2 panl-list">
-			<div class="col-item">上次驱虫时间 </div>
-			<div class="col-item t-right"><input type="text" name="user_date" class="paln-time" placeholder="点击选择" id="J_quchongData" /></div>
+		<!--驱虫过  -->
+		<div class="selectbd none" id="J_showYes">
+			<div class="lineHeight-tiny b-top">上次体内驱虫的时间</div>
+			<input type="text" placeholder="请输入时间" class="input-col-1 font-c-base" />
+			<div class="tip-text mt-mini">
+			注：这里应该填写<span class="font-c-base">上一次</span>体内驱虫的<span class="font-c-base">时间</span>
 		</div>
-	
-		
-		<!-- 驱过虫 解决方案-->
-		<div class="paln-wrap b-t none" id="J_quchongPaln">
-		<div>解决方案</div>
-		
-		<ul class="plan-style-02">
-			<li>
-				<div class="plan-title">
-					<i class="i-paln i-time"></i>
-					建议时间
-				</div>
-				<div class="plan-content">每晚 21:00</div>
-			</li>
-			<li>
-				<div class="plan-title">
-					<i class="i-paln i-cycle"></i>
-					建议周期
-				</div>
-				<div class="plan-content">每晚 21:00</div>
-			</li>
-			<li>
-				<div class="plan-title">
-					<i class="i-paln i-thing"></i>
-					准备用品
-				</div>
-				<div class="plan-content">每晚 21:00</div>
-			</li>
-			<li>
-				<div class="plan-title">
-					<i class="i-paln i-process"></i>
-					操作步骤
-				</div>
-				<ul class="process-list">
-					<li>
-						<div class="process-num">
-							<div class="">第 1 步</div>
-							<div class="i-line"></div>
-						</div>
-						<div class="process-content">
-							第六个月第六个月第六个月第六个月，第六个月第六个月
-							<div class="process-img">
-								<img src="../../common/img/head_bg.jpg" alt="" />
-								<img src="../../common/img/head_bg.jpg" alt="" />
-								<img src="../../common/img/head_bg.jpg" alt="" />
-							</div>
-						</div>
-					</li>
-					<li>
-						<div class="process-num">
-							<div class="">第 2 步</div>
-							<div class="i-line"></div>
-						</div>
-						<div class="process-content">
-							第六个月第六个月第六个月第六个月，第六个月第六个月
-
-						</div>
-					</li>
-					<li>
-						<div class="process-num">
-							<div class="">第 3 步</div>
-							<div class="i-line"></div>
-						</div>
-						<div class="process-content">
-							第六个月第六个月第六个月第六个月，第六个月第六个月
-	
-						</div>
-					</li>
-				</ul>
-			</li>
-		</ul>
-	
-	</div>
-
-	</div>
-
-
-<!-- 没有驱过虫 -->
-	<div class="selectbd b-t none" id="J_showNone">
 			
-		<!-- 没有驱过虫 解决方案-->
-		<div class="paln-wrap b-t" id="J_paln">
-		<div>解决方案</div>
-		<div class="font-c-gray font-s-small">
-			提示：狗狗处于幼犬期，需要按照以下顺序注射疫苗
+			
 		</div>
-		<ul class="plan-style-02">
-			<li>
-				<div class="plan-title">
-					<i class="i-paln i-time"></i>
-					建议时间
-				</div>
-				<div class="plan-content">每晚 21:00</div>
-			</li>
-			<li>
-				<div class="plan-title">
-					<i class="i-paln i-cycle"></i>
-					建议周期
-				</div>
-				<div class="plan-content">每晚 21:00</div>
-			</li>
-			<li>
-				<div class="plan-title">
-					<i class="i-paln i-thing"></i>
-					准备用品
-				</div>
-				<div class="plan-content">每晚 21:00</div>
-			</li>
-			<li>
-				<div class="plan-title">
-					<i class="i-paln i-process"></i>
-					操作步骤
-				</div>
-				<ul class="process-list">
-					<li>
-						<div class="process-num">
-							<div class="">第 1 步</div>
-							<div class="i-line"></div>
-						</div>
-						<div class="process-content">
-							第六个月第六个月第六个月第六个月，第六个月第六个月
-							
-						</div>
-					</li>
-					<li>
-						<div class="process-num">
-							<div class="">第 2 步</div>
-							<div class="i-line"></div>
-						</div>
-						<div class="process-content">
-							第六个月第六个月第六个月第六个月，第六个月第六个月
-
-						</div>
-					</li>
-					<li>
-						<div class="process-num">
-							<div class="">第 3 步</div>
-							<div class="i-line"></div>
-						</div>
-						<div class="process-content">
-							第六个月第六个月第六个月第六个月，第六个月第六个月
-	
-						</div>
-					</li>
-				</ul>
-			</li>
-		</ul>
-	
 	</div>
-		
-	</div>
-
+	
+	
 </div>
-
-
-</div>
-
   
-
+<!-- <input type="text" value="12" id="J_tt" style="width:100%; height:4rem; border:1px solid #000;" /> -->
 <script src="../../common/zepto/zepto.js" ></script>
 <script src="../../common/zepto/touch.js" ></script>
 <script src="../../common/zepto/fx.js" ></script>
 <script src="../../common/js/view.js" ></script>
-<script type="text/javascript">
-	$("#J_quchongData").blur(function() {
-		$("#J_quchongPaln").show();
-	});
-</script>
+
+
+
 </body>
 </html>

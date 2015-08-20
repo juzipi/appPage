@@ -20,6 +20,9 @@ h2,h3{font-size: 100%; font-weight:normal}
 ul, li { margin:0px; padding:0px; list-style:none; }
 select { -webkit-appearance:none; }
 i{display:block;}
+input[placeholder], [placeholder], *[placeholder] {
+   color:$fontGrayColor;
+}
 
 .clear:after { display:block; content:''; clear:both; visibility:hidden }
 
@@ -30,10 +33,11 @@ a.link-orange:link, a.link-orange:visited, a.link-orange:hover, a.link-orange:ac
 
 
 
-.font-c-gray{color:$fontBrightColor;}
+.font-c-gray{color:$fontGrayColor;}
 .font-c-Perse{color:$fontGrayColor;}
 .font-s-mini{font-size:1rem;}
 .font-s-small{font-size:$fontSizeSmall;}
+.font-s-normal{font-size:$fontSize16;}
 .font-s-big{font-size:$fontSizeBig;}
 .font-s-vbig{font-size:$fontSizeVBig;}
 .font-s-vvbig{font-size:4rem; font-weight:800;}
@@ -43,6 +47,7 @@ a.link-orange:link, a.link-orange:visited, a.link-orange:hover, a.link-orange:ac
 .font-c-base{color:$baseColor;}
 .font-c-blue{color:#93B0C3;}
 .font-c-yellow{color:$fontYellowColor;}
+.font-c-brown{color:#31695D;}
 /*布局*/
 @media only screen and (-webkit-min-device-pixel-ratio : 1){
     .bd{min-width:320px; max-width:720px; margin:0 auto;}
@@ -57,7 +62,7 @@ a.link-orange:link, a.link-orange:visited, a.link-orange:hover, a.link-orange:ac
 .fixBottom{padding-bottom: 7rem;}
 .box-border{box-sizing:border-box; -webkit-box-sizing:border-box;}
 .gray-bg{background-color:#F4F4F5;}
-
+.b-top{border-top:1px solid #eee; padding-top:1rem; margin-top: 1rem; margin-left:-2rem; margin-right: -2rem; padding-left: 2rem; padding-right: 2rem;}
 
 // icon 字体 公用
 @font-face { font-family: 'icon'; src: url('../fonts/icon.ttf?irkqfn') format('truetype'); font-weight: normal; font-style: normal; }
@@ -73,7 +78,16 @@ a.link-orange:link, a.link-orange:visited, a.link-orange:hover, a.link-orange:ac
 .icon-dot-circle:before { content: "\f192"; }
 .icon-dot-circle{font-size:26px; color:$baseColor; position: absolute; z-index:3; top:15px; left:0px;}
 .icon-dot-circle.dis{color:#222;}
-
+.icon-check2:before { content: "\e116";}
+.icon-check2{font-size:30px; color:#000; vertical-align:inherit;}
+.icon-check2.cur{  color:#fff;}
+.icon-cross:before { content: "\e117"; }
+.icon-cross{font-size:30px; color:#000; vertical-align:inherit;}
+.icon-cross.cur{   color:#fff; }
+.icon-cancel:before { content: "\e205"; }
+.icon-cancel{font-size:5.8rem; color:$baseColor; vertical-align:inherit;}
+.icon-checkCircle:before { content: "\e281"; }
+.icon-checkCircle{font-size:5.8rem; color:$baseColor; vertical-align:inherit;}
 
 // icon 图片 公用
 .i-art{background:url(../img/icon.png) no-repeat 0px -74px; }
@@ -126,8 +140,13 @@ $btnColor: $baseColor;
         padding: 0px 1.5rem;
         margin-top: 0px;
 
-    }
-    
+    } 
+}
+$lineHeight: 2 3 4 5;
+@for $i from 1 through length($btnHeight) {
+    .lineHeight-#{nth($size, $i)}{
+        line-height: nth($lineHeight, $i);
+    } 
 }
 
 
@@ -136,17 +155,9 @@ $btnColor: $baseColor;
 .erro-tip-common .icon-erro,.erro-tip-02 .icon-erro{position:absolute; left:15px; top:3px;}
 .erro-tip-02{position:relative; display:block;}
   
-// 抖动
-@-webkit-keyframes shake {  
-  
-    0%, 100% {-webkit-transform: translateX(0);}  
-    10%, 30%, 50%, 70%, 90% {-webkit-transform: translateX(-10px);}  
-    20%, 40%, 60%, 80% {-webkit-transform: translateX(10px);}  
-}  
 
-.dou{-webkit-animation-name:shake;  -webkit-animation-duration:1s; }
 // 采纳
-.paln-wrap{padding:1rem 1.4rem;background-color:#fff;}
+.paln-wrap{}
 .paln-head{height:6.4rem; padding-left: 1.4rem; overflow: hidden; position: relative; padding-top: 10rem; color:#fff; background: url(../img/head_bg.jpg) no-repeat left bottom;background-size: cover; }
 .paln-head h3{position: absolute; bottom:3rem; font-size:2.2rem; display:inline; font-weight:700;  z-index:3;width:85%;}
 .paln-head sub{font-size:1.6rem; position: absolute; top:13.4rem; display:inline; z-index:3;text-overflow:ellipsis; overflow:hidden;  white-space:nowrap; width:85%;} 
@@ -216,12 +227,7 @@ opacity: 0.8;
     }
     
 }
-// .panl-list{padding:1rem 1.4rem;
-//     // border-bottom:1px solid #eee;
-//     border-width:1px 0px 0px 0px;
-//     -webkit-border-image:url(../img/border.png) 2 0 round;
-//     border-image:url(../img/border.png) 2 0 round;
-// }
+
 .panl-list{padding:1rem 1.4rem;
     position: relative;
     border:none;
@@ -249,7 +255,7 @@ opacity: 0.8;
 .paln-fangan{padding-top: 1rem;}
 .paln-fangan li{position: relative; padding-left:3rem;  margin-top: 0.5rem; overflow: hidden;  min-height: 6.5rem;}
 .paln-fangan li:last-child .i-line{display:none}
-.tip-lable-mini{display:inline-block; background-color:#E7AA71; padding:0.1rem 0.5rem; border-radius:3px; margin-right: 1rem; margin-bottom: 0.5rem; color:#fff; font-size:$fontSizeSmall;}
+.tip-lable-mini{display:inline-block; background-color:$baseColor; padding:0.1rem 0.5rem; border-radius:3px; margin-right: 1rem; margin-bottom: 0.5rem; color:#fff; font-size:$fontSizeSmall;}
 .paln-num{position: absolute; left:0px; text-align: center; height:100%;}
 .paln-num .i-num{border-radius:5rem; width:2.8rem;height:2.8rem; line-height:2.8rem;  color:#fff; text-align: center; }
 .paln-num .i-line{display:inline-block; width:2px; height:100%; margin-top: 4px; border-left:1px dotted #bbb;}
@@ -269,7 +275,7 @@ opacity: 0.8;
 .paln-fangan .dis .content{color:$fontBrightColor;}
 .paln-fangan .dis .i-point{border:2px solid #000;}
 .paln-fangan .dis .i-point .icon-suc{display:inline-block; color:#000; }
-.paln-fangan .dis .tip-lable-mini{ display:none;}
+.paln-fangan .dis .tip-lable-mini{background-color:#E0E0E0;}
 .paln-fangan .dis .paln-num .i-num {background-color:$fontBrightColor;}
 
 .paln-fangan .selected .i-point{border:2px solid $baseColor;}
@@ -279,7 +285,7 @@ opacity: 0.8;
 
 .paln-fangan .select .i-point{border:2px solid #000;}
 .paln-fangan .select .i-point .icon-suc{display:none;}
-.paln-fangan .select .tip-lable-mini{background-color:$fontBrightColor; display:none;}
+.paln-fangan .select .tip-lable-mini{background-color:#74C1AD;}
 .paln-fangan .select .paln-num .i-num {background:none; border:1px solid #000; color:#000}
 .paln-fangan .select .lable-levle{ background-color:#77C1AE; }
 
@@ -403,7 +409,6 @@ to { -moz-transform: rotate(360deg); }
 
 
 	// 怀孕详情
-
 .col-2-center{display:box; display:-webkit-box; position: relative; z-index:10;}
 .col-2-center .line{border-right:1px solid rgba(255,255,255,0.3); position: absolute; left:50%; width:1px; height:70%; margin-top: 5%;}
 .col-2-center .col-item{box-flex:1; -webkit-box-flex:1; width:1%; text-align: center; line-height:2rem;}
@@ -417,6 +422,8 @@ to { -moz-transform: rotate(360deg); }
 .day-style .lable-levle{position:absolute; right:0px; top:20px;}
 .i-dot-bg{background-color:#FFF; position: absolute; top:17px; left:0px; border-radius:30px;  height:20px; width:20px; z-index:2;}
 .day-more{text-align: center; line-height:4rem;}
+
+
 
 
 
