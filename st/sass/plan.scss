@@ -1,0 +1,98 @@
+@import "globle.scss";
+// 免疫驱虫新版 :样式大调整
+// 20150805
+body{
+	background-color:#f2f2f2;
+}
+.wrap-big{
+	padding:1.5rem 2rem;
+}
+.select-YesNo{
+		.select{
+			background-color:#FFF;
+    	border-radius: 30px;
+    	height: 50px;
+    	padding:0px 1rem;
+    	position: relative;
+		}
+		 	.icon-check2{
+		 		// margin-left: -1.5rem;
+		 		position: absolute;
+		 		left: 12px;
+		 		top: 10px;
+		 		z-index: 10;
+		 		// margin-top: -2.6rem;
+		 	}
+		 	.icon-cross{
+		 		// margin-right: -1.5rem;
+		 		position: absolute;
+		 		right: 10px;
+		 		top: 10px;
+		 		z-index: 10;
+		 	}
+  	.i-point-big{
+  		width: 52px;
+  		height: 52px;
+  		border-radius: 3rem;
+  		background-color:$baseColor;
+  		box-shadow:-2px 3px 4px rgba(0,0,0,0.2);
+  		position: absolute;
+  		left: 50%;
+  		// right: initial;
+  		// left:28px;
+  		// right:120px;
+  		margin-left: -26px;
+  		// display: inline-block;
+  		z-index: 9;
+  	}  
+	
+}
+.col-between{
+	display:flex;
+	display:-webkit-flex;
+	justify-content: space-between;
+  -webkit-justify-content: space-between;
+  div{
+  	width: 4.8rem;
+  	padding-top: 0.5rem;
+  	text-align: center
+  }
+}
+
+// tip
+.tip-text{
+	font-size:1.2rem;
+	color:$fontGrayColor;
+}
+.tipNo{
+	background-color:#3ACCCC;
+	color:#fff;
+	padding:1rem 0.6rem;
+	text-align: center;
+	border-radius:8px;
+	.font-s-normal{
+		padding-bottom: 0.5rem;
+	}
+}
+.tipNo.red{
+	background-color:#F27AAC;
+}
+
+// input
+.input-col-1{
+		background-color:#FFF;
+    	border-radius: 30px;
+    	height: 50px;
+    	padding:0px 1.5rem;
+    	position: relative;
+    	display: block;
+    	width: 100%;
+    	box-sizing:border-box; 
+    	-webkit-box-sizing:border-box;
+    	// text-align: center;
+    	font-size: 1.6rem;
+    	border:none;
+    	option{
+    		text-align: center
+    	}
+}

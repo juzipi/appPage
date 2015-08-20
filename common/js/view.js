@@ -95,24 +95,7 @@ $(".bd").on("tap","#J_imgPopup", function(e) {
 
 
 //  开始选择是否
-$(".select-fix").on("tap","span",function(){
-	var t = $(this);
-	var index = t.index()-1;
-	// var i = t.index();
-	$("#J_selectbd").find('.selectbd').eq(index).show().siblings().hide();
-	$("#J_selectYesNo").show();
-	$("#J_selectYesNo .t-right").find('span').eq(index).removeClass('i-selceted-dis').addClass('i-selceted').siblings().removeClass('i-selceted').addClass('i-selceted-dis');
-	$(this).parent().hide();
-	$(".bd").removeClass('fixBottom');
-	$(window).scrollTop($(document).height());
-})
 
-$("#J_selectYesNo .t-right").on("tap","span",function(){
-	var index = $(this).index();
-	$("#J_selectbd").find('.selectbd').eq(index).show().siblings().hide();
-	$(this).removeClass('i-selceted-dis').addClass('i-selceted');
-	$(this).siblings().removeClass('i-selceted').addClass('i-selceted-dis');
-})
 
 //验证选择狗粮是否是第一个项目
 function ConfirmSelect(id){
@@ -238,7 +221,7 @@ $(".paln-fangan .i-point").on("click",function(){
 				
 			});
 			tParent.attr("class","selected");
-			tParent.next().attr("class","select").find(".tip-lable-mini").html("");
+			tParent.next().attr("class","select").find(".tip-lable-mini").html("未注射");
 			t.prev().find('.tip-lable-mini').html("将注射");
 			tParent.find('.font-c-gray').html("建议下次注射日期:"+_sTime);
 			tParent.prev().find('.font-c-gray').html("上次注射日期:"+_dataTime);
@@ -379,7 +362,39 @@ function dateOperator(date,days,operator){
 }
 
 
+//滑动条动画效果
+ $("#SelectLine").on("click","[data-select]",function(){
+	 	var _self = $(this);
+	 	var _className = _self.hasClass('icon-cross');
+	 	var _width = ($("#SelectLine").width())-26;
+	 	// 未注射
+	 	if(_className){
+	 		$("#SelectLine").find('.i-point-big').animate({left:_width}, 300,function(){
+	 		_self.addClass('cur').siblings().removeClass('cur');
+	 		$("#J_showNone").show();
+	 		$("#J_showYes").hide();
+	 		})
+	 	}else{
+	 		$("#SelectLine").find('.i-point-big').animate({left:"28px"}, 300,function(){
+	 		_self.addClass('cur').siblings().removeClass('cur');
+	 		$("#J_showYes").show();
+	 		$("#J_showNone").hide();
+	 		})
+	 	}
+ 	})
 
+// select
+$("[data-select]").change(function(){
+	var t = $(this);
+	var index =t[0].selectedIndex;
+	if(index==0){
+		t.addClass('font-c-gray').removeClass('font-c-base');
+	}else{
+		t.removeClass('font-c-gray').addClass('font-c-base');
+		$("#J_preLeve").show();
+		 $(window).scrollTop($(document).height());
+	}
+})
 
 
 

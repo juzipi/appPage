@@ -1,0 +1,73 @@
+body {
+  background-color: #f2f2f2; }
+
+.wrap-big {
+  padding: 1.5rem 2rem; }
+
+.select-YesNo .select {
+  background-color: #FFF;
+  border-radius: 30px;
+  height: 50px;
+  padding: 0px 1rem;
+  position: relative; }
+.select-YesNo .icon-check2 {
+  position: absolute;
+  left: 12px;
+  top: 10px;
+  z-index: 10; }
+.select-YesNo .icon-cross {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  z-index: 10; }
+.select-YesNo .i-point-big {
+  width: 52px;
+  height: 52px;
+  border-radius: 3rem;
+  background-color: #fd7954;
+  box-shadow: -2px 3px 4px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  left: 50%;
+  margin-left: -26px;
+  z-index: 9; }
+
+.col-between {
+  display: flex;
+  display: -webkit-flex;
+  justify-content: space-between;
+  -webkit-justify-content: space-between; }
+  .col-between div {
+    width: 4.8rem;
+    padding-top: 0.5rem;
+    text-align: center; }
+
+.tip-text {
+  font-size: 1.2rem;
+  color: #999; }
+
+.tipNo {
+  background-color: #3ACCCC;
+  color: #fff;
+  padding: 1rem 0.6rem;
+  text-align: center;
+  border-radius: 8px; }
+  .tipNo .font-s-normal {
+    padding-bottom: 0.5rem; }
+
+.tipNo.red {
+  background-color: #F27AAC; }
+
+.input-col-1 {
+  background-color: #FFF;
+  border-radius: 30px;
+  height: 50px;
+  padding: 0px 1.5rem;
+  position: relative;
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  font-size: 1.6rem;
+  border: none; }
+  .input-col-1 option {
+    text-align: center; }
