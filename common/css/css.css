@@ -635,7 +635,7 @@ a.link-orange:link, a.link-orange:visited, a.link-orange:hover, a.link-orange:ac
   min-height: 2rem;
   border-bottom: 1px solid #efefef; }
 
-.paln-tip h4 {
+.paln-tip .tip-title {
   font-weight: normal;
   position: absolute;
   left: 1.4rem;
@@ -668,7 +668,7 @@ a.link-orange:link, a.link-orange:visited, a.link-orange:hover, a.link-orange:ac
 .paln-tip-02 > li {
   padding: 1rem 1.4rem 1rem 1.4rem; }
 
-.paln-tip-02 h4 {
+.paln-tip-02 .tip-title {
   position: relative;
   left: 0;
   padding-bottom: 0.3rem; }
@@ -690,6 +690,9 @@ a.link-orange:link, a.link-orange:visited, a.link-orange:hover, a.link-orange:ac
   list-style: initial;
   list-style-type: initial;
   list-style-position: inside; }
+
+.list-hover li.hover {
+  background-color: #eeeeee; }
 
 .select-fix, .fixed-btn {
   background-color: #595959;

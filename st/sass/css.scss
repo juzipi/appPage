@@ -223,18 +223,19 @@ opacity: 0.8;
  width:100%; height:100%;}
 .paln-tip{background-color:#fff;}
 .paln-tip>li{position: relative; padding:1rem 1.4rem 1rem 9rem; min-height:2rem; border-bottom:1px solid #efefef;}
-.paln-tip h4{font-weight:normal;  position: absolute; left:1.4rem;font-size:1.6rem;}
+.paln-tip .tip-title{font-weight:normal;  position: absolute; left:1.4rem;font-size:1.6rem;}
 .paln-tip .tip-content{ color:$fontGrayColor; }
 .paln-tip .tip-label{display:inline-block; background-color:#E7AA71; padding:0.2rem 0.6rem; border-radius:3px; margin-right: 1rem; margin-bottom: 0.5rem; color:#fff; }
 .tip-label-2{display:inline-block; border:1px solid #ccc;  width:48%; padding: 0.2rem 0; text-align: center; border-radius:3px; margin-right: 1.5%; box-sizing: border-box; -webkit-box-sizing:border-box; margin-bottom: 0.5rem;}
 .paln-tip-02>li{padding:1rem 1.4rem 1rem 1.4rem; }
 // .paln-tip-02>li:first-child{padding-bottom: 0px;}
-.paln-tip-02 h4{position:relative; left:0; padding-bottom: 0.3rem; }
+.paln-tip-02 .tip-title{position:relative; left:0; padding-bottom: 0.3rem; }
 .paln-tip-02 .tip-content{ padding-top: 5px; }
 .tip-title .icon-angle-right{position:absolute; right:0px; top:0px;}
 .tip-title .btn-small{position:absolute; right:0px; top:0px;}
 .tip-content li { list-style: initial; list-style-type: initial; list-style-position: inside; }
 
+.list-hover li.hover{background-color: #eeeeee;}
 
 
 
