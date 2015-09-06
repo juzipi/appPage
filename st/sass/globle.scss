@@ -28,6 +28,8 @@ $bgGray: #b2b2b2;
 // 两边边距
 $wrapSpace : 1rem;
 $wrapSpaceInstead : -1rem;
+// z-index
+$fixedbottomIndex: 2;
 // 媒体查询
 $breakpoints: (
   small : 320px,
@@ -68,5 +70,8 @@ $h1-font-sizes: (
   }
 }
 
+@mixin box{
+  display: box; display: -webkit-box; display: flex; display:-webkit-flex;
+}
 
 

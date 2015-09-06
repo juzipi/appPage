@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="description" content=""/>
+<meta name="keywords" content=""/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no"/>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+<meta name="format-detection" content="telephone=no" />
+<meta name="format-detection" content="email=no" />
+<link rel="stylesheet" type="text/css" href="../../common/css/css.css">
+<link rel="stylesheet" type="text/css" href="../../common/css/plan.css">
+<title>狗管家</title>
+
+<script src="../../common/zepto/zepto.js" ></script>
+<script src="../../common/zepto/touch.js" ></script>
+<script src="../../common/zepto/fx.js" ></script>
+<script src="../../common/js/fastclick.js" ></script>
+<script src="../../common/js/iscroll.js" ></script>
+<!-- <script src="../../common/js/upiscroll.js" ></script> -->
+<script src="../../common/js/view.js" ></script>
+<script type="text/javascript">
+
+var myScroll,
+	pullDownEl, pullDownOffset,
+	pullUpEl, pullUpOffset,
+	generatedCount = 0;
+
+/**
+ * 下拉刷新 （自定义实现此方法）
+ * myScroll.refresh();		// 数据加载完成后，调用界面更新方法
+ */
+function pullDownAction () {
+	setTimeout(function () {	// <-- Simulate network congestion, remove setTimeout from production!
+		var el, li, i;
+		el = document.getElementById('thelist');
+
+		for (i=0; i<3; i++) {
+			li = document.createElement('li');
+			li.innerText = 'Generated row ' + (++generatedCount);
+			el.insertBefore(li, el.childNodes[0]);
+		}
+		
+		myScroll.refresh();		//数据加载完成后，调用界面更新方法   Remember to refresh when contents are loaded (ie: on ajax completion)
+	}, 1000);	// <-- Simulate network congestion, remove setTimeout from production!
+}
+
+/**
+ * 滚动翻页 （自定义实现此方法）
+ * myScroll.refresh();		// 数据加载完成后，调用界面更新方法
+ */
+function pullUpAction () {
+	setTimeout(function () {	// <-- Simulate network congestion, remove setTimeout from production!
+		var el, li, i,html;
+		el = document.getElementById('thelist');
+		html = '<h3>第二次完成</h3><div>完成<span class="font-c-base">狗狗刷牙</span>提醒<span class="f-right font-c-gray">2015-09-09 09:00</span></div>';
+		for (i=0; i<3; i++) {
+			li = document.createElement('li');
+			li.innerHTML = html;
+			el.appendChild(li, el.childNodes[0]);
+		}
+		
+		myScroll.refresh();		// 数据加载完成后，调用界面更新方法 Remember to refresh when contents are loaded (ie: on ajax completion)
+	}, 1000);	// <-- Simulate network congestion, remove setTimeout from production!
+}
+
+/**
+ * 初始化iScroll控件
+ */
+function loaded() {
+	// pullDownEl = document.getElementById('pullDown');
+	// pullDownOffset = pullDownEl.offsetHeight;
+	pullUpEl = document.getElementById('pullUp');	
+	pullUpOffset = pullUpEl.offsetHeight;
+	
+	myScroll = new iScroll('wrapper', {
+		scrollbarClass: 'myScrollbar', /* 重要样式 */
+		useTransition: false, 
+		preventDefault:false,
+		// topOffset: pullDownOffset,
+		onRefresh: function () {
+			if (pullUpEl.className.match('loading')) {
+				pullUpEl.className = '';
+				pullUpEl.querySelector('.pullUpLabel').innerHTML = '上拉加载更多...';
+			}
+		},
+		onScrollMove: function () {
+			 if (this.y < (this.maxScrollY - 5) && !pullUpEl.className.match('flip')) {
+				pullUpEl.className = 'flip';
+				pullUpEl.querySelector('.pullUpLabel').innerHTML = '松手开始更新...';
+				this.maxScrollY = this.maxScrollY;
+			} else if (this.y > (this.maxScrollY + 5) && pullUpEl.className.match('flip')) {
+				pullUpEl.className = '';
+				pullUpEl.querySelector('.pullUpLabel').innerHTML = '上拉加载更多...';
+				this.maxScrollY = pullUpOffset;
+			}
+		},
+		onScrollEnd: function () {
+		if (pullUpEl.className.match('flip')) {
+				pullUpEl.className = 'loading';
+				pullUpEl.querySelector('.pullUpLabel').innerHTML = '加载中...';				
+				pullUpAction();	// Execute custom function (ajax call?)
+			}
+		}
+	});
+	
+	setTimeout(function () { document.getElementById('wrapper').style.left = '0'; }, 800);
+}
+
+//初始化绑定iScroll控件 
+document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
+document.addEventListener('DOMContentLoaded', loaded, false); 
+
+</script>
+
+</head>
+<body>
+<div id="header">
+<ul class="paln-tip paln-tip-02 bg-white">
+		<li>
+		<h4 class="tip-title"><i class="i-history i-paln"></i>历史纪录</h4>
+	</li>
+	</ul>
+</div>
+<div id="wrapper">
+	<div id="scroller">
+		<!-- <div id="pullDown">
+			<span class="pullDownIcon"></span><span class="pullDownLabel">下拉刷新...</span>
+		</div> -->
+		
+		<ul class="history-list" id="thelist">
+			<li>
+					<h3>第二次完成</h3>
+					<div>完成<span class="font-c-base">狗狗刷牙</span>提醒<span class="f-right font-c-gray">2015-09-09 09:00</span></div>
+				</li>
+				<li>
+					<h3>第二次完成</h3>
+					<div>完成<span class="font-c-base">狗狗刷牙</span>提醒<span class="f-right font-c-gray">2015-09-09 09:00</span></div>
+				</li>
+				<li>
+					<h3>第二次完成</h3>
+					<div>完成<span class="font-c-base">狗狗刷牙</span>提醒<span class="f-right font-c-gray">2015-09-09 09:00</span></div>
+				</li>
+				<li>
+					<h3>第二次完成</h3>
+					<div>完成<span class="font-c-base">狗狗刷牙</span>提醒<span class="f-right font-c-gray">2015-09-09 09:00</span></div>
+				</li>
+				<li>
+					<h3>第二次完成</h3>
+					<div>完成<span class="font-c-base">狗狗刷牙</span>提醒<span class="f-right font-c-gray">2015-09-09 09:00</span></div>
+				</li>
+				<li>
+					<h3>第二次完成</h3>
+					<div>完成<span class="font-c-base">狗狗刷牙</span>提醒<span class="f-right font-c-gray">2015-09-09 09:00</span></div>
+				</li>
+				<li>
+					<h3>第二次完成</h3>
+					<div>完成<span class="font-c-base">狗狗刷牙</span>提醒<span class="f-right font-c-gray">2015-09-09 09:00</span></div>
+				</li>
+				<li>
+					<h3>第二次完成</h3>
+					<div>完成<span class="font-c-base">狗狗刷牙</span>提醒<span class="f-right font-c-gray">2015-09-09 09:00</span></div>
+				</li>
+			
+		</ul>
+		
+		<div id="pullUp">
+			<span class="pullUpIcon"></span><span class="pullUpLabel">上拉加载更多...</span>
+		</div>
+		
+	</div>
+</div>
+
+
+
+
+
+
+
+</body>
+</html>
