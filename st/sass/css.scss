@@ -141,7 +141,7 @@ a.link-orange:link, a.link-orange:visited, a.link-orange:hover, a.link-orange:ac
 .btn-yellow02{ background-color:#F8D186; position: relative; z-index:100; }
 .btn-yellow02.hover{background-color:#f90;}
 
-.btn-mini{
+.btn-mini,.btn-autoWidth{
     border-radius: 2rem;
     line-height: 3rem;
     text-align: center;
@@ -185,7 +185,7 @@ $inputFont: 1.4rem 1.6rem 1.8rem;
         font-size: nth($inputFont, $i);
         width: 100%;
         background-color: #fff;
-        border-radius: 2rem;
+        border-radius: 5rem;
     } 
 }
 
@@ -473,6 +473,7 @@ $fixedBottom : 4.4rem;
     display: -webkit-box;
     display: flex;
     display: -webkit-flex;
+    text-align: center;
     .btn-mini{
         /*width: 45%;*/
         box-flex:1;
@@ -484,6 +485,15 @@ $fixedBottom : 4.4rem;
         height: 3.4rem;
         line-height: 3.4rem;
         font-size: 1.6rem;
+    }
+    .btn-autoWidth{
+        height: 3.4rem;
+        line-height: 3.4rem;
+        font-size: 1.6rem;
+        padding: 0px 30px;
+        justify-content: center;
+        -webkit-justify-content: center;
+        margin: 0 auto;
     }
 }
 

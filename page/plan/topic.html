@@ -70,7 +70,7 @@
 					</div>
 					<div class="content">
 						<div class="font-s-big">怀孕初期</div>
-						<div class="font-c-gray font-s-small">怀孕1-30天</div>
+						<div class="font-c-BrightGray font-s-small">怀孕1-30天</div>
 					</div>
 					<div class="process-content pregnant-img">
 						第六个月第六个月第六个月第六个月，第六个月第六个月
@@ -94,8 +94,8 @@
 						<div class="i-line"></div>
 					</div>
 					<div class="content">
-						<div class="">怀孕中期</div>
-						<div class="font-c-gray font-s-small">2015-03-20到2015-02-25</div>
+						<div class="font-s-big">怀孕中期</div>
+						<div class="font-c-BrightGray font-s-small">2015-03-20到2015-02-25</div>
 					</div>
 					<div class="process-content pregnant-img">
 						第六个月第六个月第六个月第六个月，第六个月第六个月
@@ -113,8 +113,8 @@
 						<div class="i-line"></div>
 					</div>
 					<div class="content">
-						<div class="">怀孕后期</div>
-						<div class="font-c-gray font-s-small">怀孕45-60天</div>
+						<div class="font-s-big">怀孕后期</div>
+						<div class="font-c-BrightGray font-s-small">怀孕45-60天</div>
 					</div>
 				</li>
 				
@@ -134,7 +134,7 @@
 					</div>
 				</li>
 		<li class="b-t">
-			<h4 class="tip-title font-c-base"><i class="i-hotQa i-paln"></i>今日要做</h4>
+			<h4 class="tip-title font-c-base"><i class="i-hotQa i-paln"></i>热门解答</h4>
 			<div class="tip-content">注射疫苗这个提醒的必要性，刚才上京东商城看了看，冠能的评论说是假的，也不知道还</div>
 			<div class="clear font-s-small topic-qa">
 						<div class="qa-left">何本华医生 <span class="labelStyle base">医生</span>
@@ -153,7 +153,7 @@
 			</div>
 		</li>
 			<li class="b-t">
-			<h4 class="tip-title font-c-base"><i class="i-otherQa i-paln"></i>给狗妈妈吃什么</h4>
+			<h4 class="tip-title font-c-base"><i class="i-otherQa i-paln"></i>其他回答</h4>
 			<div class="tip-content">注射疫苗这个提醒的必要性，刚才上京东商城看了看，冠能的评论说是假的，也不知道还</div>
 			<div class="clear font-s-small topic-qa">
 						<div class="qa-left">何本华医生 <span class="labelStyle base">医生</span>
@@ -192,13 +192,12 @@
 		var good = $(this).find('.i-good');
 		var goodNum = $(this).find('.good-num');
 		var n  = parseInt(goodNum.html());
-		console.log(n)
 		if(good.hasClass('cur')){
 			good.removeClass('cur');
-			goodNum.html(n-1);
+			goodNum.html(n+1);
 		}else{
 			good.addClass('cur');
-			goodNum.html(n+1);
+			goodNum.html(n-1);
 		}
 		event.preventDefault();
 		/* Act on the event */

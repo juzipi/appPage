@@ -441,7 +441,7 @@ a.link-orange:link, a.link-orange:visited, a.link-orange:hover, a.link-orange:ac
 .btn-yellow02.hover {
   background-color: #f90; }
 
-.btn-mini {
+.btn-mini, .btn-autoWidth {
   border-radius: 2rem;
   line-height: 3rem;
   text-align: center;
@@ -505,7 +505,7 @@ a.link-orange:link, a.link-orange:visited, a.link-orange:hover, a.link-orange:ac
   font-size: 1.4rem;
   width: 100%;
   background-color: #fff;
-  border-radius: 2rem; }
+  border-radius: 5rem; }
 
 .input-big {
   line-height: 5rem;
@@ -513,7 +513,7 @@ a.link-orange:link, a.link-orange:visited, a.link-orange:hover, a.link-orange:ac
   font-size: 1.6rem;
   width: 100%;
   background-color: #fff;
-  border-radius: 2rem; }
+  border-radius: 5rem; }
 
 .input-vbig {
   line-height: 6rem;
@@ -521,7 +521,7 @@ a.link-orange:link, a.link-orange:visited, a.link-orange:hover, a.link-orange:ac
   font-size: 1.8rem;
   width: 100%;
   background-color: #fff;
-  border-radius: 2rem; }
+  border-radius: 5rem; }
 
 .erro-tip-common, .erro-tip-02 {
   background-color: #EE685A;
@@ -1397,7 +1397,8 @@ a.link-orange:link, a.link-orange:visited, a.link-orange:hover, a.link-orange:ac
   display: box;
   display: -webkit-box;
   display: flex;
-  display: -webkit-flex; }
+  display: -webkit-flex;
+  text-align: center; }
   .fix-bottom .btn-mini {
     /*width: 45%;*/
     box-flex: 1;
@@ -1409,6 +1410,14 @@ a.link-orange:link, a.link-orange:visited, a.link-orange:hover, a.link-orange:ac
     height: 3.4rem;
     line-height: 3.4rem;
     font-size: 1.6rem; }
+  .fix-bottom .btn-autoWidth {
+    height: 3.4rem;
+    line-height: 3.4rem;
+    font-size: 1.6rem;
+    padding: 0px 30px;
+    justify-content: center;
+    -webkit-justify-content: center;
+    margin: 0 auto; }
 
 /*input*/
 .input-normal {
