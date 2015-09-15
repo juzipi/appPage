@@ -945,15 +945,6 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/temp\/base.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/temp\/base.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/temp\/game_start.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -1128,17 +1119,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/temp\/img\/head.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 17316,
-		"inputAbbreviatedPath": "\/temp\/img\/head.png",
-		"outputAbbreviatedPath": "\/temp\/img\/head.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/temp\/img\/icon_share.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1179,17 +1159,6 @@
 		"initialSize": 48924,
 		"inputAbbreviatedPath": "\/temp\/img\/share_tip.png",
 		"outputAbbreviatedPath": "\/temp\/img\/share_tip.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/temp\/img\/user_img.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 19169,
-		"inputAbbreviatedPath": "\/temp\/img\/user_img.png",
-		"outputAbbreviatedPath": "\/temp\/img\/user_img.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1286,17 +1255,6 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/temp\/min\/view-min.js",
 		"outputAbbreviatedPath": "\/temp\/min\/min\/view-min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/temp\/view.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/temp\/view.js",
-		"outputAbbreviatedPath": "\/temp\/min\/view-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
