@@ -48,10 +48,15 @@ body{
 	
 }
 .col-between{
+	display:box;
+	display:-webkit-box;
 	display:flex;
 	display:-webkit-flex;
+	box-pack:justify;
+	-webkit-box-pack:justify;
 	justify-content: space-between;
   -webkit-justify-content: space-between;
+
   div{
   	width: 4.8rem;
   	padding-top: 0.5rem;
@@ -301,6 +306,10 @@ body{
 		text-align: right;
 		align-self: center;
 		-webkit-align-self: center;
+		.good-num{
+			display: inline-block;
+			min-width: 35px;
+		}
 	}
 }
 .head-user{
@@ -319,3 +328,6 @@ body{
 }
 
 
+.no-answer img{
+	width:100%;
+}
