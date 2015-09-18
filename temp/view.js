@@ -88,6 +88,7 @@ loading("img/index.jpg","img/answer_1.jpg","img/answer_2.jpg","img/answer_3.jpg"
 						document.title = _Score+"分，我居然是“狗狗迫害者”，相处到现在，我们家狗狗没咬我对我就是真爱！你行你上啊！";
 					}else if (_Score>50 && _Score <71) {
 						$("#ChengHu").html("狗奴");
+						$("#J_link").html("快来消除狗狗怨恨");
 						$("#PingYu").html("<p>你对狗狗有一定的了解，</p><p>可是仅限于饿了给吃，渴了给水，</p><p>狗狗的精神娱乐在你这里得不到满足</p><p>在狗狗眼中你就是个铲屎的</p><p>资深狗奴而！</p>");
 						document.title = _Score+"分，我居然是“狗奴”，在狗狗眼中，我就是个铲屎的！你不是你来测啊！";
 					}else if (_Score>70 && _Score <86) {
