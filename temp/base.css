@@ -28,7 +28,7 @@ select { -webkit-appearance: none; }
 .box{box-sizing:border-box; -webkit-box-sizing:border-box;}
 .left-wai{position: absolute; left: -3000px;}
 
-.page{display: none; padding: 0.6rem 4% 1rem;}
+.page{display: none; padding: 0.6rem 4% 1rem; box-sizing: border-box; -webkit-box-sizing:border-box;}
 @media screen and (min-width: 1024px) {
 	.page{width: 360px; margin: 0 auto; }
 }
@@ -71,8 +71,9 @@ select { -webkit-appearance: none; }
 .btn-sure{border-radius: 10px; line-height: 40px; background-color: #e0995e; color: #fff; text-align: center;  font-size: 18px; margin: 10px 0px 0px;}
 
 /*start*/
+.start{background: url(img/index.jpg) no-repeat #CD1612; background-size: 100% auto; background-position: left bottom;}
 .start .user{width: 50%; margin-top: 1rem;}
-.start .btn_start{width: 80%; margin-top: 1rem;}
+.start .btn_start{width: 80%; position: absolute; top: 82%; left: 10%;}
 
 /*main*/
 .game-title{font-size: 2.4rem; color: #fff; font-weight: normal;}

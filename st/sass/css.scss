@@ -20,7 +20,9 @@ h2,h3{font-size: 100%; font-weight:normal}
 ul, li { margin:0px; padding:0px; list-style:none; }
 select { -webkit-appearance:none;-webkit-tap-highlight-color: rgba(0, 0, 0, 0);  outline: none; }
 i{display:block;}
-::-webkit-input-placeholder{color:$fontGrayColor}
+input::-webkit-input-placeholder{color:$fontGrayColor; }
+/*input::-webkit-input-placeholder{text-align: center; color: #f60; } */
+/*input::input-placeholder { text-align: center }*/
 
 .clear:after { display:block; content:''; clear:both; visibility:hidden }
 
@@ -113,7 +115,7 @@ a.link-orange:link, a.link-orange:visited, a.link-orange:hover, a.link-orange:ac
 .i-process-02{background:url(../img/icon_plan.png) no-repeat 0px -396px; }
 .i-phase{background:url(../img/icon_plan.png) no-repeat 0px -432px; }
 .i-food{background:url(../img/icon_plan.png) no-repeat 0px -470px; }
-.i-paln,.i-normal,.i-mini{background-size: 24px auto; width:26px; height:24px; display:inline-block; vertical-align:text-bottom; margin-right: 3px;}
+.i-paln,.i-normal,.i-mini{background-size: 24px auto; width:26px; height:26px; display:inline-block; vertical-align:text-bottom; margin-right: 3px;}
 
 .i-mini{background-size: 22px auto; width:22px; height:22px; }
 
@@ -184,12 +186,14 @@ $inputSize: normal big vbig;
 $inputFont: 1.4rem 1.6rem 1.8rem;
 @for $i from 1 through length($inputHeight) {
     .input-#{nth($inputSize, $i)}{
-        line-height: nth($inputHeight, $i);
+        /*line-height: nth($inputHeight, $i);*/
         height: nth($inputHeight, $i);
         font-size: nth($inputFont, $i);
         width: 100%;
         background-color: #fff;
         border-radius: 5rem;
+        /*display: block;*/
+        line-height: normal;
     } 
 }
 
@@ -338,6 +342,7 @@ opacity: 0.8;
 .process-img img{width:100%; height:auto; display:block; }
 .video-play{width:100%;}
 .pregnant-img{padding-left: 1rem; color:#888; padding-top:0.5rem}
+.autoHeight div{overflow: auto; max-height: none;}
 
 // edit
 .edit-info{}
@@ -478,9 +483,10 @@ $fixedBottom : 4.4rem;
     z-index: $fixedbottomIndex;
     display: box;
     display: -webkit-box;
+    box-pack:center;
+    -webkit-box-pack:center;
     display: flex;
     display: -webkit-flex;
-    text-align: center;
     .btn-mini{
         /*width: 45%;*/
         box-flex:1;
@@ -492,6 +498,7 @@ $fixedBottom : 4.4rem;
         height: 3.4rem;
         line-height: 3.4rem;
         font-size: 1.6rem;
+        display: block;
     }
     .btn-autoWidth{
         height: 3.4rem;

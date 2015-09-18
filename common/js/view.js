@@ -2,6 +2,7 @@
 
   	FastClick.attach(document.body);
 
+
 var _defult={
 	// imgauto height width
 	imgAuto:function(imgID){

@@ -51,7 +51,7 @@
 	} 
 }
 
-loading("img/answer_1.jpg","img/answer_2.jpg","img/answer_3.jpg","img/answer_4.jpg","img/answer_5.jpg","img/answer_6.jpg","img/answer_7.jpg","img/answer_8.jpg","img/answer_9.jpg","img/share_tip.png");
+loading("img/index.jpg","img/answer_1.jpg","img/answer_2.jpg","img/answer_3.jpg","img/answer_4.jpg","img/answer_5.jpg","img/answer_6.jpg","img/answer_7.jpg","img/answer_8.jpg","img/answer_9.jpg","img/share_tip.png");
 
  				// 开始第一步
 			$("#next-1").click(function() {
@@ -83,6 +83,7 @@ loading("img/answer_1.jpg","img/answer_2.jpg","img/answer_3.jpg","img/answer_4.j
 					$("#ChengJi").html(_Score);
 					if(_Score<51 && _Score>0){
 						$("#ChengHu").html("狗狗迫害者");
+						$("#J_link").html("快来消除狗狗怨恨");
 						$("#PingYu").html("<p>你对狗狗可以说是完全不了解，</p><p>狗狗日常的很多明示暗示你都不懂，</p><p>狗狗心中有千万只草泥马奔过</p><p>相处至今你们家狗没咬你</p><p>对你就是真爱！</p>")
 						document.title = _Score+"分，我居然是“狗狗迫害者”，相处到现在，我们家狗狗没咬我对我就是真爱！你行你上啊！";
 					}else if (_Score>50 && _Score <71) {

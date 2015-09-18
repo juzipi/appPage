@@ -290,22 +290,14 @@ body{
 }
 
 .topic-qa{
-	@include box;
 	padding-top: 1rem;
 	.qa-left{
-		box-flex:3;
-		-webkit-flex: 3;
-		flex: 3;
-		-webkit-flex: 3;
+		float: left;
 	}
 	.qa-right{
-		box-flex:3;
-		-webkit-flex: 3;
-		flex: 3;
-		-webkit-flex: 3;
+		float: right;
 		text-align: right;
-		align-self: center;
-		-webkit-align-self: center;
+		width: 40%;
 		.good-num{
 			display: inline-block;
 			min-width: 35px;

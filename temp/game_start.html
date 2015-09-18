@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>狗管家－如何让狗狗陪我们走得更远？</title>
+<title>快来测试你是不是合格的狗主人！</title>
 	<meta charset="UTF-8">
 	<meta name="description" content=""/>
 <meta name="keywords" content=""/>
@@ -31,18 +31,16 @@
 </script>
 <body>
 
-<div class="loading page block" id="loading" data-role='page' style="background:#fff;height:100%; width:100%">
+<div class="loading page " id="loading" data-role='page' style="background:#fff;height:100%; width:100%">
 	<img src="img/loading.gif" alt="loading" />
 </div>
 <!-- game start -->
-<div class="page " id="gameStart" data-role='page' style="background:#3A363F;" >
+<div class="page block start" id="gameStart" data-role='page'>
  
-	<div class="t-c start">
+	<div class="t-c ">
 	<!-- <img src="img/shine.jpg" style="width:0px; height:0px; overflow:hidden; font-size:0px;" > -->
-		<img src="img/head.png" class="head" alt="head"  />
-		<img src="img/user_img.png" class="user" alt="user-img" />
 		<img src="img/btn_start.png" class="btn_start" id="next-1"  alt="开始测试" />
-		<i class="letter" style="color:#3A363F;font-family: 'user';">f</i>
+		<i class="letter" style="color:#3A363F;font-family: 'user'; position:absolute; top:-9999px;">f</i>
 	</div>
 	
 </div>
@@ -322,13 +320,13 @@
 		<img src="img/answer_13.jpg">
 	</div>
 	<ul class="list" id="list13">
-		<li >
+		<li class="answer">
 			<i class="letter">A</i>发现了有意思的感兴趣的东西
 		</li>
 		<li>
 			<i class="letter">B</i>非常开心，很兴奋
 		</li>
-		<li class="answer">
+		<li>
 			<i class="letter">C</i>口渴了，想要喝水
 		</li>
 		<li>
@@ -360,7 +358,7 @@
 	</div>
 	<div class="t-c">
 		<div class="btn orange mt-normal" id="J_showShare">晒出成绩</div>
-		<a class="btn yellow mt-normal" href="http://www.fdog.cn/common/appPage.htm">英雄有用武之地</a>
+		<a class="btn yellow mt-normal" href="http://www.fdog.cn/common/appPage.htm" id="J_link">英雄有用武之地</a>
 		<div class="btn blue mt-normal" id="resetGame">重新测试</div>
 	</div>
 </div>

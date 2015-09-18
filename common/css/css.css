@@ -73,9 +73,11 @@ select {
 i {
   display: block; }
 
-::-webkit-input-placeholder {
+input::-webkit-input-placeholder {
   color: #999; }
 
+/*input::-webkit-input-placeholder{text-align: center; color: #f60; } */
+/*input::input-placeholder { text-align: center }*/
 .clear:after {
   display: block;
   content: '';
@@ -352,7 +354,7 @@ a.link-orange:link, a.link-orange:visited, a.link-orange:hover, a.link-orange:ac
 .i-paln, .i-normal, .i-mini {
   background-size: 24px auto;
   width: 26px;
-  height: 24px;
+  height: 26px;
   display: inline-block;
   vertical-align: text-bottom;
   margin-right: 3px; }
@@ -524,28 +526,34 @@ a.link-orange:link, a.link-orange:visited, a.link-orange:hover, a.link-orange:ac
   line-height: 5; }
 
 .input-normal {
-  line-height: 4rem;
+  /*line-height: nth($inputHeight, $i);*/
   height: 4rem;
   font-size: 1.4rem;
   width: 100%;
   background-color: #fff;
-  border-radius: 5rem; }
+  border-radius: 5rem;
+  /*display: block;*/
+  line-height: normal; }
 
 .input-big {
-  line-height: 5rem;
+  /*line-height: nth($inputHeight, $i);*/
   height: 5rem;
   font-size: 1.6rem;
   width: 100%;
   background-color: #fff;
-  border-radius: 5rem; }
+  border-radius: 5rem;
+  /*display: block;*/
+  line-height: normal; }
 
 .input-vbig {
-  line-height: 6rem;
+  /*line-height: nth($inputHeight, $i);*/
   height: 6rem;
   font-size: 1.8rem;
   width: 100%;
   background-color: #fff;
-  border-radius: 5rem; }
+  border-radius: 5rem;
+  /*display: block;*/
+  line-height: normal; }
 
 .erro-tip-common, .erro-tip-02 {
   background-color: #EE685A;
@@ -1053,6 +1061,10 @@ a.link-orange:link, a.link-orange:visited, a.link-orange:hover, a.link-orange:ac
   color: #888;
   padding-top: 0.5rem; }
 
+.autoHeight div {
+  overflow: auto;
+  max-height: none; }
+
 .edit-info dd {
   color: #999;
   font-size: 1.2rem;
@@ -1436,9 +1448,10 @@ a.link-orange:link, a.link-orange:visited, a.link-orange:hover, a.link-orange:ac
   z-index: 2;
   display: box;
   display: -webkit-box;
+  box-pack: center;
+  -webkit-box-pack: center;
   display: flex;
-  display: -webkit-flex;
-  text-align: center; }
+  display: -webkit-flex; }
   .fix-bottom .btn-mini {
     /*width: 45%;*/
     box-flex: 1;
@@ -1449,7 +1462,8 @@ a.link-orange:link, a.link-orange:visited, a.link-orange:hover, a.link-orange:ac
     margin-right: 5%;
     height: 3.4rem;
     line-height: 3.4rem;
-    font-size: 1.6rem; }
+    font-size: 1.6rem;
+    display: block; }
   .fix-bottom .btn-autoWidth {
     height: 3.4rem;
     line-height: 3.4rem;

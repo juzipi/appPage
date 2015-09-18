@@ -235,24 +235,13 @@ body {
     margin: 3rem 1rem 1rem; }
 
 .topic-qa {
-  display: box;
-  display: -webkit-box;
-  display: flex;
-  display: -webkit-flex;
   padding-top: 1rem; }
   .topic-qa .qa-left {
-    box-flex: 3;
-    -webkit-flex: 3;
-    flex: 3;
-    -webkit-flex: 3; }
+    float: left; }
   .topic-qa .qa-right {
-    box-flex: 3;
-    -webkit-flex: 3;
-    flex: 3;
-    -webkit-flex: 3;
+    float: right;
     text-align: right;
-    align-self: center;
-    -webkit-align-self: center; }
+    width: 40%; }
     .topic-qa .qa-right .good-num {
       display: inline-block;
       min-width: 35px; }
