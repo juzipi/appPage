@@ -168,6 +168,9 @@ a.link-orange:link, a.link-orange:visited, a.link-orange:hover, a.link-orange:ac
 .b-t {
   border-top: 0.6rem solid #eee; }
 
+.b-b {
+  border-bottom: 0.6rem solid #eee; }
+
 .fixBottom {
   padding-bottom: 7rem; }
 
@@ -354,9 +357,9 @@ a.link-orange:link, a.link-orange:visited, a.link-orange:hover, a.link-orange:ac
 .i-paln, .i-normal, .i-mini {
   background-size: 24px auto;
   width: 26px;
-  height: 26px;
+  height: 24px;
   display: inline-block;
-  vertical-align: text-bottom;
+  vertical-align: bottom;
   margin-right: 3px; }
 
 .i-mini {
@@ -706,7 +709,9 @@ a.link-orange:link, a.link-orange:visited, a.link-orange:hover, a.link-orange:ac
   padding-bottom: 0.3rem; }
 
 .paln-tip-02 .tip-content {
-  padding-top: 5px; }
+  padding-top: 7px;
+  color: #595959;
+  font-size: 1.6rem; }
 
 .tip-title .icon-angle-right {
   position: absolute;
@@ -1049,7 +1054,7 @@ a.link-orange:link, a.link-orange:visited, a.link-orange:hover, a.link-orange:ac
   overflow: hidden; }
 
 .process-img img {
-  width: 100%;
+  width: auto;
   height: auto;
   display: block; }
 
@@ -1064,6 +1069,9 @@ a.link-orange:link, a.link-orange:visited, a.link-orange:hover, a.link-orange:ac
 .autoHeight div {
   overflow: auto;
   max-height: none; }
+
+.autoHeight img {
+  width: 100%; }
 
 .edit-info dd {
   color: #999;
@@ -1432,9 +1440,6 @@ a.link-orange:link, a.link-orange:visited, a.link-orange:hover, a.link-orange:ac
 .day-more {
   text-align: center;
   line-height: 4rem; }
-
-.pageFixedBottom {
-  padding-bottom: 4.4rem; }
 
 .fix-bottom {
   position: fixed;

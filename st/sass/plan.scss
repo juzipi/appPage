@@ -302,12 +302,20 @@ body{
 			display: inline-block;
 			min-width: 35px;
 		}
+		.i-good{
+			margin-top: 14px;
+			vertical-align: bottom;
+		}
+		.font-c-BrightGray{
+			display: inline-block;
+			line-height: 26px;
+		}
 	}
 }
 .head-user{
 	border-radius:30px;
-	height:30px;
-	width:30px;
+	height:26px;
+	width:26px;
 	vertical-align: middle;
 	margin-right: 10px;
 }

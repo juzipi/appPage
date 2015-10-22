@@ -1,7 +1,6 @@
- $(document).ready(function(){ 
+$(document).ready(function(){ 
 
   	FastClick.attach(document.body);
-
 
 var _defult={
 	// imgauto height width
@@ -62,16 +61,6 @@ _defult.imgAuto("#headImage");
 
 
 
-
-
-// 点击图片放大效果
-// $(".head-nobg").on("tap",".image",function(){
-// 	var viewport = document.querySelector("meta[name=viewport]");
-// 	var url = $(this).attr("src");
-// 	var html = '<div class="img-popup" id="J_imgPopup"><img src='+url+' alt=""  /><div class="maskblack"></div></div>'
-// 	viewport.setAttribute('content', 'width=device-width');
-// 	$(this).parent().parent().before().append(html);
-// })
 	// 关闭图片
 $(document).on("click",".maskblack", function(e) {
 	$("#J_imgPopup").hide();
@@ -95,8 +84,10 @@ var CreateImgPopup = function(url){
 	return popup;
 }
 var creatImgPopup = singleFn(CreateImgPopup);
+
 //约定data-popup带属性的具有弹出img
 $("[data-popup]").on('click', function(event) {
+
 	var url = $(this).attr("src");
 	var popup = creatImgPopup();
 	var image = document.createElement("img");
@@ -143,98 +134,6 @@ $("[data-popup]").on('click', function(event) {
 			})
 
 
-//  开始选择是否
-
-
-//验证选择狗粮是否是第一个项目
-function ConfirmSelect(id){
-	var index = $(id).find(".select-01")[0].selectedIndex;
-	$(id).find(".select-01").parents(".col-2").removeClass("dou");
-	if(index!=0){
-		return true;
-	}else{
-		$(id).find(".select-01").parents(".col-2").addClass("dou");
-	}	
-}
-
-
-
-function ConfirmData(id){
-	var val = $(id).find(".paln-time").val();
-	if($("#J_t").hasClass("dou")){
-		$(id).find(".paln-time").parents(".col-2").removeClass("dou");
-	}
-	if(val!=""){
-		return true;
-	}else{
-		$(id).find(".paln-time").parents(".col-2").addClass("dou");
-		return false;
-	}
-}
-
-// 当选择免疫过 － 是否显示计划
-function showPaln(id){
-	var val = $(id).find(".paln-time").attr("data-init");
-	var h = $(id).find(".paln-time").html();
-	var index = $(id).find(".select-01")[0].selectedIndex;
-	if(val!=h && index!=0 ){
-		$("#J_paln").show();
-	}
-}
-// 选择狗粮
-$("#J_showTrue").on("change",".select-01",function(){
-	var t = $(this);
-	showPaln("#J_showTrue");
-	var index =t[0].selectedIndex;
-	var n = t.find("option").eq(index).attr("value");
-	 // console.log()
-	if(index!=0){
-		t.addClass('cur');
-	}else{
-		t.removeClass('cur')
-	}
-	if(n == "PCF"){
-		t.before('<span class="tip-lable-tuijian">推荐</span>');
-	}else{
-		t.parent().find('.tip-lable-tuijian').remove();
-	}
-
-})
-
-
-// 选择时间
-$("#J_showTrue").on("blur",".paln-time",function(){
-	showPaln("#J_showTrue")
-})
-
-// 当选择没有免疫过 选择狗粮
-$("#J_showNone").on("change",".select-01",function(){
-	var index = $("#J_showNone").find(".select-01")[0].selectedIndex;
-	if(index!=0){
-		$("#J_palnNone").show();
-		$(this).addClass('cur');
-	}else{
-		$(this).removeClass('cur')
-	}
-})
-
-// 通用多选购粮
-$(".select-02").on("change",function(){
-	var t = $(this);
-	var index =t[0].selectedIndex;
-	var n = t.find("option").eq(index).attr("value");
-	if(index!=0){
-		t.addClass('cur');
-	}else{
-		t.removeClass('cur')
-	}
-	if(n == "PCF"){
-		t.before('<span class="tip-lable-tuijian">推荐</span>');
-	}else{
-		t.parent().find('.tip-lable-tuijian').remove();
-	}
-
-})
 
 function datainit(){
 	var t = $(".paln-fangan").find('.font-c-gray').attr("data-init");
@@ -345,42 +244,6 @@ $(".paln-fangan .i-point").on("click",function(){
 
 
 
-// 验证
-_yanzheng = {
-	// 判断选择是否的免疫，返回true则是选择“是”。
-	getYesNo : function(){
-		return $("#J_selectYesNo .t-right").find("span").first().hasClass('i-selceted');
-	},
-
-	// 获取选择框的值，id是这个选择框的id，需要加上
-	getSelectVal: function(id){
-		var i = $(id)[0].selectedIndex;
-		return $(id)[0].getElementsByTagName("option")[i].value;
-	},
-
-	// 获取选取的步骤，这里返回当前的值，1表示第一步，2表示第二步。
-	getLevel: function(id){
-		var length = $(id).find('.dis').length;
-		return length;
-	}
-}
-
-
-	// console.log(_yanzheng.getYesNo())
-	// console.log(_yanzheng.getLevel("#J_selectPaln"))
-	// console.log(_yanzheng.getSelectVal("#J_yimian"))
-
-// 页面头部的报错信息
-$(".btnSubmit").bind("tap",function(){
-		ConfirmData("#J_showTrue");
-		ConfirmSelect("#J_showTrue");
-		ConfirmSelect("#J_showNone");
-
-		$(".erro-tip-common").show().css("opacity",1);   
-
-		setTimeout("$('.erro-tip-common').animate({opacity: 0},500)",5000);
-
-})
 
 
 // 日期加减

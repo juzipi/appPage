@@ -61,6 +61,7 @@ a.link-orange:link, a.link-orange:visited, a.link-orange:hover, a.link-orange:ac
 .bd.wrap{padding:0px 1rem; background-color:#eee; box-sizing:border-box; }
 .wrap{padding:0px $wrapSpace; box-sizing:border-box;}
 .b-t{ border-top:0.6rem solid #eee;}
+.b-b{ border-bottom:0.6rem solid #eee;}
 .fixBottom{padding-bottom: 7rem;}
 .box-border{box-sizing:border-box; -webkit-box-sizing:border-box;}
 .gray-bg{background-color:#F4F4F5;}
@@ -115,7 +116,7 @@ a.link-orange:link, a.link-orange:visited, a.link-orange:hover, a.link-orange:ac
 .i-process-02{background:url(../img/icon_plan.png) no-repeat 0px -396px; }
 .i-phase{background:url(../img/icon_plan.png) no-repeat 0px -432px; }
 .i-food{background:url(../img/icon_plan.png) no-repeat 0px -470px; }
-.i-paln,.i-normal,.i-mini{background-size: 24px auto; width:26px; height:26px; display:inline-block; vertical-align:text-bottom; margin-right: 3px;}
+.i-paln,.i-normal,.i-mini{background-size: 24px auto; width:26px; height:24px; display:inline-block; vertical-align:bottom; margin-right: 3px;}
 
 .i-mini{background-size: 22px auto; width:22px; height:22px; }
 
@@ -238,7 +239,7 @@ opacity: 0.8;
 .paln-tip-02>li{padding:1rem 1.4rem 1rem 1.4rem; }
 // .paln-tip-02>li:first-child{padding-bottom: 0px;}
 .paln-tip-02 .tip-title{position:relative; left:0; padding-bottom: 0.3rem; }
-.paln-tip-02 .tip-content{ padding-top: 5px; }
+.paln-tip-02 .tip-content{ padding-top: 7px; color:#595959; font-size:1.6rem;}
 .tip-title .icon-angle-right{position:absolute; right:0px; top:0px;}
 .tip-title .btn-small{position:absolute; right:0px; top:0px;}
 .tip-content li { list-style: initial; list-style-type: initial; list-style-position: inside; }
@@ -339,10 +340,11 @@ opacity: 0.8;
 .process-content{color:$fontBaseColor;}
 .process-img{display:box; display:-webkit-box; padding-top: 0.5rem;padding-bottom: 0.5rem}
 .process-img div{box-flex:1; -webkit-box-flex:1; margin-right: 5px; width:1%; position: relative; max-height: 90px; overflow: hidden;}
-.process-img img{width:100%; height:auto; display:block; }
+.process-img img{width:auto; height:auto; display:block; }
 .video-play{width:100%;}
 .pregnant-img{padding-left: 1rem; color:#888; padding-top:0.5rem}
 .autoHeight div{overflow: auto; max-height: none;}
+.autoHeight img{width:100%}
 
 // edit
 .edit-info{}
@@ -469,7 +471,7 @@ to { -moz-transform: rotate(360deg); }
 // 底部按钮
 $fixedBottom : 4.4rem;
 .pageFixedBottom{
-    padding-bottom: $fixedBottom;
+    // padding-bottom: $fixedBottom;
 }
 .fix-bottom{
     position: fixed;
