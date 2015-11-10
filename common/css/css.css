@@ -93,7 +93,7 @@ a.link-blue:link, a.link-blue:visited, a.link-blue:hover, a.link-blue:active {
   text-decoration: none; }
 
 a.link-orange:link, a.link-orange:visited, a.link-orange:hover, a.link-orange:active {
-  color: #f60;
+  color: #fd7954;
   text-decoration: none; }
 
 .font-c-gray {
@@ -129,7 +129,7 @@ a.link-orange:link, a.link-orange:visited, a.link-orange:hover, a.link-orange:ac
   font-weight: 800; }
 
 .font-c-orang {
-  color: #f60; }
+  color: #fd7954; }
 
 .font-b {
   font-weight: bold; }
@@ -691,7 +691,7 @@ a.link-orange:link, a.link-orange:visited, a.link-orange:hover, a.link-orange:ac
 .tip-label-2 {
   display: inline-block;
   border: 1px solid #ccc;
-  width: 48%;
+  width: 47%;
   padding: 0.2rem 0;
   text-align: center;
   border-radius: 3px;

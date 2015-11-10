@@ -1,0 +1,140 @@
+@import "globle.scss";
+// 首页
+.icon-food{
+	background: url("../img/food_icon.png") no-repeat;
+	width: 46px;
+	height: 46px;
+	display: block;
+	margin: 10px auto;
+}
+.icon-zhushi{ background-position: 0px -650px; }
+.icon-shucai{ background-position: 0px -590px; }
+.icon-suiguo{ background-position: 0px -530px; }
+.icon-linshi{ background-position: 0px -470px; }
+.icon-roudan{ background-position: 0px -170px; }
+.icon-yingpin{ background-position: 0px -350px; }
+.icon-jianguo{ background-position: 0px -290px; }
+.icon-tiaowei{ background-position: 0px -230px; }
+.icon-bupin{ background-position: 0px -410px; }
+
+.food-index li{
+	width: 30%;
+	display: inline-block;
+	text-align: center;
+	margin-top: 10px;
+}
+.food-index li a{
+	display: block;
+}
+.food-tip-list{
+	margin: 15px 4%;
+}
+.food-tip-list li{
+	display: inline-block;
+	width: 32%;
+	height: 30px;
+}
+.icon-food-tip{
+	background: url("../img/food_icon.png") no-repeat;
+	display: inline-block;
+	width: 24px;
+	height: 28px;
+	background-size: 100% auto;
+	vertical-align: middle;
+	margin-right: 5px;
+}
+.icon-prohibit{ background-position: 0px -57px; }
+.icon-prohibit-mini{ background-position: 0px -43px; background-size: 18px auto; width: auto; padding-left: 22px; height: 20px;}
+.icon-worth{ background-position: 0px -26px; }
+.icon-worth-mini{ background-position: 0px -19px; background-size: 18px auto; width: auto; padding-left: 22px; height: 20px;}
+.icon-careful{ background-position: 0px 2px; }
+.icon-careful-mini{ background-position: 0px 2px; background-size: 18px auto; width: auto; padding-left: 22px; height: 20px;}
+.food-class-list{}
+.food-class-list li{
+
+}
+.food-class-list li a,.food-recipt dd{
+	display: block;
+	background: #FFF;
+	position: relative;
+	padding: 10px 10px 10px 100px;
+	margin: 10px 1rem;
+	border-radius: 2px;
+	min-height: 80px;
+	color: $fontBaseColor;
+}
+.food-class-list li a.hover{
+	background:#222;
+}
+.food-recipt{background-color: #fff; .font-detail-title{padding-left: 1rem;}}
+.food-recipt dd{
+	margin: 0px;
+
+}
+.food-class-list img,.food-recipt img{
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	width: 80px;
+	height: 80px;
+}
+.food-title{
+	font-size: 1.8rem;
+}
+.food-detail {color:$fontGrayColor; padding: 5px 0px; }
+.food-suit i{display: inline-block; margin-right: 5px; font-size: 1.2rem;line-height: 18px;}
+
+.food-introduce{background-color: #fff;}
+.food-introduce img{
+	width: 100%;
+	height: 180px;
+}
+.food-introduce-title{
+	font-size: 1.8rem;
+	padding-left: 1rem;
+	padding-right: 1rem
+}
+.food-introduce-detail{
+	color: $fontGrayColor; 
+	padding: 0.4rem 1rem 1rem;
+}
+
+.food-suit-list {
+	background-color: #fff;
+}
+.food-suit-list li{
+	border-bottom: 1px solid #eee;
+	padding: 0.5rem 1rem;
+	position: relative;
+	.icon-food-tip{
+		position: absolute;
+		right: 1rem;
+		top: 0.8rem;
+	}
+}
+.food-element{
+	background: #FFF;
+	padding: 0px 1rem
+}
+
+.food-element dd{
+	width: 49%;
+	float: left;
+	min-height: 30px;
+	border:1px solid #ccc;
+	box-sizing: border-box;
+	-webkit-box-sizing:border-box;
+	padding: 0.5rem;
+	margin-bottom: 1rem;
+}
+
+.font-detail-title{
+	font-size: 1.8rem;
+	line-height: 2;
+}
+.food-element dd:nth-of-type(even){
+	margin-left:1.8%;
+}
+
+
+
