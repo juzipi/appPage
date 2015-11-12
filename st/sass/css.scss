@@ -91,6 +91,9 @@ a.link-orange:link, a.link-orange:visited, a.link-orange:hover, a.link-orange:ac
 .icon-cancel{font-size:5.8rem; color:$baseColor; vertical-align:inherit;}
 .icon-checkCircle:before { content: "\e281"; }
 .icon-checkCircle{font-size:5.8rem; color:$baseColor; vertical-align:inherit;}
+.icon-buy{color:#FFF; font-size:1.2rem; }
+.icon-buy:before { content: "\e900"; }
+
 
 // icon 图片 公用
 .i-art{background:url(../img/icon.png) no-repeat 0px -74px; }
@@ -235,8 +238,12 @@ opacity: 0.8;
 .paln-tip .tip-title{font-weight:normal;  position: absolute; left:1.4rem;font-size:1.6rem;}
 .paln-tip .tip-content{ color:$fontGrayColor; }
 .paln-tip .tip-label{display:inline-block; background-color:#E7AA71; padding:0.2rem 0.6rem; border-radius:3px; margin-right: 1rem; margin-bottom: 0.5rem; color:#fff; }
-.tip-label-2{display:inline-block; border:1px solid #ccc;  width:47%; padding: 0.2rem 0; text-align: center; border-radius:3px; margin-right: 1.5%; box-sizing: border-box; -webkit-box-sizing:border-box; margin-bottom: 0.5rem;}
+.tip-label-2{display:inline-block; position: relative; border:1px solid #ccc;  width:44%; padding: 0.2rem 0; text-align: center; border-radius:3px;  box-sizing: border-box; -webkit-box-sizing:border-box; margin-bottom: 2rem;}
+.tip-label-2:nth-of-type(even){margin-left:7%;}
 .paln-tip-02>li{padding:1rem 1.4rem 1rem 1.4rem; }
+.tip-label-2 .icon-buy{position: absolute; right:0px; top:0px; background-color:#fd7954; height:100%; line-height:2.8rem; width:1.8rem; border-bottom-right-radius:2px; border-top-right-radius:2px;}
+.i-buy{border-radius:15px; background-color:#F74A35; color:#fff; font-size:1.4rem; text-align: center; line-height:2rem; font-size:1.1rem; display:inline-block; padding:0px 8px; position: absolute; top:-1.2rem; right:-2rem;}
+.i-buy:hover{background-color:#f60}
 // .paln-tip-02>li:first-child{padding-bottom: 0px;}
 .paln-tip-02 .tip-title{position:relative; left:0; padding-bottom: 0.3rem; }
 .paln-tip-02 .tip-content{ padding-top: 7px; color:#595959; font-size:1.6rem;}
