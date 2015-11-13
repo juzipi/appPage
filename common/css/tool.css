@@ -173,3 +173,67 @@ body {
 
   .btn-share {
     margin-top: 20rem; } }
+.shit-list li {
+  background-color: #fff;
+  position: relative;
+  /*padding:1rem;*/
+  padding-left: 120px;
+  padding-right: 44px;
+  height: 82px;
+  margin-bottom: 1rem; }
+  .shit-list li .icon-checkCircle {
+    font-size: 3rem;
+    position: absolute;
+    top: 50%;
+    margin-top: -1.5rem;
+    right: 1rem;
+    color: #bbb; }
+  .shit-list li .icon-checkCircle.cur {
+    color: #4aa83c; }
+
+.shit-img {
+  position: absolute;
+  width: 100px;
+  height: auto;
+  top: 10px;
+  left: 10px; }
+
+.shit-level {
+  font-size: 1.8rem;
+  color: #FC3F54;
+  padding-top: 0.4rem; }
+
+.shit-detail {
+  text-align: center;
+  margin-top: 2rem; }
+  .shit-detail img {
+    width: 50%; }
+
+.shit-detail .level-content {
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 0.4rem; }
+
+.shit-reason {
+  margin-top: 3rem; }
+
+.shit-reason h3 {
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  background-color: #58B44D;
+  line-height: 4rem;
+  text-align: center;
+  color: #fff;
+  font-size: 2rem; }
+
+.shit-detail-item {
+  background-color: #F4F5F5;
+  padding: 1rem 1rem 2rem;
+  border-bottom: 1px solid #fff; }
+  .shit-detail-item h4 {
+    font-size: 1.8rem;
+    padding-bottom: 5px; }
+
+.shit-detail-item:last-child {
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px; }

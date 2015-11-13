@@ -60,6 +60,7 @@ a.link-orange:link, a.link-orange:visited, a.link-orange:hover, a.link-orange:ac
 .bd{}
 .bd.wrap{padding:0px 1rem; background-color:#eee; box-sizing:border-box; }
 .wrap{padding:0px $wrapSpace; box-sizing:border-box;}
+.wrap2{padding:0 1rem;}
 .b-t{ border-top:0.6rem solid #eee;}
 .b-b{ border-bottom:0.6rem solid #eee;}
 .fixBottom{padding-bottom: 7rem;}
@@ -242,7 +243,7 @@ opacity: 0.8;
 .tip-label-2:nth-of-type(even){margin-left:7%;}
 .paln-tip-02>li{padding:1rem 1.4rem 1rem 1.4rem; }
 .tip-label-2 .icon-buy{position: absolute; right:0px; top:0px; background-color:#fd7954; height:100%; line-height:2.8rem; width:1.8rem; border-bottom-right-radius:2px; border-top-right-radius:2px;}
-.i-buy{border-radius:15px; background-color:#F74A35; color:#fff; font-size:1.4rem; text-align: center; line-height:2rem; font-size:1.1rem; display:inline-block; padding:0px 8px; position: absolute; top:-1.2rem; right:-2rem;}
+.i-buy{border-radius:15px; background-color:#F74A35; color:#fff; font-size:1.4rem; text-align: center; line-height:1.8rem; font-size:1.1rem; display:inline-block; padding:0px 8px; position: absolute; top:-1.2rem; right:-1rem;}
 .i-buy:hover{background-color:#f60}
 // .paln-tip-02>li:first-child{padding-bottom: 0px;}
 .paln-tip-02 .tip-title{position:relative; left:0; padding-bottom: 0.3rem; }

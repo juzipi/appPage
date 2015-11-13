@@ -165,6 +165,9 @@ a.link-orange:link, a.link-orange:visited, a.link-orange:hover, a.link-orange:ac
   padding: 0px 1rem;
   box-sizing: border-box; }
 
+.wrap2 {
+  padding: 0 1rem; }
+
 .b-t {
   border-top: 0.6rem solid #eee; }
 
@@ -730,13 +733,13 @@ a.link-orange:link, a.link-orange:visited, a.link-orange:hover, a.link-orange:ac
   color: #fff;
   font-size: 1.4rem;
   text-align: center;
-  line-height: 2rem;
+  line-height: 1.8rem;
   font-size: 1.1rem;
   display: inline-block;
   padding: 0px 8px;
   position: absolute;
   top: -1.2rem;
-  right: -2rem; }
+  right: -1rem; }
 
 .i-buy:hover {
   background-color: #f60; }

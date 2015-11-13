@@ -210,6 +210,116 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/common\/img\/shit\/shit_1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8165,
+		"inputAbbreviatedPath": "\/common\/img\/shit\/shit_1.jpg",
+		"outputAbbreviatedPath": "\/common\/img\/shit\/shit_1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/common\/img\/shit\/shit_10.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6099,
+		"inputAbbreviatedPath": "\/common\/img\/shit\/shit_10.jpg",
+		"outputAbbreviatedPath": "\/common\/img\/shit\/shit_10.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/common\/img\/shit\/shit_2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7389,
+		"inputAbbreviatedPath": "\/common\/img\/shit\/shit_2.jpg",
+		"outputAbbreviatedPath": "\/common\/img\/shit\/shit_2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/common\/img\/shit\/shit_3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7513,
+		"inputAbbreviatedPath": "\/common\/img\/shit\/shit_3.jpg",
+		"outputAbbreviatedPath": "\/common\/img\/shit\/shit_3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/common\/img\/shit\/shit_4.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7328,
+		"inputAbbreviatedPath": "\/common\/img\/shit\/shit_4.jpg",
+		"outputAbbreviatedPath": "\/common\/img\/shit\/shit_4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/common\/img\/shit\/shit_5.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7435,
+		"inputAbbreviatedPath": "\/common\/img\/shit\/shit_5.jpg",
+		"outputAbbreviatedPath": "\/common\/img\/shit\/shit_5.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/common\/img\/shit\/shit_6.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6962,
+		"inputAbbreviatedPath": "\/common\/img\/shit\/shit_6.jpg",
+		"outputAbbreviatedPath": "\/common\/img\/shit\/shit_6.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/common\/img\/shit\/shit_7.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7069,
+		"inputAbbreviatedPath": "\/common\/img\/shit\/shit_7.jpg",
+		"outputAbbreviatedPath": "\/common\/img\/shit\/shit_7.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/common\/img\/shit\/shit_8.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6773,
+		"inputAbbreviatedPath": "\/common\/img\/shit\/shit_8.jpg",
+		"outputAbbreviatedPath": "\/common\/img\/shit\/shit_8.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/common\/img\/shit\/shit_9.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4703,
+		"inputAbbreviatedPath": "\/common\/img\/shit\/shit_9.jpg",
+		"outputAbbreviatedPath": "\/common\/img\/shit\/shit_9.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/common\/img\/square\/head_01.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -381,6 +491,17 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/common\/js\/min\/view-min.js",
 		"outputAbbreviatedPath": "\/common\/js\/min\/min\/view-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/common\/js\/min\/view_v8-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/common\/js\/min\/view_v8-min.js",
+		"outputAbbreviatedPath": "\/common\/js\/min\/min\/view_v8-min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -839,6 +960,24 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/page\/tool\/life-02.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/page\/tool\/shit-detail.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/page\/tool\/shit-detail.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/page\/tool\/shit.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/page\/tool\/shit.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
