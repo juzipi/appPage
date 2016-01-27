@@ -325,11 +325,12 @@ body{background-color:#eee;}
 }
 
 // 托运
-.items-title-tuoyun01{background: url(../img/tool/text.png) no-repeat 0px 10px; height:35px;}
-.items-title-tuoyun02{background: url(../img/tool/text.png) no-repeat 0px -60px; height:35px;}
-.items-title-tuoyun03{background: url(../img/tool/text.png) no-repeat 0px -132px; height:35px;}
-.items-title-tuoyun04{background: url(../img/tool/text.png) no-repeat 0px -207px; height:35px;}
-.items-title-tuoyun05{background: url(../img/tool/text.png) no-repeat 0px -277px; height:35px;}
+.items-title-tuoyun{ 
+	color:$baseColor;
+	font-size:1.8rem;
+	font-weight:800;
+	margin-top: 1.5rem;
+}
 .dog-list{
 	background-color: #fff;
 	padding-top: 10px;
@@ -340,6 +341,7 @@ body{background-color:#eee;}
 	left:0px;
 	z-index: 2;
 	display: none;
+	min-height:100%;
 }
 .dog-name{
 	padding-top: 40px;

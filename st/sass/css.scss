@@ -709,7 +709,7 @@ $fixedBottom : 4.4rem;
 	position: fixed;
 	bottom:0px;
 	// line-height:60px;
-	height:70px;
+	height:62px;
 	background-color: #6C6B7D;
 	color:#fff;
 	text-align:center;
@@ -719,10 +719,10 @@ $fixedBottom : 4.4rem;
 		color: #6C6B7D;
 		display: inline-block;
 		padding:8px 10px;
-		height: 36px;
-		line-height: 36px;
+		height: 30px;
+		line-height: 30px;
 		font-size: 2rem;
-		margin-top: 9px;
+		margin-top: 8px;
 	}
 	.font-s-bbig{
 		line-height: 32px;
@@ -733,6 +733,13 @@ $fixedBottom : 4.4rem;
 	}
 	.one{
 		width: 80%;
+	}
+	.two{
+		width: 35%;
+		margin-right: 2%;
+	}
+	.two:last-child{
+		margin-left: 2%;
 	}
 }
 
