@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content=""/>
+<meta name="keywords" content=""/>
+<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no"/>
+<meta name="format-detection" content="telephone=no" />
+<meta name="format-detection" content="email=no" />
+<link rel="stylesheet" type="text/css" href="../../common/css/css.css">
+<link rel="stylesheet" type="text/css" href="../../common/css/my.css">
+<link rel="stylesheet" type="text/css" href="../../common/css/tool.css">
+<title>对照表</title>
+</head>
+<body>
+	<div class="bd priceMain" id="priceClassList" >
+		
+		
+	</div>
+	<script src="../../common/zepto/zepto.js" ></script>
+	<script src="../../common/zepto/touch.js" ></script>
+	<script src="../../common/zepto/fx.js" ></script>
+	<script src="../../common/js/fastclick.js" ></script>
+	<script src="../../common/js/swipe.js" ></script>
+	<script src="../../common/js/view_V8.js" ></script>
+	<script type="text/javascript">
+
+		$.get("../../common/data/priceClass.json",function(data){
+
+			var Arr_item = [];
+			$.each(data,function(index,item){
+				// 建立最顶部div
+				var div = document.createElement("div");
+				div.setAttribute("id", index);
+				div.setAttribute("class", "none");
+				
+				var parentUl = document.createElement("ul");
+				parentUl.setAttribute("class", "priceList");
+
+				$.each(item,function(i,t){
+					var _a='';//li这是第二级别需要的li
+					_a += '<div class="parentList">'+ t +'<i class="icon-angle-right"></i></div>';	
+					Arr_item.push(t);	
+					var parentLi = document.createElement("li");
+					$(parentLi).append(_a);
+					$.get("../../common/data/priceList.json",function(listData){
+
+								var chlidUl = document.createElement("ul");
+										chlidUl.setAttribute("class", "priceDetail");
+										$.each(listData[t],function(index,item){
+											var chlidLi = '';
+											chlidLi += '<li><div class="priceTitle">'+item.name+'</div><sub class="font-c-gray">'+item.remark+'</sub><div class="price">'+item.price+'</div></li> ';
+											$(chlidUl).append(chlidLi);
+										})
+										
+									$(parentLi).append(chlidUl);
+									
+						})
+					
+					$(parentUl).append(parentLi);
+				})
+				
+				$(div).append(parentUl)
+				
+				$("#priceClassList").append(div)
+			})
+				
+				var url = window.location.hash;
+				$(url).show().siblings().hide();
+		
+		})
+
+		$(document).ready(function(){ 
+				$(document).on("click",".parentList",function(){
+					// $(".priceDetail").hide();
+					$(this).next().toggle();
+					$(this).find("i").toggleClass("icon-angle-down");
+				})
+		})
+		
+	</script>
+	
+</body>
+</html>

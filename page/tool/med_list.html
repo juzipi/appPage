@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content=""/>
+<meta name="keywords" content=""/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no"/>
+<meta name="format-detection" content="telephone=no" />
+<meta name="format-detection" content="email=no" />
+<link rel="stylesheet" type="text/css" href="../../common/css/css.css">
+<link rel="stylesheet" type="text/css" href="../../common/css/tool.css">
+
+<title>药品列表</title>
+</head>
+<body>
+
+<div class="bd">
+	
+<ul class="med-list" id="MedList">
+		<!-- <li>
+			<img src="../../common/img/tool/med1.jpg" class="med-img" />
+			<h3 class="med-title">磺胺二甲嘧啶</h3>
+			<div class="med-type">非常规药</div>
+			<sub class="med-info">传统应用的抗菌药，广泛用于治疗球虫病。</sub>
+		</li> --> 
+</ul>
+</div>
+
+<script src="../../common/zepto/zepto.js" ></script>
+<script src="../../common/zepto/touch.js" ></script>
+<script src="../../common/zepto/fx.js" ></script>
+<script src="../../common/js/fastclick.js" ></script>
+<script src="../../common/js/view_V8.js" ></script>
+<script type="text/javascript"> 
+
+$.get("../../common/data/dogmedication.xml",function(data){
+	var medList='';
+	$(data).find("data").each(function(){
+			var type = $(this).find("type").text();
+			var name = $(this).find("name").text();
+			var intro = $(this).find("intro").text();
+			var img_url = $(this).find("pro_img").text();
+			medList += '<li><img src="'+img_url+'" class="med-img" /><h3 class="med-title">'+name+'</h3><sub class="med-info">'+intro+'</sub><div class="med-type">'+type+'</div></li>';
+		
+	})
+	$("#MedList").append(medList)
+	// console.log(medList)
+})
+
+
+</script>
+</body>
+</html>

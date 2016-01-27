@@ -1,6 +1,6 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "19076",
+"creatorBuild": "19102",
 "files": {
 	"\/common\/css\/css.css": {
 		"fileType": 16,
@@ -16,6 +16,24 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/common\/css\/food.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/common\/css\/mall.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/common\/css\/mall.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/common\/css\/mobiscroll.custom-2.15.1.min.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/common\/css\/mobiscroll.custom-2.15.1.min.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -55,6 +73,50 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/common\/data\/priceClass.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/common\/data\/priceClass.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/common\/data\/priceClass-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
+	"\/common\/data\/priceClassTest.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/common\/data\/priceClassTest.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/common\/data\/priceClassTest-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
+	"\/common\/data\/priceList.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/common\/data\/priceList.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/common\/data\/priceList-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
+	"\/common\/data\/priceListTest.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/common\/data\/priceListTest.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/common\/data\/priceListTest-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
 		},
 	"\/common\/img\/1.jpg": {
 		"fileType": 16384,
@@ -364,6 +426,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/common\/img\/tool\/consignment_01.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 27930,
+		"inputAbbreviatedPath": "\/common\/img\/tool\/consignment_01.jpg",
+		"outputAbbreviatedPath": "\/common\/img\/tool\/consignment_01.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/common\/img\/tool\/dog_img.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -382,6 +455,17 @@
 		"initialSize": 11485,
 		"inputAbbreviatedPath": "\/common\/img\/tool\/dog_logo.png",
 		"outputAbbreviatedPath": "\/common\/img\/tool\/dog_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/common\/img\/tool\/icon_address.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3467,
+		"inputAbbreviatedPath": "\/common\/img\/tool\/icon_address.png",
+		"outputAbbreviatedPath": "\/common\/img\/tool\/icon_address.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -419,6 +503,435 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/common\/img\/tool\/med1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 16050,
+		"inputAbbreviatedPath": "\/common\/img\/tool\/med1.jpg",
+		"outputAbbreviatedPath": "\/common\/img\/tool\/med1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/common\/img\/tool\/med10.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 13155,
+		"inputAbbreviatedPath": "\/common\/img\/tool\/med10.jpg",
+		"outputAbbreviatedPath": "\/common\/img\/tool\/med10.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/common\/img\/tool\/med11.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 18319,
+		"inputAbbreviatedPath": "\/common\/img\/tool\/med11.jpg",
+		"outputAbbreviatedPath": "\/common\/img\/tool\/med11.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/common\/img\/tool\/med12.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11648,
+		"inputAbbreviatedPath": "\/common\/img\/tool\/med12.jpg",
+		"outputAbbreviatedPath": "\/common\/img\/tool\/med12.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/common\/img\/tool\/med13.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10951,
+		"inputAbbreviatedPath": "\/common\/img\/tool\/med13.jpg",
+		"outputAbbreviatedPath": "\/common\/img\/tool\/med13.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/common\/img\/tool\/med14.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12358,
+		"inputAbbreviatedPath": "\/common\/img\/tool\/med14.jpg",
+		"outputAbbreviatedPath": "\/common\/img\/tool\/med14.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/common\/img\/tool\/med15.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10853,
+		"inputAbbreviatedPath": "\/common\/img\/tool\/med15.jpg",
+		"outputAbbreviatedPath": "\/common\/img\/tool\/med15.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/common\/img\/tool\/med16.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 13642,
+		"inputAbbreviatedPath": "\/common\/img\/tool\/med16.jpg",
+		"outputAbbreviatedPath": "\/common\/img\/tool\/med16.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/common\/img\/tool\/med17.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 16654,
+		"inputAbbreviatedPath": "\/common\/img\/tool\/med17.jpg",
+		"outputAbbreviatedPath": "\/common\/img\/tool\/med17.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/common\/img\/tool\/med18.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 16602,
+		"inputAbbreviatedPath": "\/common\/img\/tool\/med18.jpg",
+		"outputAbbreviatedPath": "\/common\/img\/tool\/med18.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/common\/img\/tool\/med19.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 16456,
+		"inputAbbreviatedPath": "\/common\/img\/tool\/med19.jpg",
+		"outputAbbreviatedPath": "\/common\/img\/tool\/med19.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/common\/img\/tool\/med2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11230,
+		"inputAbbreviatedPath": "\/common\/img\/tool\/med2.jpg",
+		"outputAbbreviatedPath": "\/common\/img\/tool\/med2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/common\/img\/tool\/med20.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14516,
+		"inputAbbreviatedPath": "\/common\/img\/tool\/med20.jpg",
+		"outputAbbreviatedPath": "\/common\/img\/tool\/med20.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/common\/img\/tool\/med21.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 13094,
+		"inputAbbreviatedPath": "\/common\/img\/tool\/med21.jpg",
+		"outputAbbreviatedPath": "\/common\/img\/tool\/med21.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/common\/img\/tool\/med22.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 21158,
+		"inputAbbreviatedPath": "\/common\/img\/tool\/med22.jpg",
+		"outputAbbreviatedPath": "\/common\/img\/tool\/med22.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/common\/img\/tool\/med23.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14348,
+		"inputAbbreviatedPath": "\/common\/img\/tool\/med23.jpg",
+		"outputAbbreviatedPath": "\/common\/img\/tool\/med23.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/common\/img\/tool\/med24.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15580,
+		"inputAbbreviatedPath": "\/common\/img\/tool\/med24.jpg",
+		"outputAbbreviatedPath": "\/common\/img\/tool\/med24.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/common\/img\/tool\/med25.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14036,
+		"inputAbbreviatedPath": "\/common\/img\/tool\/med25.jpg",
+		"outputAbbreviatedPath": "\/common\/img\/tool\/med25.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/common\/img\/tool\/med26.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14745,
+		"inputAbbreviatedPath": "\/common\/img\/tool\/med26.jpg",
+		"outputAbbreviatedPath": "\/common\/img\/tool\/med26.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/common\/img\/tool\/med27.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17953,
+		"inputAbbreviatedPath": "\/common\/img\/tool\/med27.jpg",
+		"outputAbbreviatedPath": "\/common\/img\/tool\/med27.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/common\/img\/tool\/med28.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17156,
+		"inputAbbreviatedPath": "\/common\/img\/tool\/med28.jpg",
+		"outputAbbreviatedPath": "\/common\/img\/tool\/med28.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/common\/img\/tool\/med29.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 16564,
+		"inputAbbreviatedPath": "\/common\/img\/tool\/med29.jpg",
+		"outputAbbreviatedPath": "\/common\/img\/tool\/med29.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/common\/img\/tool\/med3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 20427,
+		"inputAbbreviatedPath": "\/common\/img\/tool\/med3.jpg",
+		"outputAbbreviatedPath": "\/common\/img\/tool\/med3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/common\/img\/tool\/med30.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15067,
+		"inputAbbreviatedPath": "\/common\/img\/tool\/med30.jpg",
+		"outputAbbreviatedPath": "\/common\/img\/tool\/med30.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/common\/img\/tool\/med31.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 18467,
+		"inputAbbreviatedPath": "\/common\/img\/tool\/med31.jpg",
+		"outputAbbreviatedPath": "\/common\/img\/tool\/med31.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/common\/img\/tool\/med32.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14427,
+		"inputAbbreviatedPath": "\/common\/img\/tool\/med32.jpg",
+		"outputAbbreviatedPath": "\/common\/img\/tool\/med32.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/common\/img\/tool\/med33.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12997,
+		"inputAbbreviatedPath": "\/common\/img\/tool\/med33.jpg",
+		"outputAbbreviatedPath": "\/common\/img\/tool\/med33.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/common\/img\/tool\/med34.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14055,
+		"inputAbbreviatedPath": "\/common\/img\/tool\/med34.jpg",
+		"outputAbbreviatedPath": "\/common\/img\/tool\/med34.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/common\/img\/tool\/med35.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11864,
+		"inputAbbreviatedPath": "\/common\/img\/tool\/med35.jpg",
+		"outputAbbreviatedPath": "\/common\/img\/tool\/med35.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/common\/img\/tool\/med36.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9415,
+		"inputAbbreviatedPath": "\/common\/img\/tool\/med36.jpg",
+		"outputAbbreviatedPath": "\/common\/img\/tool\/med36.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/common\/img\/tool\/med37.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14876,
+		"inputAbbreviatedPath": "\/common\/img\/tool\/med37.jpg",
+		"outputAbbreviatedPath": "\/common\/img\/tool\/med37.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/common\/img\/tool\/med38.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8239,
+		"inputAbbreviatedPath": "\/common\/img\/tool\/med38.jpg",
+		"outputAbbreviatedPath": "\/common\/img\/tool\/med38.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/common\/img\/tool\/med39.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 16908,
+		"inputAbbreviatedPath": "\/common\/img\/tool\/med39.jpg",
+		"outputAbbreviatedPath": "\/common\/img\/tool\/med39.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/common\/img\/tool\/med4.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14018,
+		"inputAbbreviatedPath": "\/common\/img\/tool\/med4.jpg",
+		"outputAbbreviatedPath": "\/common\/img\/tool\/med4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/common\/img\/tool\/med5.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17999,
+		"inputAbbreviatedPath": "\/common\/img\/tool\/med5.jpg",
+		"outputAbbreviatedPath": "\/common\/img\/tool\/med5.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/common\/img\/tool\/med6.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10690,
+		"inputAbbreviatedPath": "\/common\/img\/tool\/med6.jpg",
+		"outputAbbreviatedPath": "\/common\/img\/tool\/med6.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/common\/img\/tool\/med7.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11567,
+		"inputAbbreviatedPath": "\/common\/img\/tool\/med7.jpg",
+		"outputAbbreviatedPath": "\/common\/img\/tool\/med7.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/common\/img\/tool\/med8.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17333,
+		"inputAbbreviatedPath": "\/common\/img\/tool\/med8.jpg",
+		"outputAbbreviatedPath": "\/common\/img\/tool\/med8.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/common\/img\/tool\/med9.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17859,
+		"inputAbbreviatedPath": "\/common\/img\/tool\/med9.jpg",
+		"outputAbbreviatedPath": "\/common\/img\/tool\/med9.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/common\/img\/tool\/share-box.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -426,6 +939,193 @@
 		"initialSize": 2897,
 		"inputAbbreviatedPath": "\/common\/img\/tool\/share-box.png",
 		"outputAbbreviatedPath": "\/common\/img\/tool\/share-box.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/common\/img\/tool\/text.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17452,
+		"inputAbbreviatedPath": "\/common\/img\/tool\/text.png",
+		"outputAbbreviatedPath": "\/common\/img\/tool\/text.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/common\/img\/tool\/tooth\/tooth1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 18535,
+		"inputAbbreviatedPath": "\/common\/img\/tool\/tooth\/tooth1.png",
+		"outputAbbreviatedPath": "\/common\/img\/tool\/tooth\/tooth1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/common\/img\/tool\/tooth\/tooth10.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 22121,
+		"inputAbbreviatedPath": "\/common\/img\/tool\/tooth\/tooth10.png",
+		"outputAbbreviatedPath": "\/common\/img\/tool\/tooth\/tooth10.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/common\/img\/tool\/tooth\/tooth11.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 22763,
+		"inputAbbreviatedPath": "\/common\/img\/tool\/tooth\/tooth11.png",
+		"outputAbbreviatedPath": "\/common\/img\/tool\/tooth\/tooth11.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/common\/img\/tool\/tooth\/tooth12.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 22607,
+		"inputAbbreviatedPath": "\/common\/img\/tool\/tooth\/tooth12.png",
+		"outputAbbreviatedPath": "\/common\/img\/tool\/tooth\/tooth12.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/common\/img\/tool\/tooth\/tooth13.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 22125,
+		"inputAbbreviatedPath": "\/common\/img\/tool\/tooth\/tooth13.png",
+		"outputAbbreviatedPath": "\/common\/img\/tool\/tooth\/tooth13.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/common\/img\/tool\/tooth\/tooth14.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 22132,
+		"inputAbbreviatedPath": "\/common\/img\/tool\/tooth\/tooth14.png",
+		"outputAbbreviatedPath": "\/common\/img\/tool\/tooth\/tooth14.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/common\/img\/tool\/tooth\/tooth15.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 22338,
+		"inputAbbreviatedPath": "\/common\/img\/tool\/tooth\/tooth15.png",
+		"outputAbbreviatedPath": "\/common\/img\/tool\/tooth\/tooth15.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/common\/img\/tool\/tooth\/tooth2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 27112,
+		"inputAbbreviatedPath": "\/common\/img\/tool\/tooth\/tooth2.png",
+		"outputAbbreviatedPath": "\/common\/img\/tool\/tooth\/tooth2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/common\/img\/tool\/tooth\/tooth3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 21707,
+		"inputAbbreviatedPath": "\/common\/img\/tool\/tooth\/tooth3.png",
+		"outputAbbreviatedPath": "\/common\/img\/tool\/tooth\/tooth3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/common\/img\/tool\/tooth\/tooth4.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 21741,
+		"inputAbbreviatedPath": "\/common\/img\/tool\/tooth\/tooth4.png",
+		"outputAbbreviatedPath": "\/common\/img\/tool\/tooth\/tooth4.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/common\/img\/tool\/tooth\/tooth5.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 22013,
+		"inputAbbreviatedPath": "\/common\/img\/tool\/tooth\/tooth5.png",
+		"outputAbbreviatedPath": "\/common\/img\/tool\/tooth\/tooth5.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/common\/img\/tool\/tooth\/tooth6.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 28954,
+		"inputAbbreviatedPath": "\/common\/img\/tool\/tooth\/tooth6.png",
+		"outputAbbreviatedPath": "\/common\/img\/tool\/tooth\/tooth6.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/common\/img\/tool\/tooth\/tooth7.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 22432,
+		"inputAbbreviatedPath": "\/common\/img\/tool\/tooth\/tooth7.png",
+		"outputAbbreviatedPath": "\/common\/img\/tool\/tooth\/tooth7.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/common\/img\/tool\/tooth\/tooth8.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 22446,
+		"inputAbbreviatedPath": "\/common\/img\/tool\/tooth\/tooth8.png",
+		"outputAbbreviatedPath": "\/common\/img\/tool\/tooth\/tooth8.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/common\/img\/tool\/tooth\/tooth9.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 22224,
+		"inputAbbreviatedPath": "\/common\/img\/tool\/tooth\/tooth9.png",
+		"outputAbbreviatedPath": "\/common\/img\/tool\/tooth\/tooth9.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/common\/img\/tool\/tooth\/tooth_main.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10000,
+		"inputAbbreviatedPath": "\/common\/img\/tool\/tooth\/tooth_main.png",
+		"outputAbbreviatedPath": "\/common\/img\/tool\/tooth\/tooth_main.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -474,6 +1174,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/common\/js\/min\/mobiscroll.custom-2.15.1.min-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/common\/js\/min\/mobiscroll.custom-2.15.1.min-min.js",
+		"outputAbbreviatedPath": "\/common\/js\/min\/min\/mobiscroll.custom-2.15.1.min-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/common\/js\/min\/upiscroll-min.js": {
 		"fileType": 64,
 		"ignore": 1,
@@ -502,6 +1213,28 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/common\/js\/min\/view_v8-min.js",
 		"outputAbbreviatedPath": "\/common\/js\/min\/min\/view_v8-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/common\/js\/mobiscroll.custom-2.15.1.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/common\/js\/mobiscroll.custom-2.15.1.min.js",
+		"outputAbbreviatedPath": "\/common\/js\/min\/mobiscroll.custom-2.15.1.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/common\/js\/swipe.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/common\/js\/swipe.js",
+		"outputAbbreviatedPath": "\/common\/js\/min\/swipe-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -636,6 +1369,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/page\/food\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/page\/mall\/items-detail.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/page\/mall\/items-detail.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -928,6 +1670,42 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/page\/tool\/address_list.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/page\/tool\/address_list.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/page\/tool\/Consignment.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/page\/tool\/Consignment.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/page\/tool\/Consignment_detail.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/page\/tool\/Consignment_detail.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/page\/tool\/fed.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/page\/tool\/fed.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/page\/tool\/food_list.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -942,6 +1720,24 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/page\/tool\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/page\/tool\/itemPrice.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/page\/tool\/itemPrice.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/page\/tool\/itemPriceDetail.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/page\/tool\/itemPriceDetail.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -964,6 +1760,24 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/page\/tool\/med_list.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/page\/tool\/med_list.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/page\/tool\/new_address.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/page\/tool\/new_address.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/page\/tool\/shit-detail.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -982,8 +1796,44 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/page\/tool\/sure_order.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/page\/tool\/sure_order.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/page\/tool\/tooth-test.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/page\/tool\/tooth-test.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/page\/tool\/tooth.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/page\/tool\/tooth.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/page\/tool\/year.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/page\/tool\/year.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/st\/sass\/css.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -1055,6 +1905,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/st\/sass\/ie.scss",
 		"outputAbbreviatedPath": "\/common\/css\/ie.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/st\/sass\/mall.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/st\/sass\/mall.scss",
+		"outputAbbreviatedPath": "\/common\/css\/mall.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1143,7 +2009,7 @@
 		"useLibsass": 0
 		},
 	"\/st\/sass\/tool.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -1629,8 +2495,16 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"no_nested_string_interpolation": {
+			"active": 1,
+			"flagValue": -1
+			},
 		"no_plusplus": {
 			"active": 0,
+			"flagValue": -1
+			},
+		"no_private_function_fat_arrows": {
+			"active": 1,
 			"flagValue": -1
 			},
 		"no_stand_alone_at": {
@@ -1639,6 +2513,10 @@
 			},
 		"no_tabs": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"no_this": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"no_throwing_strings": {

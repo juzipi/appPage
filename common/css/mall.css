@@ -1,0 +1,23 @@
+.items-img img {
+  width: 100%; }
+
+.items-bd {
+  padding: 1rem 4%; }
+
+.items-title {
+  font-size: 1.6rem;
+  line-height: 2; }
+  .items-title .items-tip {
+    font-size: 1rem;
+    color: #fff;
+    background-color: #F17AAC;
+    border-radius: 8px;
+    display: inline-block;
+    padding: 4px 8px;
+    vertical-align: middle;
+    margin-right: 5px; }
+
+.items-content img {
+  width: 100%;
+  margin-top: 1rem;
+  margin-bottom: 1rem; }

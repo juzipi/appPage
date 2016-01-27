@@ -1,5 +1,6 @@
 $(document).ready(function(){ 
 
+
   	FastClick.attach(document.body);
 
 var _defult={
@@ -55,9 +56,15 @@ var _defult={
 			$(document).find('body').css("overflow","hidden");//不让下面的内容可以滚动。
 		}
 		
-	}
+	},
+		// 自动高度
+		fullHeight : function(){
+			var h = ($(window).height() < $(document).height()) ? $(document).height() :$(window).height();
+			$(".fullHeight").height(h)
+		}
 }
 _defult.imgAuto("#headImage");
+_defult.fullHeight();
 
 
 
@@ -295,7 +302,13 @@ function dateOperator(date,days,operator){
 	 	}
  	})
 
+// fn
+function showpre () {
+	$("#J_preLeve").show();
+	$(window).scrollTop($(document).height());
+}
 // select
+
 $("[data-select]").change(function(){
 	var t = $(this);
 	var index =t[0].selectedIndex;
@@ -303,15 +316,16 @@ $("[data-select]").change(function(){
 		t.addClass('font-c-gray').removeClass('font-c-base');
 	}else{
 		t.removeClass('font-c-gray').addClass('font-c-base');
-		$("#J_preLeve").show();
-		 $(window).scrollTop($(document).height());
+		showpre ()
 	}
 })
 
 
 
 
+
  })
+
 
 
 
