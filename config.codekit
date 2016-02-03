@@ -430,7 +430,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 27930,
+		"initialSize": 35602,
 		"inputAbbreviatedPath": "\/common\/img\/tool\/consignment_01.jpg",
 		"outputAbbreviatedPath": "\/common\/img\/tool\/consignment_01.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -950,6 +950,17 @@
 		"initialSize": 17452,
 		"inputAbbreviatedPath": "\/common\/img\/tool\/text.png",
 		"outputAbbreviatedPath": "\/common\/img\/tool\/text.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/common\/img\/tool\/tool_home_icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 21030,
+		"inputAbbreviatedPath": "\/common\/img\/tool\/tool_home_icon.png",
+		"outputAbbreviatedPath": "\/common\/img\/tool\/tool_home_icon.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

@@ -3,46 +3,46 @@ body {
 
 .tool-index li {
   text-align: center;
+  float: left;
+  width: 33%; }
+
+.tool-index li a {
   padding: 1rem 1rem;
-  display: inline-block;
-  width: 32%;
+  display: block;
+  font-size: 11px;
   box-sizing: border-box;
-  -webkit-box-sizing: border-box; }
+  -webkit-box-sizing: border-box;
+  border-bottom: 1px solid #f0f0f0; }
+
+.tool-index li a.hover {
+  background-color: #f1f1f1; }
+
+.tool-index li:nth-child(3n+2) a {
+  border-left: 1px solid #f0f0f0;
+  border-right: 1px solid #f0f0f0; }
 
 .index-icon {
-  width: 7.2rem;
-  height: 7.2rem;
+  width: 70px;
+  height: 72px;
   display: inline-block;
-  background-image: url("../img/tool/index_icon.png");
+  background-image: url("../img/tool/tool_home_icon.png");
   background-repeat: no-repeat;
-  background-size: 30rem auto; }
+  background-size: 70px auto; }
 
-.index-icon.hover {
-  background-image: url("../img/tool/index_icon_tap.png"); }
-
-.nianlin {
+.tizhong {
   background-position: 0 0; }
 
-.xingming {
-  background-position: -11.3rem 0; }
+.dabian {
+  background-position: 0px -82px; }
 
-.zhili {
-  background-position: -23rem 0; }
+.chi {
+  background-position: 0px -164px; }
 
-.zhongzheng {
-  background-position: 0rem -11.5rem; }
-
-.jijiu {
-  background-position: -11.3rem -11.5rem; }
+.yachi {
+  background-position: 0px -246px; }
 
 .yiyuan {
-  background-position: -23rem -11.5rem; }
-
-.weiyao {
-  background-position: 0rem -23rem; }
-
-.gouya {
-  background-position: -11.3rem -23rem; }
+  background-position: 0px -328px; }
 
 .btn-style01 {
   line-height: 5rem;
