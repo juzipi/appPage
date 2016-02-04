@@ -112,10 +112,21 @@ body{
 }
 .plan-head{
 	background-color:$baseColor;
-	height:5.5rem;
-	padding-top: 4rem;
+	height:12rem;
 	color:#fff;
-	padding-left: 1rem;
+	display: -webkit-box;
+  box-align: center;
+  -webkit-box-align: center;
+  display: flex;
+  display: -webkit-flex;
+  padding:0px 2rem;
+	h3{
+		box-align: center;
+  	-webkit-box-align: center;
+  	align-self: center;
+  	-webkit-align-self: center;
+		margin: 0 auto;
+	}
 }
 .history-list{
 	// padding:1rem 0rem;
@@ -312,6 +323,8 @@ body{
 		}
 	}
 }
+
+
 .head-user{
 	border-radius:30px;
 	height:26px;
@@ -331,3 +344,78 @@ body{
 .no-answer img{
 	width:100%;
 }
+
+// 2016.02.2 修改专题
+.item-head{
+	padding:10px;
+	text-align: center;
+	h3{
+		font-size: 1.8rem;
+	}
+}
+.thing-box{
+	background-color: #FFF;
+	padding:4%;
+}
+.fdog-step{
+	margin:0px $wrapSpace;
+	background-color: #FFF;
+	padding:10px $wrapSpace;
+	.select .paln-num .i-num {
+		border:none;
+		background-color: #3ACDCE;
+		color: #fff;
+	}
+}
+.feedList{
+	background-color: #FFF;
+	margin:0px $wrapSpace;
+	position: relative;
+	// margin-left: -2%;
+	// padding:$wrapSpace 0px;
+	// overflow: visible;
+	border-top:10px solid #fff;
+	li{
+		float: left;
+		width: 47%;
+		margin-left: 2%;
+		margin-bottom: 10px;
+		// padding-left: 10px;
+	}
+	a{
+		display: block;
+	}
+	.feedItemImg{
+		width:100%;
+		max-height: 150px;
+	}
+	.userImgMini{
+		border-radius: 100px;
+		width:40px;
+		height: 40px;
+		border:2px solid #fff;
+	}
+	sub{
+		margin-top: -30px;
+		padding-left: 10px;
+		font-size: 14px;
+		background: #39CCCE;
+		color: #fff;
+		margin-bottom: 10px;
+	}
+	.feedText{
+		font-size: 16px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+}
+
+
+
+
+
+
+
+
+
+

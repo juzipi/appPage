@@ -86,10 +86,20 @@ body {
 
 .plan-head {
   background-color: #e35a1a;
-  height: 5.5rem;
-  padding-top: 4rem;
+  height: 12rem;
   color: #fff;
-  padding-left: 1rem; }
+  display: -webkit-box;
+  box-align: center;
+  -webkit-box-align: center;
+  display: flex;
+  display: -webkit-flex;
+  padding: 0px 2rem; }
+  .plan-head h3 {
+    box-align: center;
+    -webkit-box-align: center;
+    align-self: center;
+    -webkit-align-self: center;
+    margin: 0 auto; }
 
 .history-list li {
   border-bottom: 1px solid #f4f4f4;
@@ -267,3 +277,56 @@ body {
 
 .no-answer img {
   width: 100%; }
+
+.item-head {
+  padding: 10px;
+  text-align: center; }
+  .item-head h3 {
+    font-size: 1.8rem; }
+
+.thing-box {
+  background-color: #FFF;
+  padding: 4%; }
+
+.fdog-step {
+  margin: 0px 1rem;
+  background-color: #FFF;
+  padding: 10px 1rem; }
+  .fdog-step .select .paln-num .i-num {
+    border: none;
+    background-color: #3ACDCE;
+    color: #fff; }
+
+.feedList {
+  background-color: #FFF;
+  margin: 0px 1rem;
+  position: relative;
+  border-top: 10px solid #fff; }
+  .feedList li {
+    float: left;
+    width: 47%;
+    margin-left: 2%;
+    margin-bottom: 10px; }
+  .feedList a {
+    display: block; }
+  .feedList .feedItemImg {
+    width: 100%;
+    max-height: 150px; }
+  .feedList .userImgMini {
+    border-radius: 100px;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #fff; }
+  .feedList sub {
+    margin-top: -30px;
+    padding-left: 10px;
+    font-size: 14px;
+    background: #39CCCE;
+    color: #fff;
+    margin-bottom: 10px; }
+  .feedList .feedText {
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px; }
+
+/*# sourceMappingURL=plan.css.map */

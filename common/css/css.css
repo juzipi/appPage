@@ -78,6 +78,9 @@ input::-webkit-input-placeholder {
 
 /*input::-webkit-input-placeholder{text-align: center; color: #f60; } */
 /*input::input-placeholder { text-align: center }*/
+.clear {
+  clear: both; }
+
 .clear:after {
   display: block;
   content: '';
@@ -174,6 +177,9 @@ a.link-orange:link, a.link-orange:visited, a.link-orange:hover, a.link-orange:ac
 .wrap2 {
   padding: 0 1rem; }
 
+.wrap-margin {
+  margin: 0 1rem; }
+
 .b-t {
   border-top: 0.6rem solid #eee; }
 
@@ -189,6 +195,9 @@ a.link-orange:link, a.link-orange:visited, a.link-orange:hover, a.link-orange:ac
 
 .gray-bg {
   background-color: #F4F4F5; }
+
+.white-bg {
+  background-color: #FFF; }
 
 .b-top {
   border-top: 1px solid #eee;
@@ -734,51 +743,11 @@ a.link-orange:link, a.link-orange:visited, a.link-orange:hover, a.link-orange:ac
   margin-bottom: 0.5rem;
   color: #fff; }
 
-.tip-label-2 {
-  display: inline-block;
-  position: relative;
-  border: 1px solid #ccc;
-  width: 44%;
-  padding: 0.2rem 0;
-  text-align: center;
-  border-radius: 3px;
-  box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  margin-bottom: 2rem; }
-
-.tip-label-2:nth-of-type(even) {
-  margin-left: 7%; }
-
 .paln-tip-02 > li {
   padding: 1rem 1.4rem 1rem 1.4rem; }
 
-.tip-label-2 .icon-buy {
-  position: absolute;
-  right: 0px;
-  top: 0px;
-  background-color: #fd7954;
-  height: 100%;
-  line-height: 2.8rem;
-  width: 1.8rem;
-  border-bottom-right-radius: 2px;
-  border-top-right-radius: 2px; }
-
-.i-buy {
-  border-radius: 15px;
-  background-color: #F74A35;
-  color: #fff;
-  font-size: 1.4rem;
-  text-align: center;
-  line-height: 1.8rem;
-  font-size: 1.1rem;
-  display: inline-block;
-  padding: 0px 8px;
-  position: absolute;
-  top: -1.2rem;
-  right: -1rem; }
-
-.i-buy:hover {
-  background-color: #f60; }
+.paln-tip-noBorder > li {
+  border: none; }
 
 .paln-tip-02 .tip-title {
   position: relative;
@@ -812,6 +781,42 @@ a.link-orange:link, a.link-orange:visited, a.link-orange:hover, a.link-orange:ac
 
 .list-hover li.hover {
   background-color: #eeeeee; }
+
+.tip-label-2 {
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  border: 1px solid #ccc;
+  width: 48%;
+  min-height: 100px;
+  padding: 26px 15px 10px;
+  text-align: center;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  margin-bottom: 2rem; }
+
+.tip-label-2 .con {
+  display: inline-block;
+  font-size: 1.6rem; }
+
+.tip-label-2:nth-of-type(even) {
+  margin-left: 4%; }
+
+.i-buy {
+  border-radius: 15px;
+  background-color: #F74A35;
+  font-size: 14px;
+  color: #fff;
+  line-height: 2.5rem;
+  display: inline-block;
+  width: 90px;
+  position: absolute;
+  top: -1.2rem;
+  left: 50%;
+  margin-left: -45px; }
+
+.i-buy:hover {
+  background-color: #f60; }
 
 .select-fix, .fixed-btn {
   background-color: #595959;
@@ -1659,12 +1664,6 @@ a.link-orange:link, a.link-orange:visited, a.link-orange:hover, a.link-orange:ac
 .labelStyle.base {
   background-color: #e35a1a; }
 
-.self-center {
-  box-align: center;
-  -webkit-box-align: center;
-  align-self: center;
-  -webkit-align-self: center; }
-
 .form-base {
   min-height: 50px;
   background-color: #FFF; }
@@ -1831,5 +1830,19 @@ a.link-orange:link, a.link-orange:visited, a.link-orange:hover, a.link-orange:ac
     margin-right: 2%; }
   .fixed-btn-blue .two:last-child {
     margin-left: 2%; }
+
+/* layout */
+.self-center {
+  box-align: center;
+  -webkit-box-align: center;
+  align-self: center;
+  -webkit-align-self: center; }
+
+.parent-box {
+  display: -webkit-box;
+  box-align: center;
+  -webkit-box-align: center;
+  display: flex;
+  display: -webkit-flex; }
 
 /*# sourceMappingURL=css.css.map */
