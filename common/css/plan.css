@@ -279,17 +279,17 @@ body {
   width: 100%; }
 
 .item-head {
-  padding: 10px;
+  padding: 15px 1rem;
   text-align: center; }
   .item-head h3 {
     font-size: 1.8rem; }
 
 .thing-box {
   background-color: #FFF;
-  padding: 4%; }
+  padding: 30px 1rem 0; }
 
 .fdog-step {
-  margin: 0px 1rem;
+  margin: 0px 1.5rem;
   background-color: #FFF;
   padding: 10px 1rem; }
   .fdog-step .select .paln-num .i-num {
@@ -299,7 +299,7 @@ body {
 
 .feedList {
   background-color: #FFF;
-  margin: 0px 1rem;
+  margin: 0px 1.5rem;
   position: relative;
   border-top: 10px solid #fff; }
   .feedList li {

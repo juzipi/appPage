@@ -347,7 +347,7 @@ body{
 
 // 2016.02.2 修改专题
 .item-head{
-	padding:10px;
+	padding:15px 1rem;
 	text-align: center;
 	h3{
 		font-size: 1.8rem;
@@ -355,10 +355,10 @@ body{
 }
 .thing-box{
 	background-color: #FFF;
-	padding:4%;
+	padding:30px 1rem 0; 
 }
 .fdog-step{
-	margin:0px $wrapSpace;
+	margin:0px $wrapSpace*1.5;
 	background-color: #FFF;
 	padding:10px $wrapSpace;
 	.select .paln-num .i-num {
@@ -369,7 +369,7 @@ body{
 }
 .feedList{
 	background-color: #FFF;
-	margin:0px $wrapSpace;
+	margin:0px $wrapSpace*1.5;
 	position: relative;
 	// margin-left: -2%;
 	// padding:$wrapSpace 0px;

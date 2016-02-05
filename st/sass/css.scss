@@ -63,7 +63,8 @@ a.link-orange:link, a.link-orange:visited, a.link-orange:hover, a.link-orange:ac
 .bd.wrap{padding:0px $wrapSpace; background-color:#eee; box-sizing:border-box; }
 .wrap{padding:0px $wrapSpace; box-sizing:border-box;}
 .wrap2{padding:0 $wrapSpace;}
-.wrap-margin{margin:0 $wrapSpace;}
+.wrap-margin{margin:0 $wrapSpace*1.5;}
+.wrap-margin2{margin:0 $wrapSpace;}
 .b-t{ border-top:0.6rem solid #eee;}
 .b-b{ border-bottom:0.6rem solid #eee;}
 .fixBottom{padding-bottom: 7rem;}
@@ -264,8 +265,8 @@ opacity: 0.8;
 .tip-title-spicl{padding-top: 1rem; padding-left: 1.4rem; margin-bottom: -1rem;}
 .list-hover li.hover{background-color: #eeeeee;}
 
-.tip-label-2{display:inline-block; vertical-align:top; position: relative; border:1px solid #ccc;  width:48%; min-height:100px;  padding:26px 15px 10px; text-align: center;  box-sizing: border-box; -webkit-box-sizing:border-box; margin-bottom: 2rem;}
-.tip-label-2 .con{display:inline-block;  font-size:1.6rem}
+.tip-label-2{ vertical-align:top; position: relative; border:1px solid #ccc;  width:48%; min-height:100px;  padding:26px 15px 10px; text-align: center;  box-sizing: border-box; -webkit-box-sizing:border-box; margin-bottom: 2rem;}
+.tip-label-2 .con{display:block; width:100%;  font-size:1.6rem}
 .tip-label-2:nth-of-type(even){margin-left:4%;}
 // .tip-label-2 .icon-buy{position: absolute; right:0px; top:0px; background-color:#fd7954; height:100%; line-height:2.8rem; width:1.8rem; border-bottom-right-radius:2px; border-top-right-radius:2px;}
 .i-buy{border-radius:15px; background-color:#F74A35; font-size:14px; color:#fff;  line-height:2.5rem; display:inline-block; width:90px; position: absolute; top:-1.2rem; left:50%; margin-left: -45px;}
@@ -760,6 +761,13 @@ $fixedBottom : 4.4rem;
     -webkit-box-align: center;
     display: flex;
     display: -webkit-flex;
+}
+.parent-inlineBox{
+	display: -webkit-inline-box;
+   box-align: center;
+    -webkit-box-align: center;
+    display: inline-flex;
+    display: -webkit-inline-flex;
 }
 
 
