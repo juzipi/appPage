@@ -3,16 +3,17 @@ body{background-color:#eee;}
 // 工具
 .tool-index{}
 .tool-index li{text-align: center; float: left; width:33%;  }
-.tool-index li a{padding:1rem 1rem; display:block; font-size:11px;box-sizing:border-box; -webkit-box-sizing:border-box; border-bottom:1px solid #f0f0f0;}
+.tool-index li a{padding:1rem 1rem; display:block; color:#000; font-size:11px;box-sizing:border-box; -webkit-box-sizing:border-box; border-bottom:1px solid #f0f0f0;}
 .tool-index li a.hover{background-color: #f1f1f1;}
 .tool-index li:nth-child(3n+2) a{border-left:1px solid #f0f0f0; border-right:1px solid #f0f0f0;}
-.index-icon{width:70px; height:72px; display:inline-block; background-image: url("../img/tool/tool_home_icon.png"); background-repeat: no-repeat; background-size:70px auto;}
+.tool-index li:last-child a{border-right:1px solid #f0f0f0;}
+.index-icon{width:60px; height:62px; display:inline-block; background-image: url("../img/tool/tool_home_icon.png"); background-repeat: no-repeat; background-size:60px auto;}
 // .index-icon.hover{background-image: url("../img/tool/index_icon_tap.png"); }
 .tizhong{background-position: 0 0;}
-.dabian{background-position: 0px -82px;}
-.chi{background-position: 0px -164px;}
-.yachi{background-position: 0px -246px;}
-.yiyuan{background-position: 0px -328px;}
+.dabian{background-position: 0px -70px;}
+.chi{background-position: 0px -140px;}
+.yachi{background-position: 0px -210px;}
+.yiyuan{background-position: 0px -280px;}
 
 
 // 年龄转换 
@@ -60,9 +61,9 @@ body{background-color:#eee;}
 	background-color:#fff; 
 	position: relative; 
 	/*padding:1rem;*/
-	padding-left: 120px;
-	padding-right: 44px;
-	height: 82px;
+	font-size:0px;
+	padding: 10px 0px 10px 10px;
+	// min-height: 82px;
 	margin-bottom: 1rem;
 	.icon-checkCircle{
 		font-size: 3rem;
@@ -75,18 +76,24 @@ body{background-color:#eee;}
 	.icon-checkCircle.cur{
 		color: #4aa83c;
 	}
+	.level-content{
+		position: absolute;
+		left: 120px;
+		top: 40px;
+		font-size: 1.4rem;
+	}
 }
 .shit-img{
-	position: absolute;
 	width:100px;
 	height:auto;
-	top:10px;
-	left: 10px;
 }
 .shit-level{
 	font-size: 1.8rem;
 	color: #FC3F54;
 	padding-top: 0.4rem;
+	position: absolute;
+	left:120px;
+	top:5px;
 }
 .shit-detail{
 	text-align: center;
