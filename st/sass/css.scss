@@ -248,6 +248,8 @@ only screen and (min-device-pixel-ratio: 2) {
 }
 }
 
+// line
+.line-gap{height:1px;overflow: hidden; background-color:$lineColor;}
 // 采纳
 .paln-wrap{}
 .paln-head{height:6.4rem; padding-left: 1.4rem; overflow: hidden; position: relative; padding-top: 10rem; color:#fff; background: url(../img/head_bg.jpg) no-repeat left bottom;background-size: cover; }
