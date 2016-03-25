@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content=""/>
+<meta name="keywords" content=""/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no"/>
+<meta name="format-detection" content="telephone=no" />
+<meta name="format-detection" content="email=no" />
+<link rel="stylesheet" type="text/css" href="../../common/css/css.css">
+<link rel="stylesheet" type="text/css" href="../../common/css/plan.css">
+	<title>提醒详情</title>
+</head>
+<body>
+<style>
+	body{background-color:#fff;}
+	</style>
+
+<div class="bd">
+<ul class="paln-tip paln-tip-02">
+		<li>
+			<h4 class="tip-title" onclick="location.pathname='page/plan/pregnant-history.html'"><i class="i-phase i-paln"></i>今日要做</h4>
+			<div class="tip-content">
+				<div class="thing-box"><div class="tip-label-2 parent-inlineBox"><span class="con self-center">鸡皮5G</span><a class="i-buy" href="http://www.baidu.com">去购买</a> </div><div class="tip-label-2 parent-inlineBox"><span class="con self-center">天然壮骨牛骨颗粒补钙</span><a class="i-buy" href="http://www.baidu.com">去购买</a> </div><div class="tip-label-2 parent-inlineBox"><span class="con self-center">天然壮骨牛骨颗天然</span><a class="i-buy" href="http://www.baidu.com">去购买</a> </div><div class="tip-label-2 parent-inlineBox"><span class="con self-center">天然壮骨牛骨颗</span><a class="i-buy" href="http://www.baidu.com">去购买</a> </div></div>
+			</div>
+		</li>
+	</ul>
+
+		
+	<div class="paln-wrap wrap b-t">
+		<div class="font-s-normal mt-mini"> <i class="i-flow i-paln"></i>操作步骤</div>
+		<!-- <div class="font-c-gray font-s-small">
+				提示：狗狗处于幼犬期，需要按照以下顺序注射疫苗
+		</div> -->
+		<ul class="paln-fangan">
+			<li class="select">
+				<div class="paln-num">
+					<div class="i-num">1</div>
+					<div class="i-line"></div>
+				</div>
+				<div class="content">
+					<div class="font-s-big">怀孕初期</div>
+					<!-- <div class="font-c-BrightGray font-s-small">怀孕1-30天</div> -->
+				</div>
+				<div class="process-content pregnant-img">
+					第六个月第六个月第六个月第六个月，第六个月第六个月
+					<div class="process-img autoHeight">
+						<div>
+							<img src="../../common/img/test.jpg" alt="">
+						</div>
+						<div>
+							<img src="../../common/img/test.jpg" alt="">
+						</div>
+						<div>
+							<img src="../../common/img/test.jpg" alt="">
+						</div>
+					</div>
+				</div>
+			</li>
+			
+			<li class="select">
+				<div class="paln-num">
+					<div class="i-num">2</div>
+					<div class="i-line"></div>
+				</div>
+				<div class="content">
+					<div class="font-s-big">怀孕中期</div>
+					<!-- <div class="font-c-BrightGray font-s-small">2015-03-20到2015-02-25</div> -->
+				</div>
+				<div class="process-content pregnant-img">
+					第六个月第六个月第六个月第六个月，第六个月第六个月
+					<div class="process-img autoHeight">
+						<div>
+							<img src="../../common/img/test.jpg" alt="">
+						</div>
+						
+					</div>
+				</div>
+			</li>
+			<li class="select">
+				<div class="paln-num">
+					<div class="i-num">3</div>
+					<div class="i-line"></div>
+				</div>
+				<div class="content">
+					<div class="font-s-big">怀孕后期</div>
+					<div class="font-c-BrightGray font-s-small">怀孕45-60天</div>
+				</div>
+			</li>
+			
+		</ul>
+		
+	</div>
+		
+		
+	</div>
+	<script src="../../common/zepto/zepto.js" ></script>
+	<script src="../../common/zepto/touch.js" ></script>
+	<script src="../../common/zepto/fx.js" ></script>
+	<script src="../../common/js/fastclick.js" ></script>
+	<script src="../../common/js/iscroll.js" ></script>
+	<script src="../../common/js/view_V8.js" ></script>
+	<script type="text/javascript">
+	$(document).ready(function(){ 
+		// 瀑布流
+
+		var boxArr = $('.feedBox'),
+				 // num = Math.floor($("#feedColumn")[0].clientWidth / boxArr[0].offsetWidth),
+				 num = 2,
+				 columnHeightArr = [];
+				 console.log(boxArr[0].offsetWidth)
+columnHeightArr.length = num;
+
+boxArr.each(function(index, item) {
+　　if (index < num) {
+　　　　columnHeightArr[index] = $(item).height();
+　　} else {
+　　　　var minHeight = Math.min.apply(null, columnHeightArr),
+ minHeightIndex = $.inArray(minHeight, columnHeightArr);
+
+　　　　$(item).css({
+ 　　position: 'absolute',
+ 　　top: minHeight,
+ 　　left: boxArr.eq(minHeightIndex).position().left
+ });
+
+　　　　columnHeightArr[minHeightIndex] += $(item).height();
+　　}
+});
+
+$("#feedColumn").height($("#feedColumn li").last()[0].offsetTop+$("#feedColumn li").last().height())
+	})
+
+	// 切换显示
+	// $(".tab").on("click",".tab-item",function(){
+	// 	var index= $(this).index();
+	// 	$(this).addClass('cur').siblings().removeClass('cur');
+	// 	$("#tabBox").find('.tab-bd-item').eq(index).show().siblings().hide();
+	// })
+	// 赞同切换
+	// $("#other").on('click','.qa-right', function(event) {
+	// 	var good = $(this).find('.i-good');
+	// 	var goodNum = $(this).find('.good-num');
+	// 	var n  = parseInt(goodNum.html());
+	// 	if(good.hasClass('cur')){
+	// 		good.removeClass('cur');
+	// 		goodNum.html(n+1);
+	// 	}else{
+	// 		good.addClass('cur');
+	// 		goodNum.html(n-1);
+	// 	}
+	// 	event.preventDefault();
+	// 	/* Act on the event */
+	// });
+	</script>
+</body>
+</html>
