@@ -25,7 +25,7 @@ body {
   width: 52px;
   height: 52px;
   border-radius: 3rem;
-  background-color: #e35a1a;
+  background-color: #f46523;
   box-shadow: -2px 3px 4px rgba(0, 0, 0, 0.2);
   position: absolute;
   left: 50%;
@@ -78,14 +78,14 @@ body {
     text-align: center; }
 
 .paln-base {
-  background-color: #e35a1a;
+  background-color: #f46523;
   height: 6.5rem;
   position: relative;
   padding-top: 3rem;
   color: #fff; }
 
 .plan-head {
-  background-color: #e35a1a;
+  background-color: #f46523;
   height: 12rem;
   color: #fff;
   display: -webkit-box;

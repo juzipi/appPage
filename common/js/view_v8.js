@@ -32,10 +32,8 @@ var _defult={
 		  	var w=img.naturalWidth,h=img.naturalHeight,wh=w/h;
 		  	$(imgID).parent().find('.i-loading').remove();
 			  if(wh<bl){
-
 			    $(imgID).css("width","100%")
 			  }else{
-
 			  	$(imgID).css("height","100%")
 			  }
 			  $(imgID).show();
