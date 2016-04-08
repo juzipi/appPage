@@ -1,0 +1,39 @@
+/*布局*/
+.news .header{  padding: 1rem 2rem 1rem; line-height:1.5;}
+.none{display: none;}
+
+.news  .header h1{color: #666; font-size: 2.4rem; line-height: 1.2; font-size:1.8rem; font-weight:normal;}
+.art-class,.art-class-blue{   padding-left: 2rem; padding-top: 1rem; font-size: 12px; border-top:4px solid #67bc5f;}
+.art-class-name{display: inline-block;padding: 0px 10px; line-height: 1.6; font-size: 10px; color: #fff; border-radius: 10px; background:#67bc5f; margin-right: 10px;}
+.art-class-text{color: #67bc5f; font-size: 14px; font-weight: 700; display: inline-block; vertical-align: middle; }
+.art-class-blue{border-top:4px solid #77b3d4;}
+.art-class-blue .art-class-name{background:#77b3d4;}
+.art-class-blue .art-class-text{color: #77b3d4;}
+.art-data{font-size: 1.2rem; color: rgba(191,191,191,1); padding-top: 0.5rem; border-bottom: 1px solid rgba(245,245,245,1); margin: 0px -2rem; padding:0px 2rem; line-height: 4rem;}
+.f-right{float: right;}
+.Article-edition{float: left;}
+.Article-data{padding-left: 10px;}
+.art-data sub{display: inline-block; padding-right: 1rem; vertical-align: middle; font-size: 1.2rem;}
+article{padding:0rem 2rem; font-size: 1.7rem; color: #5f5f5f; }
+article img{width: 100% !important; height: auto !important; margin-top: 10px;}
+article p{padding-bottom: 1rem;}
+.face{text-align: center;  padding: 3rem 2rem 0rem; }
+.face section{display: inline-block; width:49%; position: relative; text-align: center;}
+.face span{display: inline-block;  height:60px; width: 60px; background-repeat: no-repeat; background-image: url(../img/news/face.png); background-size: 60px;}
+.face-zan{  background-position:  0px 0px;}
+.face-zan-dis{  background-position:  0px -75px;}
+.face-cai{  background-position:  0px -150px;}
+.face-cai-dis{  background-position:  0px -225px;}
+.face-num{display: inline-block; border-radius: 4px; position: absolute; margin-top: 5px; margin-left: 4px;  background: #e0995e; color: #fff; font-size: 0.9rem; text-align: center; line-height: 2rem; height: 2rem; font-size: 1.4rem; width: 50px; opacity: 0;}
+.faceBlue .face-zan-dis{  background-position:  0px -300px;}
+.faceBlue .face-cai-dis{  background-position:  0px -375px;}
+.faceBlue .face-num{background: #77b3d4;} 
+
+/*font*/
+.fc-red{color: #fc3f54;}
+.fc-blue{color: #406adc;}
+.fc-green{color: #66bd5f;}
+
+
+
+

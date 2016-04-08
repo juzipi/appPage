@@ -1,0 +1,1 @@
+$(document).ready(function(){$(document).on("click",".parentList",function(){$(this).next().toggle(),$(this).find("i").toggleClass("icon-angle-down")})});

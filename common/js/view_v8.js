@@ -318,6 +318,23 @@ $("[data-select]").change(function(){
 	}
 })
 
+// 	汪讯	
+ 	//赞成按钮
+				$(".face-zan").bind("tap",function(){
+
+					$(this).attr("class","face-zan-dis");
+						$(this).prev(".face-num").animate({opacity: 1,marginTop:"-28px"},300);
+						 _that_zan=$(this);
+						setTimeout('_that_zan.prev(".face-num").animate({opacity: 0,marginTop:"-40px"},300)',2000);
+
+				})
+// 踩按钮
+				$(".face-cai").bind("tap",function(){
+					$(this).attr("class","face-cai-dis");
+						$(this).prev(".face-num").animate({opacity: 1,marginTop:"-28px"},300);
+						 _that_cai=$(this);
+						setTimeout('_that_cai.prev(".face-num").animate({opacity: 0,marginTop:"-40px"},300)',2000);
+				})
 
 
 
