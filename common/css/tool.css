@@ -220,6 +220,9 @@ body {
   margin-top: 2rem; }
   .shit-detail img {
     width: 50%; }
+  .shit-detail .shit-level {
+    position: static;
+    text-align: center; }
 
 .shit-detail .level-content {
   width: 80%;
