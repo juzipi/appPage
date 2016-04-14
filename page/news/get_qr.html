@@ -6,38 +6,99 @@
 <meta name="keywords" content=""/>
 <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no"/>
 <meta name="format-detection" content="email=no" />
-	<title>领取二维码</title>
+<link rel="stylesheet" type="text/css" href="prize.css">
+<title>领取二维码</title>
 </head>
 <body>
-<div  class="get-qr-body">
-<style type="text/css">
-	html,body{min-height:100%;background-color: #ff4e00;margin:0; padding:0;  border:0 }
-	html {-ms-touch-action: manipulation;touch-action: manipulation; -webkit-text-size-adjust:none; font-size: 62.5%;}/*延迟300秒click事件*/
-input {font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; -webkit-user-select:auto;-webkit-appearance:none; border-style:none; background-color:transparent;  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);  outline: none;}
-input::-webkit-input-placeholder{color:$fontGrayColor; }
-.get-qr-body{background-color: #ff4e00;color:#fff; padding:0 5%; height:100%; box-sizing:border-box; }
-.get-qr-body .get-tip{padding-top: 4rem; font-size:1.6rem}
-.get-qr-body .get-qr{line-height:5rem; height:5rem; text-align: center; color:#666; font-size:3rem; background-color: #ffea3b;}
-.get-qr-body .btn-get img{width:40%; margin-bottom: 2rem}
-.qr-erro-tip{text-align: center; font-size:1.6rem; color:#000; line-height:3; visibility: hidden;}
-.get-tip-text{padding-bottom: 6.5rem;}
-.t-c{text-align: center;}
-.mt-normal{margin-top: 2rem;}
-</style>
-	<div class="get-tip">激活成功后，请于4月2日20:00准时参与秒杀</div>
-	<div class="t-c mt-normal"><input type="text" class="get-qr" placeholder="输入激活码" size="12" /></div>
-	<div class="qr-erro-tip">激活码无效</div>
-	<div class="t-c mt-normal btn-get" ><img src="../../common/img/news/btn_get.png" alt="激 活" /></div>
-	<div class="get-tip-text">
-		<p>注意事项：</p>
-		<p>1、下单时请注明：大型犬幼犬、大型犬成犬、小
-			型犬幼犬、小型 犬成犬、中型犬幼犬、中型犬成
-			犬 （根据该信息配置狗粮，未标注统一发小型犬
-		幼犬狗粮）。</p>
-		<p>2、犬瘟礼包将于活动结束一周后发货，请各位用
-		户耐心等待。（邮费需自理，全国统一为6元）</p>
-		<p>3、有任何疑问欢迎联系：狗管家微信公众号、管
-		家巡逻队、管家铺子丫头。</p>
+<div class="page">
+	<div class="start-head">
+		<img src="img/head02.png" />
+	</div>
+	<div class="font-c-white t-c mt-normal">
+			<p>填写邀请码并激活</p>
+		</div>
+	<div class="wrap">
+		<input type="text" class="game-btn qr" value="请在此填写邀请码">
+		<div class="qr-erro-tip" id="errtip">激活码无效</div>
+		<div class="game-btn download" style="margin-top: 4rem">激活获得邀请码资格</div>
+	</div>
+
+	<div class="start-main fre-list" >
+		<h3>兑奖步骤</h3>
+		<div class="font-s-small t-c">第一步</div>
+		<div class="step"><p>点击上方激活邀请码</p></div>
+		<div class="font-s-small t-c">第二步</div>
+		<div class="step"><p>进入App“买买买”菜单</p></div>
+		<div class="font-s-small t-c">第三步</div>
+		<div class="step"><p>点击“积分”页面</p></div>
+		<div class="font-s-small t-c">第四步</div>
+		<div class="step"><p>点击“防犬瘟细小”大礼包
+看看是否具有兑换资格？</p></div>
+		<div class="font-s-small t-c">第五步</div>
+		<div class="step"><p>如果具有兑换资格，等待<span class="font-c-yellow">4.15晚20：00</span>开抢即可！
+</p></div>
+	</div>
+	
+</div>
+
+<!-- 奖品介绍  活动详情 二维码 -->
+<div class="page">
+	<div class="start-main mt-normal fre-list">
+		
+		<h3>奖品介绍</h3>
+		<div class="game-rule">
+			<div class="prize-left">
+				<img src="img/item01.jpg">
+				<div class="prize-content">
+					<h4>醇粹纯天然狗粮一包500g（市场价：30元）</h4>
+					<div class="prize-bd">真正的纯天然食材严选100%天然食材，超过50%的新鲜鸡肉和深海鱼肉，满足爱宠营养需求。高适口性新鲜无污染的食材，4000条犬只的适口性调研中，喜食率达90%。</div>
+				</div>
+			</div>
+			<div class="prize-left prize-right">
+				<img src="img/item02.jpg">
+				<div class="prize-content">
+					<h4>快灵犬瘟细小试纸一套（市场价：80元）</h4>
+					<div class="prize-bd">狗狗拉稀呕吐怎么办？大部分主人只能赶快去医院，当医生告知是犬瘟或者细小时又不敢相信，怕被骗，只能是干着急，所以家中应该常备犬瘟细小试纸，自己也放心，也不会延误治疗时机。快灵是医院专供试纸，准确率高达99%</div>
+				</div>
+			</div>
+			<div class="prize-left">
+				<img src="img/item03.jpg">
+				<div class="prize-content">
+					<h4>卫宠消毒液一瓶500ml（市场价28元）</h4>
+					<div class="prize-bd">安全高效配方、无任何毒副作用、给环境袪味消毒，根源除臭，深度杀菌，安全不残留 舔舐无碍，使用方便，无需冲洗，无需稀释，家庭养狗必备</div>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+	
+	<div class="start-main mt-normal fre-list">
+		
+		<h3>活动详情</h3>
+		<div class="">
+			现在养狗的人越来越多，可是还是有很多主人对于犬瘟细小的认知不清楚，导致狗狗患上这种致命疾病，狗管家为了普及这一概念，联合卫宠，快灵，醇粹发起“防犬瘟细小月”，希望借以普及犬瘟细小知识，让狗狗更加健康，免遭疾病，并在此送出1000份“防犬瘟细小大礼包”
+			<p class="con-title">活动时间</p>
+			4月7日至4月15日晚上20：00
+			<p class="con-title">兑奖时间</p>
+			4月15日晚20:00在狗管家App准时开抢，一共发放1000份礼包，先领先得
+			<p class="con-title">兑奖流程</p>
+			<ul class="con-li">
+				<li>活动期间内，邀请好友完成游戏，集齐三样不同防犬瘟细小神器，即可获得一个<span class="font-c-blue">邀请码</span></li>
+				<li>下载狗管家App，去到<span class="font-c-blue">“广场”</span>菜单，选择<span class="">“兑奖”</span>按钮，输入邀请码，获得抢购资格</li>
+				<li>4月15日20：00在狗管家App<span class="font-c-blue">“买买买”</span>菜单，“积分”页面，选择第一个商品<span class="font-c-blue">“防犬瘟细小大礼包”</span>，到点即可开抢，邮费需自付，全国统一6元，1000份抢完为止</li>
+			</ul>
+			<p class="con-title">如需帮助</p>
+			请联系狗管家微信公众号：FdogCN
+			微博：狗管家FDOG
+			狗管家APP“管家铺子丫头
+			<div class="con-b">本活动最终解释权归狗管家所有</div>
+		</div>
+	</div>
+	<div class="qr-box">
+		<h2>狗管家App，养狗问题找管家</h2>
+		<img src="img/qr01.png" />
+		<h2 class="mt-normal">快灵生物，动物健康及食品安全专家</h2>
+		<img src="img/qr02.png" />
 	</div>
 </div>
 	

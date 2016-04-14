@@ -65,6 +65,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/common\/css\/noticecss.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/common\/css\/noticecss.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/common\/css\/plan.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -349,7 +358,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 22632,
+		"initialSize": 25511,
 		"inputAbbreviatedPath": "\/common\/img\/no_answer_detail.png",
 		"outputAbbreviatedPath": "\/common\/img\/no_answer_detail.png",
 		"outputPathIsOutsideProject": 0,
@@ -1053,7 +1062,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 17452,
+		"initialSize": 40055,
 		"inputAbbreviatedPath": "\/common\/img\/tool\/text.png",
 		"outputAbbreviatedPath": "\/common\/img\/tool\/text.png",
 		"outputPathIsOutsideProject": 0,
@@ -1315,7 +1324,7 @@
 		},
 	"\/common\/js\/min\/untitled-min.js": {
 		"fileType": 64,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/common\/js\/min\/untitled-min.js",
 		"outputAbbreviatedPath": "\/common\/js\/min\/min\/untitled-min-min.js",
@@ -1532,6 +1541,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/page\/mall\/test.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/page\/mall\/test.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/page\/my\/commemoration-detail.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -1586,11 +1604,86 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/page\/news\/img\/head02.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 21783,
+		"inputAbbreviatedPath": "\/page\/news\/img\/head02.png",
+		"outputAbbreviatedPath": "\/page\/news\/img\/head02.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/page\/news\/img\/item01.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9822,
+		"inputAbbreviatedPath": "\/page\/news\/img\/item01.jpg",
+		"outputAbbreviatedPath": "\/page\/news\/img\/item01.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/page\/news\/img\/item02.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8641,
+		"inputAbbreviatedPath": "\/page\/news\/img\/item02.jpg",
+		"outputAbbreviatedPath": "\/page\/news\/img\/item02.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/page\/news\/img\/item03.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8032,
+		"inputAbbreviatedPath": "\/page\/news\/img\/item03.jpg",
+		"outputAbbreviatedPath": "\/page\/news\/img\/item03.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/page\/news\/img\/qr01.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 25766,
+		"inputAbbreviatedPath": "\/page\/news\/img\/qr01.png",
+		"outputAbbreviatedPath": "\/page\/news\/img\/qr01.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/page\/news\/img\/qr02.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 27601,
+		"inputAbbreviatedPath": "\/page\/news\/img\/qr02.png",
+		"outputAbbreviatedPath": "\/page\/news\/img\/qr02.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/page\/news\/news-detail.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/page\/news\/news-detail.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/page\/news\/prize.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/page\/news\/prize.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -2056,7 +2149,7 @@
 		"outputAbbreviatedPath": "\/common\/css\/css.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 3,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2072,7 +2165,7 @@
 		"outputAbbreviatedPath": "\/common\/css\/food.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 3,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2088,7 +2181,7 @@
 		"outputAbbreviatedPath": "\/common\/css\/game.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 3,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2142,7 +2235,7 @@
 		"useLibsass": 0
 		},
 	"\/st\/sass\/my.scss": {
-		"createSourceMap": 1,
+		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -2158,7 +2251,7 @@
 		"useLibsass": 0
 		},
 	"\/st\/sass\/news.scss": {
-		"createSourceMap": 1,
+		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -2168,13 +2261,13 @@
 		"outputAbbreviatedPath": "\/common\/css\/news.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 3,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
 	"\/st\/sass\/plan.scss": {
-		"createSourceMap": 1,
+		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -2238,7 +2331,7 @@
 		"useLibsass": 0
 		},
 	"\/st\/sass\/tool.scss": {
-		"createSourceMap": 1,
+		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -2629,7 +2722,7 @@
 	},
 "projectAttributes": {
 	"bowerAbbreviatedPath": "",
-	"displayValue": "狗管家APP",
+	"displayValue": "狗管家APP内部页面",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "brackets_orange"
 	},
