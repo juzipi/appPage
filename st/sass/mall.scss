@@ -1,3 +1,5 @@
+@import "compass/css3";
+@import "globle.scss";
 .items-img img{
 	width:100%;
 }
@@ -25,3 +27,170 @@
 		margin-bottom: 1rem;
 	}
 }
+
+// 试用活动
+.test-user-list li{
+	position: relative;
+	padding:  1rem 6% 0rem 5rem;
+	margin:1rem -4%;
+	border-top:1px solid $lineColor;
+	.user-mini{
+		width:3rem;
+		height: 3rem;
+		border-radius:5px;
+		position: absolute;
+		left: 1rem;
+		top: 1rem;
+	}
+	.user-get{
+		position: absolute;
+		right: 5%;
+		bottom:5%;
+		background: url("../img/mall/get.png") no-repeat;
+		background-size: contain;
+		width: 100px;
+		height: 60px;
+	}
+	.get-tip{
+		background-color: #eb5564;
+		font-size: 1rem;
+		width:3rem;
+		text-align: center;
+		height: 1.6rem;
+		color: #fff;
+		position: absolute;
+		top: 5.6rem;
+		left: 1rem;
+		border-radius:4px;
+	}
+}
+.testUserMain{
+	position: relative;
+	margin-top: -5px;
+	h3{
+		font-size: 1.6rem;
+	}
+	.time{
+		color: $fontGrayColor;
+	}
+	.userLevel{
+		border-radius:20px;
+		min-width: 3rem;
+		text-align: center;
+		padding:0px 8px;
+		background-color: #67bc5f;
+		color: #fff;
+		position:absolute;
+		top: 4px;
+		right: 0px;
+	}
+	.content{
+		margin-top: 1rem;
+	}
+	.singleImg{
+		width:50%;
+		margin-top: 5px;
+	}
+}
+.popup .userTest{
+	border-radius:10px;
+	background-color: #FFF;
+	text-align: center;
+	padding-bottom: 20px;
+	top:10%;
+	h2{
+		background-color: #3ccccc;
+		height: 3.5rem;
+		border-top-left-radius:10px;
+		border-top-right-radius:10px;
+	}
+	.userTest-img{
+		width:90%;
+		margin: 0 auto;
+		margin-left: 0.5rem;
+	}
+	.bd{
+		padding:1rem;
+	}
+		.icon-cross{
+			color:#fff;
+			font-size:2rem;
+			position: absolute;
+			right:1rem;
+			top:1rem;
+		}
+		.btn-user{
+			border-radius:20px;
+			color:#fff;
+			text-align: center;
+			margin-top: 1rem;
+			background-color: #504e64;
+			line-height:4rem;
+			margin:1rem auto;
+			width:90%;
+		}
+}
+.userGetInput {
+	margin:1rem 5%;
+	width: 90%;
+	background-color: #fff;
+	border-radius:5px;
+	text-align: center;
+	padding:1rem;
+	textarea{
+		border:none;
+		font-size:1.6rem;
+		width:90%;
+		min-height:12rem;
+
+	}
+}
+.upload_btn{
+	background: url("../img/mall/upFile.png") no-repeat center;
+	height:0px;
+	width: 100%;
+	padding-bottom: 100%;
+	display: block;
+	position: relative;
+	background-size: 50% auto;
+	border:1px dashed #999;
+}
+.upload_btn input{
+	display: block;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	border:none;
+	overflow: hidden;
+	z-index: 10;
+	opacity: 0;
+}
+.post_imglist{
+	width:100%;
+	display:none;
+	li{
+		position: relative;
+	}
+	.userUpImg{
+		width:100%;
+	}
+	.icon-cross{
+		position: absolute;
+		right: -0.5rem;
+		top: -2rem;
+		font-size:3rem;
+		width:4rem;
+		height: 4rem;
+		background-color: $baseColor;
+		border-radius:100px;
+		line-height:4rem;
+		color:#fff;
+	}
+
+}
+
+
+
+

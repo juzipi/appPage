@@ -65,6 +65,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/common\/css\/noticecss.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/common\/css\/noticecss.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/common\/css\/plan.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -235,6 +244,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/common\/img\/mall\/get.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8172,
+		"inputAbbreviatedPath": "\/common\/img\/mall\/get.png",
+		"outputAbbreviatedPath": "\/common\/img\/mall\/get.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/common\/img\/mall\/share_tip.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 30261,
+		"inputAbbreviatedPath": "\/common\/img\/mall\/share_tip.png",
+		"outputAbbreviatedPath": "\/common\/img\/mall\/share_tip.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/common\/img\/mall\/upFile.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5195,
+		"inputAbbreviatedPath": "\/common\/img\/mall\/upFile.png",
+		"outputAbbreviatedPath": "\/common\/img\/mall\/upFile.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/common\/img\/mask.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -374,6 +416,17 @@
 		"initialSize": 199,
 		"inputAbbreviatedPath": "\/common\/img\/scrollbar.png",
 		"outputAbbreviatedPath": "\/common\/img\/scrollbar.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/common\/img\/share.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 13164,
+		"inputAbbreviatedPath": "\/common\/img\/share.png",
+		"outputAbbreviatedPath": "\/common\/img\/share.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1291,6 +1344,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/common\/js\/localResizeIMG2.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/common\/js\/localResizeIMG2.js",
+		"outputAbbreviatedPath": "\/common\/js\/min\/localResizeIMG2-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/common\/js\/min\/mobiscroll.custom-2.15.1.min-min.js": {
 		"fileType": 64,
 		"ignore": 1,
@@ -1352,6 +1416,17 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/common\/js\/min\/view_v8-min.js",
 		"outputAbbreviatedPath": "\/common\/js\/min\/min\/view_v8-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/common\/js\/mobileBUGFix.mini.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/common\/js\/mobileBUGFix.mini.js",
+		"outputAbbreviatedPath": "\/common\/js\/min\/mobileBUGFix.mini-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -1532,6 +1607,24 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/page\/mall\/test-get.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/page\/mall\/test-get.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/page\/mall\/test.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/page\/mall\/test.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/page\/my\/commemoration-detail.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -1586,11 +1679,86 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/page\/news\/img\/head02.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 38628,
+		"inputAbbreviatedPath": "\/page\/news\/img\/head02.png",
+		"outputAbbreviatedPath": "\/page\/news\/img\/head02.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/page\/news\/img\/item01.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9822,
+		"inputAbbreviatedPath": "\/page\/news\/img\/item01.jpg",
+		"outputAbbreviatedPath": "\/page\/news\/img\/item01.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/page\/news\/img\/item02.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8641,
+		"inputAbbreviatedPath": "\/page\/news\/img\/item02.jpg",
+		"outputAbbreviatedPath": "\/page\/news\/img\/item02.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/page\/news\/img\/item03.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8032,
+		"inputAbbreviatedPath": "\/page\/news\/img\/item03.jpg",
+		"outputAbbreviatedPath": "\/page\/news\/img\/item03.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/page\/news\/img\/qr01.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 25766,
+		"inputAbbreviatedPath": "\/page\/news\/img\/qr01.png",
+		"outputAbbreviatedPath": "\/page\/news\/img\/qr01.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/page\/news\/img\/qr02.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 27601,
+		"inputAbbreviatedPath": "\/page\/news\/img\/qr02.png",
+		"outputAbbreviatedPath": "\/page\/news\/img\/qr02.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/page\/news\/news-detail.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/page\/news\/news-detail.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/page\/news\/prize.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/page\/news\/prize.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -2166,6 +2334,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/st\/sass\/news.scss",
 		"outputAbbreviatedPath": "\/common\/css\/news.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/st\/sass\/noticecss.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/st\/sass\/noticecss.scss",
+		"outputAbbreviatedPath": "\/common\/css\/noticecss.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,

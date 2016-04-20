@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content=""/>
+<meta name="keywords" content=""/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no"/>
+<meta name="format-detection" content="telephone=no" />
+<meta name="format-detection" content="email=no" />
+<link rel="stylesheet" type="text/css" href="../../common/css/noticecss.css">
+<link rel="stylesheet" type="text/css" href="../../common/css/mall.css">
+<title>填写申请理由</title>
+</head>
+<body>
+
+<div class="bd fixBottom">
+	<style type="text/css">
+		body{background-color:#f5f5f5;}
+	</style>
+	<div class="userGetInput box-border">
+		<textarea rows="7" placeholder="在此填写申请理由哦，好的申请理由会帮助增加抽中几率哦"></textarea>
+				<ul id="imglist" class="post_imglist"></ul>
+				<div class="upload_btn">
+           <input type="file" id="upload_image" value="图片上传" accept="image/jpeg,image/gif,image/png" capture="camera">
+         <iframe id="tmp_downloadhelper_iframe" style="display: none;"></iframe>
+        </div>
+	</div>
+	<div class="fixed-btn-mini btn-bg-yellow">下一步</div>
+</div>
+  
+
+<script src="../../common/zepto/zepto.js" ></script>
+<script src="../../common/zepto/touch.js" ></script>
+<script src="../../common/zepto/fx.js" ></script>
+<script src="../../common/js/fastclick.js" ></script>
+<script src="../../common/js/view_V8.js" ></script>
+<script type="text/javascript"  src="../../common/js/mobileBUGFix.mini.js"></script>
+<script type="text/javascript"  src="../../common/js/localResizeIMG2.js"></script>
+<script type="text/javascript">
+	 $(document).ready(function(){ 
+
+	 		 (function () {
+        var viewImg = $("#imglist");
+        var imgurl = '';
+        var imgcount = 0;
+        $('#upload_image').localResizeIMG({
+            width: 320,
+            quality: 0.8,
+            success: function (result) {
+                var status = true;
+                if (result.height > 1600) {
+                    status = false;
+                    alert("照片最大高度不超过1600像素");
+                }
+                if (viewImg.find("li").length > 0) {
+                    status = false;
+                    alert("最多上传1张照片");
+                }
+                if (status) {
+                	viewImg.show();
+                    viewImg.append('<li><span class="pic_time"><span class="p_img"></span><em>50%</em></span></li>');
+                    viewImg.find("li:last-child").html('<span class="icon-cross"></span><img class="userUpImg" src="' + result.base64 + '"/><input type="hidden" id="file'
+                    + imgcount
+                    + '" name="fileup[]" value="'
+                    + result.clearBase64 + '">');
+                    	 $(".upload_btn").hide();
+                    $(".icon-cross").on("click",function(){
+                        $(this).parent('li').remove();
+                        $(".upload_btn").show();
+                    });
+                    imgcount++;
+                }
+            }
+        });
+    })();
+
+	 	
+	 })
+</script>
+
+</body>
+</html>

@@ -46,6 +46,7 @@ a.link-orange:link, a.link-orange:visited, a.link-orange:hover, a.link-orange:ac
 .font-s-vvbig{font-size:4rem; font-weight:800;}
 .font-s-hug{font-size:6rem; font-weight:800;}
 .font-c-orang{color:$fontOrang;}
+.font-c-green{color:$fontGreenColor}
 .font-b{font-weight:bold;}
 .font-c-base{color:$baseColor;}
 .font-c-blue{color:#93B0C3;}
@@ -280,9 +281,16 @@ opacity: 0.8;
 .paln-tip .tip-title{font-weight:normal;  position: absolute; left:1.4rem;font-size:1.6rem;}
 .paln-tip .tip-content{ color:$fontGrayColor; }
 .paln-tip .tip-label{display:inline-block; background-color:#E7AA71; padding:0.2rem 0.6rem; border-radius:3px; margin-right: 1rem; margin-bottom: 0.5rem; color:#fff; }
-
+// 专题老版
+.tip-label-2 { display: inline-block; position: relative; border: 1px solid #ccc; width: 44%; padding: 2rem 0.5rem; text-align: center; border-radius: 3px; box-sizing: border-box; -webkit-box-sizing: border-box; margin-bottom: 1.5rem; min-height: 6rem; vertical-align: top; margin-top: 1rem; }
+.tip-label-2:nth-of-type(even) { margin-left: 7%; }
 .paln-tip-02>li{padding:1rem 1.4rem 1rem 1.4rem; }
 .paln-tip-noBorder>li{border:none}
+.tip-label-2 .icon-buy { position: absolute; right: 0px; top: 0px; background-color: #fd7954; height: 100%; line-height: 2.8rem; width: 1.8rem; border-bottom-right-radius: 2px; border-top-right-radius: 2px; }
+.i-buy { border-radius: 15px; background-color: #F74A35; color: #fff; font-size: 1.4rem; text-align: center; line-height: 1.8rem; font-size: 1.1rem; display: inline-block; padding: 3px 8px; position: absolute; top: -1.2rem; left: 50%; margin-left: -52px; width: 90px; }
+.i-buy:hover { background-color: #f60; }
+
+
 
 
 
@@ -295,12 +303,12 @@ opacity: 0.8;
 .tip-title-spicl{padding-top: 1rem; padding-left: 1.4rem; margin-bottom: -1rem;}
 .list-hover li.hover{background-color: #eeeeee;}
 
-.tip-label-2{ vertical-align:top; position: relative; border:1px solid #ccc;  width:48%; min-height:100px;  padding:26px 15px 10px; text-align: center;  box-sizing: border-box; -webkit-box-sizing:border-box; margin-bottom: 2rem;}
-.tip-label-2 .con{display:block; width:100%;  font-size:1.6rem}
-.tip-label-2:nth-of-type(even){margin-left:4%;}
-// .tip-label-2 .icon-buy{position: absolute; right:0px; top:0px; background-color:#fd7954; height:100%; line-height:2.8rem; width:1.8rem; border-bottom-right-radius:2px; border-top-right-radius:2px;}
-.i-buy{border-radius:15px; background-color:#F74A35; font-size:14px; color:#fff;  line-height:2.5rem; display:inline-block; width:90px; position: absolute; top:-1.2rem; left:50%; margin-left: -45px;}
-.i-buy:hover{background-color:#f60}
+// 专题新版
+// .tip-label-2{ vertical-align:top; position: relative; border:1px solid #ccc;  width:48%; min-height:100px;  padding:26px 15px 10px; text-align: center;  box-sizing: border-box; -webkit-box-sizing:border-box; margin-bottom: 2rem;}
+// .tip-label-2 .con{display:block; width:100%;  font-size:1.6rem}
+// .tip-label-2:nth-of-type(even){margin-left:4%;}
+// .i-buy{border-radius:15px; background-color:#F74A35; font-size:14px; color:#fff;  line-height:2.5rem; display:inline-block; width:90px; position: absolute; top:-1.2rem; left:50%; margin-left: -45px;}
+// .i-buy:hover{background-color:#f60}
 
 
 .select-fix,.fixed-btn{background-color:rgb(89,89,89); text-align:right; padding:1rem 1.4rem; color:#fff; font-size:1.8rem; position: fixed; bottom:0px; left:0px; width:100%; line-height:3.6rem; box-sizing:border-box; -webkit-box-sizing:border-box;}
@@ -407,8 +415,16 @@ opacity: 0.8;
 .edit-info dt{}
 .edit-info dd{color:$fontGrayColor; font-size:1.2rem; padding-bottom: 1rem; padding-top: 0.3rem;}
 
-.col-2{ display: -webkit-box;  display:flex; display:-webkit-flex; }
+// col
+.col-2,.col{ display: -webkit-box;  display:flex; display:-webkit-flex; }
 .col-item{ -webkit-box-flex:2;  flex:2;-webkit-flex:2; line-height:3rem;}
+
+@for $i from 1 through 9 {
+    .col-flex-#{$i}{
+       flex: $i
+    } 
+}
+
 .col-item.t-right{flex:3;-webkit-flex:3;}
 .col-2-tip{color:$fontBrightColor; margin-left: -100%; padding-left: 34%; margin-top: 0.5rem; text-align:left; line-height:1.4; font-size:1.2rem;}
 
@@ -799,6 +815,20 @@ $fixedBottom : 4.4rem;
     display: inline-flex;
     display: -webkit-inline-flex;  
 }
-
-
+/* 160407 临时修补头部样式 */
+.plan-head{
+  position: relative;
+	 h3{
+	  font-size: 2.2rem;
+	  min-height: 5rem;
+	  text-align: center;
+	}
+	.font-s-small{
+  position: absolute;
+  width: 90%;
+  left: 5%;
+  bottom: 2rem;
+  text-align: center;
+	}
+}
 
