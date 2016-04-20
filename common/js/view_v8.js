@@ -3,6 +3,9 @@ $(document).ready(function(){
 
   	FastClick.attach(document.body);
 
+  	// set popup height
+  	$(".popup").height($(document).height())
+
 var _defult={
 	// imgauto height width
 	imgAuto:function(imgID){

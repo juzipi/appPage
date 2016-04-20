@@ -7,7 +7,7 @@ embed { width:100%; height:auto; }
 html {-ms-touch-action: manipulation;touch-action: manipulation; -webkit-text-size-adjust:none; font-size: 62.5%;}/*延迟300秒click事件*/
 article, aside, canvas, figure,sub, figure img, figcaption, hgroup, footer, header, nav, section, audio, video { display:block }
 a, img { border:0 }
-dl, dt, dd, ul, ol, li { list-style:none }
+dl, dt, dd, ul, ol, li { margin:0px; padding:0px;list-style:none }
 i, em { font-style:normal } 
 a { text-decoration: none; color: #607fa6  }
 
@@ -17,10 +17,10 @@ input {font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; -webkit-user-se
 body {font-family: "Helvetica Neue",Helvetica,"Hiragino Sans GB","Microsoft YaHei",Arial,sans-serif; font-size: 1.4rem; line-height: 1.5;  color:$fontBaseColor; background-color:#fff;}
 p { line-height:1.6 }
 h2,h3{font-size: 100%; font-weight:normal}
-ul, li { margin:0px; padding:0px; list-style:none; }
 select { -webkit-appearance:none;-webkit-tap-highlight-color: rgba(0, 0, 0, 0);  outline: none; }
 i{display:block;}
 input::-webkit-input-placeholder{color:$fontGrayColor; }
+textarea{-webkit-user-select:auto;}
 /*input::-webkit-input-placeholder{text-align: center; color: #f60; } */
 /*input::input-placeholder { text-align: center }*/
 .clear{clear: both}
@@ -176,6 +176,8 @@ a.link-orange:link, a.link-orange:visited, a.link-orange:hover, a.link-orange:ac
 .btn-mini.hover{
     background-color:#ccc;
 }
+.btn-yellow-2{background-color:$baseColor; height:4rem; line-height:4rem; text-align: center; color:#fff; font-size:1.6rem; margin:0 1rem; border-radius:5px; }
+.btn-yellow-2 .icon-edit{color:#fff;}
 
 $size: tiny small normal big  ;
 $btnHeight: 2rem 2.2rem 3rem 4rem;
@@ -243,6 +245,7 @@ only screen and (min-device-pixel-ratio: 2) {
 		background-color: #ccc;
 		-webkit-transform: scaleY(0.5);
 						transform: scaleY(0.5);
+
 		-webkit-transform-origin: 0 0;
 						transform-origin: 0 0;
 	}
@@ -281,16 +284,9 @@ opacity: 0.8;
 .paln-tip .tip-title{font-weight:normal;  position: absolute; left:1.4rem;font-size:1.6rem;}
 .paln-tip .tip-content{ color:$fontGrayColor; }
 .paln-tip .tip-label{display:inline-block; background-color:#E7AA71; padding:0.2rem 0.6rem; border-radius:3px; margin-right: 1rem; margin-bottom: 0.5rem; color:#fff; }
-// 专题老版
-.tip-label-2 { display: inline-block; position: relative; border: 1px solid #ccc; width: 44%; padding: 2rem 0.5rem; text-align: center; border-radius: 3px; box-sizing: border-box; -webkit-box-sizing: border-box; margin-bottom: 1.5rem; min-height: 6rem; vertical-align: top; margin-top: 1rem; }
-.tip-label-2:nth-of-type(even) { margin-left: 7%; }
+
 .paln-tip-02>li{padding:1rem 1.4rem 1rem 1.4rem; }
 .paln-tip-noBorder>li{border:none}
-.tip-label-2 .icon-buy { position: absolute; right: 0px; top: 0px; background-color: #fd7954; height: 100%; line-height: 2.8rem; width: 1.8rem; border-bottom-right-radius: 2px; border-top-right-radius: 2px; }
-.i-buy { border-radius: 15px; background-color: #F74A35; color: #fff; font-size: 1.4rem; text-align: center; line-height: 1.8rem; font-size: 1.1rem; display: inline-block; padding: 3px 8px; position: absolute; top: -1.2rem; left: 50%; margin-left: -52px; width: 90px; }
-.i-buy:hover { background-color: #f60; }
-
-
 
 
 
@@ -304,11 +300,12 @@ opacity: 0.8;
 .list-hover li.hover{background-color: #eeeeee;}
 
 // 专题新版
-// .tip-label-2{ vertical-align:top; position: relative; border:1px solid #ccc;  width:48%; min-height:100px;  padding:26px 15px 10px; text-align: center;  box-sizing: border-box; -webkit-box-sizing:border-box; margin-bottom: 2rem;}
-// .tip-label-2 .con{display:block; width:100%;  font-size:1.6rem}
-// .tip-label-2:nth-of-type(even){margin-left:4%;}
-// .i-buy{border-radius:15px; background-color:#F74A35; font-size:14px; color:#fff;  line-height:2.5rem; display:inline-block; width:90px; position: absolute; top:-1.2rem; left:50%; margin-left: -45px;}
-// .i-buy:hover{background-color:#f60}
+.tip-label-2{ vertical-align:top; position: relative; border:1px solid #ccc;  width:48%; min-height:100px;  padding:26px 15px 10px; text-align: center;  box-sizing: border-box; -webkit-box-sizing:border-box; margin-bottom: 2rem;}
+.tip-label-2 .con{display:block; width:100%;  font-size:1.6rem}
+.tip-label-2:nth-of-type(even){margin-left:4%;}
+// .tip-label-2 .icon-buy{position: absolute; right:0px; top:0px; background-color:#fd7954; height:100%; line-height:2.8rem; width:1.8rem; border-bottom-right-radius:2px; border-top-right-radius:2px;}
+.i-buy{border-radius:15px; background-color:#F74A35; font-size:14px; color:#fff;  line-height:2.5rem; display:inline-block; width:90px; position: absolute; top:-1.2rem; left:50%; margin-left: -45px;}
+.i-buy:hover{background-color:#f60}
 
 
 .select-fix,.fixed-btn{background-color:rgb(89,89,89); text-align:right; padding:1rem 1.4rem; color:#fff; font-size:1.8rem; position: fixed; bottom:0px; left:0px; width:100%; line-height:3.6rem; box-sizing:border-box; -webkit-box-sizing:border-box;}
@@ -338,6 +335,27 @@ opacity: 0.8;
     }
     
 }
+
+.fixed-btn-mini{
+	border-radius:10px;
+	text-align: center;
+	position: fixed; bottom:0.5rem; left:2%; width:96%; 
+	line-height:4rem;
+	font-size:1.8rem
+}
+.btn-bg-BrightGray{
+	background-color: #cbcbcb;
+	color:#fff;
+}
+.btn-bg-yellow{
+	background-color: $baseColor;
+	color:#fff;
+}
+.btn-bg-deeppink{
+	background-color: #eb5564;
+	color:#fff;
+}	
+// 
 
 .panl-list{padding:1rem 1.4rem;
     position: relative;
@@ -421,8 +439,12 @@ opacity: 0.8;
 
 @for $i from 1 through 9 {
     .col-flex-#{$i}{
-       flex: $i
+    	box-flex:$i;
+    	-webkit-box-flex: $i;
+      flex: $i;
+      -webkit-flex: $i;
     } 
+
 }
 
 .col-item.t-right{flex:3;-webkit-flex:3;}
@@ -445,6 +467,7 @@ opacity: 0.8;
 .mt-mini{margin-top: 1rem;}
 .mt-normal{margin-top: 3rem ;}
 .mt-big{margin-top: 5rem;}
+.mb-mini{margin-bottom: 1rem;}
 
 /*// popup*/
 .popup { height: 100%; width: 100%; position: absolute; top: 0px; left: 0px; display: none }
@@ -454,6 +477,8 @@ opacity: 0.8;
 .popup .btn { color: #007bda; flex: 1; -webkit-flex: 1; text-align: center; font-size: 1.6rem; border-top: 1px solid #efefef; height: 4.2rem; line-height: 4.2rem; }
 .popup .btn:nth-child(2) { border-left: 1px solid #efefef; }
 .popup .btn.hover { background-color: #f5f5f5; }
+.popup .shareTipImg{background: url("../img/share.png") no-repeat; background-size:contain; width:200px; height:200px; position: absolute; top:1rem; right:1rem; z-index:101;}
+
 .tipInfo .content { border-radius: 5px; background-color: #fff; }
 .tipInfo .popup-text { text-align: center; padding: 2rem 1rem; }
 .img-popup{position: absolute; top:0px; left:0px; z-index:150; width:100%; height: 100%; text-align: center; }

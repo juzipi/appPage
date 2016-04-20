@@ -1,5 +1,8 @@
 @charset "UTF-8";
 /*布局*/
+a {
+  color: #50c9c8; }
+
 .news .header {
   padding: 1rem 2rem 1rem;
   line-height: 1.5; }
@@ -148,4 +151,29 @@ article p {
 .fc-green {
   color: #66bd5f; }
 
-/*# sourceMappingURL=news.css.map */
+.spare-tip {
+  width: 80%;
+  margin: 0 auto;
+  font-size: 1.6rem;
+  padding-top: 2rem; }
+
+.art-sub dt, .art-say dt {
+  border-bottom: 1px solid #ddd;
+  line-height: 36px;
+  font-size: 1.6rem;
+  padding-left: 1rem;
+  color: #999; }
+
+.art-sub dd {
+  padding: 1rem;
+  color: #50c9c8;
+  text-indent: -1rem;
+  padding-left: 2rem; }
+
+.art-say .say-author {
+  color: #50c9c8;
+  line-height: 2; }
+
+.art-say dd {
+  padding: 0.5rem 1rem;
+  border-bottom: 1px solid #eee; }

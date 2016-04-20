@@ -54,6 +54,7 @@
 		$(document).ready(function(){ 
 				$(document).on("click",".parentList",function(){
 					// $(".priceDetail").hide();
+					// alert("you")
 					$(this).next().toggle();
 					$(this).find("i").toggleClass("icon-angle-down");
 				})

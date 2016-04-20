@@ -140,6 +140,9 @@ a.link-orange:link, a.link-orange:visited, a.link-orange:hover, a.link-orange:ac
 .font-c-orang {
   color: #f46523; }
 
+.font-c-green {
+  color: #5ab24e; }
+
 .font-b {
   font-weight: bold; }
 
@@ -770,11 +773,59 @@ a.link-orange:link, a.link-orange:visited, a.link-orange:hover, a.link-orange:ac
   margin-bottom: 0.5rem;
   color: #fff; }
 
+.tip-label-2 {
+  display: inline-block;
+  position: relative;
+  border: 1px solid #ccc;
+  width: 44%;
+  padding: 2rem 0.5rem;
+  text-align: center;
+  border-radius: 3px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  margin-bottom: 1.5rem;
+  min-height: 6rem;
+  vertical-align: top;
+  margin-top: 1rem; }
+
+.tip-label-2:nth-of-type(even) {
+  margin-left: 7%; }
+
 .paln-tip-02 > li {
   padding: 1rem 1.4rem 1rem 1.4rem; }
 
 .paln-tip-noBorder > li {
   border: none; }
+
+.tip-label-2 .icon-buy {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  background-color: #fd7954;
+  height: 100%;
+  line-height: 2.8rem;
+  width: 1.8rem;
+  border-bottom-right-radius: 2px;
+  border-top-right-radius: 2px; }
+
+.i-buy {
+  border-radius: 15px;
+  background-color: #F74A35;
+  color: #fff;
+  font-size: 1.4rem;
+  text-align: center;
+  line-height: 1.8rem;
+  font-size: 1.1rem;
+  display: inline-block;
+  padding: 3px 8px;
+  position: absolute;
+  top: -1.2rem;
+  left: 50%;
+  margin-left: -52px;
+  width: 90px; }
+
+.i-buy:hover {
+  background-color: #f60; }
 
 .paln-tip-02 .tip-title {
   position: relative;
@@ -808,42 +859,6 @@ a.link-orange:link, a.link-orange:visited, a.link-orange:hover, a.link-orange:ac
 
 .list-hover li.hover {
   background-color: #eeeeee; }
-
-.tip-label-2 {
-  vertical-align: top;
-  position: relative;
-  border: 1px solid #ccc;
-  width: 48%;
-  min-height: 100px;
-  padding: 26px 15px 10px;
-  text-align: center;
-  box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  margin-bottom: 2rem; }
-
-.tip-label-2 .con {
-  display: block;
-  width: 100%;
-  font-size: 1.6rem; }
-
-.tip-label-2:nth-of-type(even) {
-  margin-left: 4%; }
-
-.i-buy {
-  border-radius: 15px;
-  background-color: #F74A35;
-  font-size: 14px;
-  color: #fff;
-  line-height: 2.5rem;
-  display: inline-block;
-  width: 90px;
-  position: absolute;
-  top: -1.2rem;
-  left: 50%;
-  margin-left: -45px; }
-
-.i-buy:hover {
-  background-color: #f60; }
 
 .select-fix, .fixed-btn {
   background-color: #595959;
@@ -1188,7 +1203,7 @@ a.link-orange:link, a.link-orange:visited, a.link-orange:hover, a.link-orange:ac
   padding-bottom: 1rem;
   padding-top: 0.3rem; }
 
-.col-2 {
+.col-2, .col {
   display: -webkit-box;
   display: flex;
   display: -webkit-flex; }
@@ -1198,6 +1213,33 @@ a.link-orange:link, a.link-orange:visited, a.link-orange:hover, a.link-orange:ac
   flex: 2;
   -webkit-flex: 2;
   line-height: 3rem; }
+
+.col-flex-1 {
+  flex: 1; }
+
+.col-flex-2 {
+  flex: 2; }
+
+.col-flex-3 {
+  flex: 3; }
+
+.col-flex-4 {
+  flex: 4; }
+
+.col-flex-5 {
+  flex: 5; }
+
+.col-flex-6 {
+  flex: 6; }
+
+.col-flex-7 {
+  flex: 7; }
+
+.col-flex-8 {
+  flex: 8; }
+
+.col-flex-9 {
+  flex: 9; }
 
 .col-item.t-right {
   flex: 3;
@@ -1878,5 +1920,19 @@ a.link-orange:link, a.link-orange:visited, a.link-orange:hover, a.link-orange:ac
   -webkit-box-align: center;
   display: inline-flex;
   display: -webkit-inline-flex; }
+
+/* 160407 临时修补头部样式 */
+.plan-head {
+  position: relative; }
+  .plan-head h3 {
+    font-size: 2.2rem;
+    min-height: 5rem;
+    text-align: center; }
+  .plan-head .font-s-small {
+    position: absolute;
+    width: 90%;
+    left: 5%;
+    bottom: 2rem;
+    text-align: center; }
 
 /*# sourceMappingURL=css.css.map */
