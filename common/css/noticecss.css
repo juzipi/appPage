@@ -786,6 +786,12 @@ a.link-orange:link, a.link-orange:visited, a.link-orange:hover, a.link-orange:ac
   margin-bottom: 0.5rem;
   color: #fff; }
 
+.paln-tip-02 > li {
+  padding: 1rem 1.4rem 1rem 1.4rem; }
+
+.paln-tip-noBorder > li {
+  border: none; }
+
 .paln-tip-02 .tip-title {
   position: relative;
   left: 0;
@@ -1979,15 +1985,3 @@ a.link-orange:link, a.link-orange:visited, a.link-orange:hover, a.link-orange:ac
   display: -webkit-inline-flex; }
 
 /* 160407 临时修补头部样式 */
-.plan-head {
-  position: relative; }
-  .plan-head h3 {
-    font-size: 2.2rem;
-    min-height: 5rem;
-    text-align: center; }
-  .plan-head .font-s-small {
-    position: absolute;
-    width: 90%;
-    left: 5%;
-    bottom: 2rem;
-    text-align: center; }
