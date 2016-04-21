@@ -354,6 +354,13 @@ a.link-orange:link, a.link-orange:visited, a.link-orange:hover, a.link-orange:ac
 .icon-del:before {
   content: "\e905"; }
 
+.icon-mail {
+  color: #FFF;
+  font-size: 3rem; }
+
+.icon-mail:before {
+  content: "\e04c"; }
+
 .i-art {
   background: url(../img/icon.png) no-repeat 0px -74px; }
 
@@ -1985,3 +1992,5 @@ a.link-orange:link, a.link-orange:visited, a.link-orange:hover, a.link-orange:ac
   display: -webkit-inline-flex; }
 
 /* 160407 临时修补头部样式 */
+
+/*# sourceMappingURL=noticecss.css.map */

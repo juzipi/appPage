@@ -410,7 +410,32 @@ body{
 	}
 }
 
-
+// 20160422
+.remind-state{
+	background-color: #f2f2f2;
+	padding:2rem 1rem;
+	.iconBox{
+		background-color: #4e83e3;
+		width: 50px;
+		height: 50px;
+		border-radius:50px;
+		display: inline-block;
+		margin-bottom: 0.5rem;
+		margin-top: 3.5rem
+	}
+	.icon-mail{
+		line-height: 50px;
+	}
+	.icon-edit{
+		line-height: 50px;
+		color: #fff;
+		font-size: 2.4rem;
+	}
+	.icon-checkCircle{
+		font-size: 12rem;
+		color: #dedddb;
+	}
+}
 
 
 

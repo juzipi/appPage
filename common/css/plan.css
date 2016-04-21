@@ -328,3 +328,26 @@ body {
     font-size: 16px;
     padding-top: 10px;
     padding-bottom: 10px; }
+
+.remind-state {
+  background-color: #f2f2f2;
+  padding: 2rem 1rem; }
+  .remind-state .iconBox {
+    background-color: #4e83e3;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    margin-top: 3.5rem; }
+  .remind-state .icon-mail {
+    line-height: 50px; }
+  .remind-state .icon-edit {
+    line-height: 50px;
+    color: #fff;
+    font-size: 2.4rem; }
+  .remind-state .icon-checkCircle {
+    font-size: 12rem;
+    color: #dedddb; }
+
+/*# sourceMappingURL=plan.css.map */

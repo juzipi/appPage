@@ -17,6 +17,20 @@
 	</style>
 
 <div class="bd">
+
+	<div class="remind-state col t-c">
+		<div class="col-flex-1">
+			<div class="iconBox"><span class="icon-mail"></span></div>
+			<div class="">历史完成</div>
+		</div>
+		<div class="col-flex-2">
+			<span class="icon-checkCircle"></span>
+		</div>
+		<div class="col-flex-1">
+			<div class="iconBox"><span class="icon-edit"></span></div>
+			<div class="">修改提醒</div>
+		</div>
+	</div>
 <ul class="paln-tip paln-tip-02">
 		<li>
 			<h4 class="tip-title" onclick="location.pathname='page/plan/pregnant-history.html'"><i class="i-phase i-paln"></i>今日要做</h4>
@@ -100,58 +114,6 @@
 	<script src="../../common/js/fastclick.js" ></script>
 	<script src="../../common/js/iscroll.js" ></script>
 	<script src="../../common/js/view_V8.js" ></script>
-	<script type="text/javascript">
-	$(document).ready(function(){ 
-		// 瀑布流
-
-		var boxArr = $('.feedBox'),
-				 // num = Math.floor($("#feedColumn")[0].clientWidth / boxArr[0].offsetWidth),
-				 num = 2,
-				 columnHeightArr = [];
-				 console.log(boxArr[0].offsetWidth)
-columnHeightArr.length = num;
-
-boxArr.each(function(index, item) {
-　　if (index < num) {
-　　　　columnHeightArr[index] = $(item).height();
-　　} else {
-　　　　var minHeight = Math.min.apply(null, columnHeightArr),
- minHeightIndex = $.inArray(minHeight, columnHeightArr);
-
-　　　　$(item).css({
- 　　position: 'absolute',
- 　　top: minHeight,
- 　　left: boxArr.eq(minHeightIndex).position().left
- });
-
-　　　　columnHeightArr[minHeightIndex] += $(item).height();
-　　}
-});
-
-$("#feedColumn").height($("#feedColumn li").last()[0].offsetTop+$("#feedColumn li").last().height())
-	})
-
-	// 切换显示
-	// $(".tab").on("click",".tab-item",function(){
-	// 	var index= $(this).index();
-	// 	$(this).addClass('cur').siblings().removeClass('cur');
-	// 	$("#tabBox").find('.tab-bd-item').eq(index).show().siblings().hide();
-	// })
-	// 赞同切换
-	// $("#other").on('click','.qa-right', function(event) {
-	// 	var good = $(this).find('.i-good');
-	// 	var goodNum = $(this).find('.good-num');
-	// 	var n  = parseInt(goodNum.html());
-	// 	if(good.hasClass('cur')){
-	// 		good.removeClass('cur');
-	// 		goodNum.html(n+1);
-	// 	}else{
-	// 		good.addClass('cur');
-	// 		goodNum.html(n-1);
-	// 	}
-	// 	event.preventDefault();
-	// 	/* Act on the event */
-	// });
-	</script>
+	
 </body>
 </html>

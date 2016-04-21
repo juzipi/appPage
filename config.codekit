@@ -178,6 +178,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/common\/img\/head.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 35690,
+		"inputAbbreviatedPath": "\/common\/img\/head.png",
+		"outputAbbreviatedPath": "\/common\/img\/head.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/common\/img\/head_bg.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1379,7 +1390,7 @@
 		},
 	"\/common\/js\/min\/untitled-min.js": {
 		"fileType": 64,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/common\/js\/min\/untitled-min.js",
 		"outputAbbreviatedPath": "\/common\/js\/min\/min\/untitled-min-min.js",
@@ -1401,7 +1412,7 @@
 		},
 	"\/common\/js\/min\/view-min.js": {
 		"fileType": 64,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/common\/js\/min\/view-min.js",
 		"outputAbbreviatedPath": "\/common\/js\/min\/min\/view-min-min.js",
@@ -2278,7 +2289,7 @@
 		"useLibsass": 0
 		},
 	"\/st\/sass\/ie.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -2326,7 +2337,7 @@
 		"useLibsass": 0
 		},
 	"\/st\/sass\/news.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -2342,7 +2353,7 @@
 		"useLibsass": 0
 		},
 	"\/st\/sass\/noticecss.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -2422,7 +2433,7 @@
 		"useLibsass": 0
 		},
 	"\/st\/sass\/tool.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
