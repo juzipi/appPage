@@ -22,6 +22,18 @@
 <!-- <script src="../../common/js/upiscroll.js" ></script> -->
 <script src="../../common/js/view_V8.js" ></script>
 <script type="text/javascript">
+$(function(){
+    var _h1 = $("#thelist").height();
+	var _h2 = $(window).height()-100;
+	if(_h1<_h2){
+		$("#pullUp").hide()
+	}else{
+		$("#pullUp").show()
+	}
+    
+})
+
+
 
 var myScroll,
 	pullDownEl, pullDownOffset,
@@ -117,13 +129,13 @@ document.addEventListener('DOMContentLoaded', loaded, false);
 
 </head>
 <body>
-<div id="header">
+<!-- <div id="header">
 <ul class="paln-tip paln-tip-02 bg-white">
 		<li>
 		<h4 class="tip-title"><i class="i-history i-paln"></i>历史纪录</h4>
 	</li>
 	</ul>
-</div>
+</div> -->
 <div id="wrapper">
 	<div id="scroller">
 		<!-- <div id="pullDown">

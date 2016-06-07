@@ -178,7 +178,8 @@ body{
 
 #wrapper {
 	position:absolute; z-index:1;
-	top:4.8rem; bottom:0; left:0;
+	top:0rem;
+	 bottom:0; left:0;
 	width:100%;
 	box-sizing:border-box;
 	-webkit-box-sizing:border-box;
@@ -432,6 +433,10 @@ body{
 		font-size: 2.4rem;
 	}
 	.icon-checkCircle{
+		font-size: 12rem;
+		color: $fontGreenColor;
+	}
+	.icon-checkCircle.dis{
 		font-size: 12rem;
 		color: #dedddb;
 	}

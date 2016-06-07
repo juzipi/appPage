@@ -159,10 +159,14 @@
 
 .detail-head {
   padding: 10px 0px;
-  border-color: #ddd; }
+  border-color: #ddd;
+  font-size: 1.8rem; }
+  .detail-head .font-c-red {
+    font-size: 1.2rem; }
 
 .detail-main {
-  margin-top: 10px; }
+  margin-top: 10px;
+  padding-bottom: 50px; }
   .detail-main .fullWidth {
     margin-top: 10px; }
 
@@ -196,3 +200,5 @@
     left: 100%; }
   .imgSlider img {
     width: 100%; }
+
+/*# sourceMappingURL=my.css.map */

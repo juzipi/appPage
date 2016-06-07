@@ -101,6 +101,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/common\/css\/video.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/common\/css\/video.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/common\/data\/priceClass.json": {
 		"fileType": 524288,
 		"ignore": 1,
@@ -145,17 +154,6 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1
 		},
-	"\/common\/img\/1.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 202477,
-		"inputAbbreviatedPath": "\/common\/img\/1.jpg",
-		"outputAbbreviatedPath": "\/common\/img\/1.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/common\/img\/border.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -171,9 +169,20 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 61609,
+		"initialSize": 9196,
 		"inputAbbreviatedPath": "\/common\/img\/food_icon.png",
 		"outputAbbreviatedPath": "\/common\/img\/food_icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/common\/img\/food_icon_bak.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 61609,
+		"inputAbbreviatedPath": "\/common\/img\/food_icon_bak.png",
+		"outputAbbreviatedPath": "\/common\/img\/food_icon_bak.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -248,9 +257,20 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 49939,
+		"initialSize": 21891,
 		"inputAbbreviatedPath": "\/common\/img\/icon_plan.png",
 		"outputAbbreviatedPath": "\/common\/img\/icon_plan.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/common\/img\/icon_plan_bak.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 143681,
+		"inputAbbreviatedPath": "\/common\/img\/icon_plan_bak.png",
+		"outputAbbreviatedPath": "\/common\/img\/icon_plan_bak.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -391,7 +411,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 21527,
+		"initialSize": 18072,
 		"inputAbbreviatedPath": "\/common\/img\/no_answer.png",
 		"outputAbbreviatedPath": "\/common\/img\/no_answer.png",
 		"outputPathIsOutsideProject": 0,
@@ -402,7 +422,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 25511,
+		"initialSize": 20163,
 		"inputAbbreviatedPath": "\/common\/img\/no_answer_detail.png",
 		"outputAbbreviatedPath": "\/common\/img\/no_answer_detail.png",
 		"outputPathIsOutsideProject": 0,
@@ -1311,6 +1331,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/common\/img\/video\/up_data.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4712,
+		"inputAbbreviatedPath": "\/common\/img\/video\/up_data.png",
+		"outputAbbreviatedPath": "\/common\/img\/video\/up_data.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/common\/img\/video\/user_img.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12955,
+		"inputAbbreviatedPath": "\/common\/img\/video\/user_img.png",
+		"outputAbbreviatedPath": "\/common\/img\/video\/user_img.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/common\/js\/fastclick.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -1482,6 +1524,39 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/common\/js\/upiscroll.js",
 		"outputAbbreviatedPath": "\/common\/js\/min\/upiscroll-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/common\/js\/video.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/common\/js\/video.js",
+		"outputAbbreviatedPath": "\/common\/js\/min\/video-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/common\/js\/video_hls.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/common\/js\/video_hls.js",
+		"outputAbbreviatedPath": "\/common\/js\/min\/video_hls-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/common\/js\/videojs.hls.min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/common\/js\/videojs.hls.min.js",
+		"outputAbbreviatedPath": "\/common\/js\/min\/videojs.hls.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -2224,6 +2299,42 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/page\/video\/apply_anchor.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/page\/video\/apply_anchor.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/page\/video\/ra.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/page\/video\/ra.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/page\/video\/ra_protocol.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/page\/video\/ra_protocol.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/page\/video\/wait.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/page\/video\/wait.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/st\/sass\/css.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -2441,6 +2552,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/st\/sass\/tool.scss",
 		"outputAbbreviatedPath": "\/common\/css\/tool.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/st\/sass\/video.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/st\/sass\/video.scss",
+		"outputAbbreviatedPath": "\/common\/css\/video.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -3007,7 +3134,7 @@
 	"jadeAutoOutputPathStyle": 0,
 	"jadeCompileDebug": 1,
 	"jadeOutputStyle": 0,
-	"javascriptAutoOutputPathEnabled": 1,
+	"javascriptAutoOutputPathEnabled": 0,
 	"javascriptAutoOutputPathFilenamePattern": "*-min.js",
 	"javascriptAutoOutputPathRelativePath": "\/min",
 	"javascriptAutoOutputPathReplace1": "",

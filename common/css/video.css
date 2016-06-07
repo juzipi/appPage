@@ -1,0 +1,125 @@
+.add-anchor {
+  width: 120px;
+  height: 120px;
+  border-radius: 100px;
+  background-color: #35c3c3;
+  line-height: 180px;
+  margin: 2rem auto 1rem; }
+
+.btn-add-anchor {
+  background-color: #f7f4f3;
+  border-radius: 20px;
+  line-height: 46px;
+  width: 80%;
+  margin: 1rem auto; }
+
+.btn-add-anchor:hover {
+  background-color: #f0f0f0; }
+
+.ra-form-item {
+  padding: 1rem;
+  display: flex;
+  display: -webkit-flex;
+  justify-content: space-between;
+  -webkit-justify-content: space-between;
+  border-bottom: 1px solid #f0f0f0; }
+  .ra-form-item .title {
+    flex: 1; }
+  .ra-form-item .input {
+    flex: 1;
+    text-align: right;
+    font-size: 1.4rem; }
+    .ra-form-item .input input {
+      text-align: right;
+      color: #d95f4a;
+      font-size: 1.4rem;
+      width: 100%; }
+    .ra-form-item .input input::-webkit-input-placeholder {
+      text-align: right;
+      font-size: 1.4rem; }
+
+.ra-photo-updata {
+  display: flex;
+  display: -webkit-flex;
+  justify-content: space-between;
+  -webkit-justify-content: space-between; }
+
+.ra-photo {
+  flex: 1;
+  -webkit-flex: 1;
+  width: 1%;
+  background: url("../img/video/up_data.png") no-repeat center #f5f5f5;
+  height: 0px;
+  width: 100%;
+  padding-bottom: 50%;
+  display: block;
+  position: relative;
+  background-size: 50% auto;
+  border: 1px dashed #d1d1d1; }
+  .ra-photo input {
+    border: 1px daths #999;
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border: none;
+    overflow: hidden;
+    z-index: 10;
+    opacity: 0; }
+
+.ra-photo-ex {
+  flex: 1;
+  -webkit-flex: 1;
+  width: 1%;
+  text-align: center; }
+  .ra-photo-ex img {
+    width: 80%; }
+
+#ra-imglist {
+  flex: 1;
+  -webkit-flex: 1;
+  display: none;
+  position: relative;
+  text-align: center; }
+  #ra-imglist img {
+    width: 100%; }
+  #ra-imglist .icon-cross {
+    position: absolute;
+    right: -0.5rem;
+    top: -2rem;
+    font-size: 2.6rem;
+    width: 3.5rem;
+    height: 3.5rem;
+    background-color: #f46523;
+    border-radius: 100px;
+    line-height: 3.5rem;
+    color: #fff; }
+
+.Protocol {
+  padding-bottom: 80px; }
+
+.Protocol-title {
+  font-size: 2rem;
+  text-align: center;
+  padding: 20px; }
+
+.Protocol-content {
+  padding: 10px 15px;
+  color: #666;
+  font-size: 1.6rem; }
+
+.vjs-hidden, .vjs-big-play-button {
+  display: none; }
+
+.video-js .vjs-control-bar {
+  display: none; }
+
+#example-video {
+  width: 100%;
+  height: auto; }
+
+#example-video_html5_api {
+  width: 100%;
+  height: auto; }

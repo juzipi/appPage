@@ -110,6 +110,15 @@ a.link-orange:link, a.link-orange:visited, a.link-orange:hover, a.link-orange:ac
 .icon-del:before { content: "\e905"; }
 .icon-mail{color:#FFF; font-size:3rem;  }
 .icon-mail:before { content: "\e04c"; }
+.icon-user-plus{color:#fff; font-size:8rem;  }
+.icon-user-plus:before { content: "\e906"; }
+.icon-board,.icon-sina-weibo{color:#fff; font-size:2.4rem; display:block; position: relative; line-height:36px;  }
+.icon-board:before,.icon-sina-weibo:before { content: "\e907"; width:36px;  height:36px; display:block; position: absolute; left:6px; top:5px; border-radius:40px; background-color: #fd3e5a}
+.icon-sina-weibo{ }
+.icon-sina-weibo:before { content: "\e908"; }
+.icon-wait{font-size:3rem; color:$baseColor;}
+.icon-wait:before { content: "\e909"; }
+
 
 
 // icon 图片 公用
@@ -197,6 +206,27 @@ $btnColor: $baseColor;
 
     } 
 }
+.btn-fix-bottom{
+	width:100%;
+	position: fixed;
+	bottom:0px;
+	left:0px;
+}
+.btn-fix-bottom .btn{
+	text-align: center;
+	font-size:1.8rem;
+	line-height:4rem;
+	border-top:1px solid #ddd;
+}
+.btn-fix-bottom .btn.hover{
+	background-color: #f4f4f4;
+}
+.btn-fix-bottom .btn:last-child{
+	border-left:1px solid #ddd;
+}
+
+
+
 $lineHeight: 2 3 4 5;
 @for $i from 1 through length($btnHeight) {
     .lineHeight-#{nth($size, $i)}{
@@ -304,9 +334,9 @@ opacity: 0.8;
 // 专题新版
 .tip-label-2{ vertical-align:top; position: relative; border:1px solid #ccc;  width:48%; min-height:100px;  padding:26px 15px 10px; text-align: center;  box-sizing: border-box; -webkit-box-sizing:border-box; margin-bottom: 2rem;}
 .tip-label-2 .con{display:block; width:100%;  font-size:1.6rem}
-.tip-label-2:nth-of-type(even){margin-left:4%;}
+.tip-label-2:nth-of-type(even){margin-left:2%;}
 // .tip-label-2 .icon-buy{position: absolute; right:0px; top:0px; background-color:#fd7954; height:100%; line-height:2.8rem; width:1.8rem; border-bottom-right-radius:2px; border-top-right-radius:2px;}
-.i-buy{border-radius:15px; background-color:#F74A35; font-size:14px; color:#fff;  line-height:2.5rem; display:inline-block; width:90px; position: absolute; top:-1.2rem; left:50%; margin-left: -45px;}
+.i-buy{border-radius:15px; background-color:#F74A35; font-size:14px; color:#fff;  line-height:2.2rem; display:inline-block; width:82px; position: absolute; top:-1.2rem; left:50%; margin-left: -45px;}
 .i-buy:hover{background-color:#f60}
 
 
@@ -858,4 +888,22 @@ $fixedBottom : 4.4rem;
 //   text-align: center;
 // 	}
 // }
+
+// 提示页面
+.wait-tip{
+	padding:20px;
+	padding-top: 40px;
+	text-align: center;
+	h2{
+		font-size: 2rem;
+	}
+	.icon-wait{
+		vertical-align: middle;
+		font-size: 4rem;
+	}
+	.wait-tip-text{
+		padding:10px 10px 20px 20px;
+		text-align: left
+	}
+}
 
