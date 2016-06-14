@@ -11,7 +11,8 @@ var _defult={
 	imgAuto:function(imgID){
 		var img = $(imgID)[0];
 		var url = $(imgID).attr("src");
-		var W = $(".paln-head").width(), H = $(".paln-head").height();
+		var par = $(imgID).parent();
+		var W = par.width(), H = par.height();
 		var bl=W/H;
 		if(!$(imgID)[0]){
 			return;

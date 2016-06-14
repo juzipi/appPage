@@ -92,6 +92,11 @@
 	display:none;
 	position: relative;
 	text-align: center;
+	li{
+		height: 0px;
+		padding-bottom:100%;
+		overflow: hidden;
+	}
 	img{
 		width: 100%;
 	}
@@ -121,22 +126,12 @@
 .Protocol-content{
 	padding:10px 15px;
 	color:#666;
-	font-size:1.6rem;
+	font-size:1.4rem;
+	color:#777;
+	.font-s-big{
+		padding:10px 0px;
+		color: #333;
+	}
 }
 
 
-.vjs-hidden,.vjs-big-play-button{
-	display:none;
-}
-.video-js .vjs-control-bar{
-	display:none;
-}
-#example-video{
-	width:100%;
-	height:auto;
-	
-}
-#example-video_html5_api{
-	width:100%;
-	height:auto;
-}

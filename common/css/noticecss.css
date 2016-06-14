@@ -2057,5 +2057,8 @@ a.link-orange:link, a.link-orange:visited, a.link-orange:hover, a.link-orange:ac
   .wait-tip .wait-tip-text {
     padding: 10px 10px 20px 20px;
     text-align: left; }
+  .wait-tip .icon-checkCircle {
+    color: #51ad89;
+    font-size: 8rem; }
 
 /*# sourceMappingURL=noticecss.css.map */

@@ -83,6 +83,10 @@
   display: none;
   position: relative;
   text-align: center; }
+  #ra-imglist li {
+    height: 0px;
+    padding-bottom: 100%;
+    overflow: hidden; }
   #ra-imglist img {
     width: 100%; }
   #ra-imglist .icon-cross {
@@ -108,18 +112,8 @@
 .Protocol-content {
   padding: 10px 15px;
   color: #666;
-  font-size: 1.6rem; }
-
-.vjs-hidden, .vjs-big-play-button {
-  display: none; }
-
-.video-js .vjs-control-bar {
-  display: none; }
-
-#example-video {
-  width: 100%;
-  height: auto; }
-
-#example-video_html5_api {
-  width: 100%;
-  height: auto; }
+  font-size: 1.4rem;
+  color: #777; }
+  .Protocol-content .font-s-big {
+    padding: 10px 0px;
+    color: #333; }
