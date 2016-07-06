@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no"/>
+	<title>主播审核</title>
+	<link rel="stylesheet" type="text/css" href="base.css">
+</head>
+<body>
+	<div class="page">
+		
+		<div class="wrap bg-white" >	
+				<h3 class="f-c-green title-02">来来来！分享直播免费拿狗粮</h3>
+				<h3 class="title-01">
+					狗管家是国内首家宠物直播平台，专注为主人们提供丰富多彩养狗生活。
+					<p style="padding: 10px 0px;">你只需分享三次你喜欢的直播间到朋友圈，即可获得醇粹天然狗粮1袋。还等什么快快参加吧！</p>
+				</h3>
+			<h3 class="title-01">拿奖要求</h3>
+			<div class="p-b">
+			<p>1、进入任意直播间，点击“···”按钮，选择“分享”，把直播分享至朋友圈（P.S.：不得设置仅个人或好友可见）</p>
+			<p>2、将分享成功的朋友圈截图上传至狗管家，以供审核,点击<span class="f-c-orange">“广场-直播观众大礼包”</span>上传
+</p>
+			<p>3、单日多次分享只计算一次为有效分享，举例：需要三天时间分享三个不同的直播到朋友圈</p>
+			</div></div>
+			<div class="wrap">
+				<div class="clear">
+					<div class="share-sub">
+						<div class="title-03">第一次分享</div>
+						<div class="icon-suc dis" id="suc0"></div>
+						<div class="line"></div>
+						<div class="title-03">第二次分享</div>
+						<div class="icon-suc dis" id="suc1"></div>
+						<div class="line"></div>
+						<div class="title-03">第三次分享</div>
+						<div class="icon-suc dis" id="suc2"></div>
+					</div>
+					<div class="share-img">
+						<div id="wrapPhoto0" class="wrapPhoto"></div>
+						<div class="share-photo one">
+							<input type="file" class="oneup" id="UpPhotoOne" value="图片上传" accept="image/jpeg,image/gif,image/png" capture="camera">
+						</div>
+						<div id="wrapPhoto1" class="wrapPhoto"></div>
+						<div class="share-photo two">
+							<input type="file" class="disUp" id="UpPhotoTwo" value="图片上传" accept="image/jpeg,image/gif,image/png" capture="camera">
+						</div>
+						<div id="wrapPhoto2" class="wrapPhoto"></div>
+						<div class="share-photo three">
+							<input type="file"  class="disUp" id="UpPhotoThree" value="图片上传" accept="image/jpeg,image/gif,image/png" capture="camera">
+						</div>
+					</div>
+				</div>
+				<!-- <div class="btn-box"><div class="btn btn-green" id="J_upImg">上传图片</div><div class="btn btn-dis">提交审核</div></div> -->
+				
+				<div class="btn btn-green">提交审核</div>				
+				<!-- 注销状态 -->
+				
+		</div>
+	</div>
+
+	<!-- popup  -->
+	<div class="popup">
+		<div class="mask"></div>
+		<div class="content enter-phone">
+			<h2>填写手机号</h2>
+			<input type="tel" value="" name="" class="box" />
+			<div class="btn-sure">确认</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="http://www.fdog.cn/htdocs/comApp/zepto/zepto.js"></script>
+	<script type="text/javascript"  src="../../common/js/mobileBUGFix.mini.js"></script>
+<script type="text/javascript"  src="../../common/js/localResizeIMG2.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){ 
+			var _winHeight = $(window).height();
+			var _docHeight = $(document).height();
+			if(_docHeight<_winHeight){
+				$(".mask").height(_winHeight)
+			}else{
+				$(".mask").height(_docHeight)
+			}
+
+			var photoHeight = $(".share-photo").height();
+			$(".share-sub").css("marginTop",photoHeight/3)
+			$(".line").height(photoHeight-70);
+
+
+			var photoUpdata = function(upbox,wrapbox,iconSuc){
+				
+				var viewImg = $(wrapbox);
+				var parent = $(upbox).parent();
+        var imgurl = '';
+        var imgcount = $(wrapbox).index();
+        $(upbox).localResizeIMG({
+            width: 320,
+            quality: 0.5,
+            success: function (result) {
+            		alert(result)
+                if (result) {
+                	$(iconSuc).removeClass('dis');
+                		viewImg.show();
+                    viewImg.html('<span class="icon-close">x</span><div class="userUpBox"><img class="userUpImg" src="' + result.base64 + '"/></div><input type="hidden" id="file'
+                    + imgcount
+                    + '" name="fileup[]" value="'
+                    + result.clearBase64 + '">');
+                    
+                    parent.hide();
+                    
+                    // imgcount++;
+                }
+                // console.log(imgcount)
+                if(imgcount==0){
+                	$("#UpPhotoTwo").removeClass("disUp")
+                }else if(imgcount==2){
+                	$("#UpPhotoThree").removeClass("disUp");
+                	$("#wrapPhoto0 .icon-close").hide();
+                }else if(imgcount==4){
+                	$("#wrapPhoto0 .icon-close").hide();
+                	$("#wrapPhoto1 .icon-close").hide();
+                }
+            }
+        });
+			}
+
+			photoUpdata("#UpPhotoOne","#wrapPhoto0","#suc0");
+			photoUpdata("#UpPhotoTwo","#wrapPhoto1","#suc1");
+			photoUpdata("#UpPhotoThree","#wrapPhoto2","#suc2");
+     	
+     	$(".icon-close").live("click",function(){
+      		$(this).parent().next().show();
+      		var index = $(this).parent().index();
+      		if(index == 0){
+      			$("#suc0").addClass("dis");
+      			$("#UpPhotoTwo").addClass("disUp");
+      		}else if(index == 2){
+      			$("#wrapPhoto0 .icon-close").show();
+      			$("#suc1").addClass("dis");
+      			$("#UpPhotoThree").addClass("disUp");
+      		}else if(index == 4){
+      			$("#wrapPhoto1 .icon-close").show();
+      			$("#suc2").addClass("dis");
+      		}
+
+          $(this).parent().empty();
+                        
+      });
+
+			// $("#UpPhotoOne").on("change",function(){
+			// 	console.log("up")
+			// 	photoUpdata("#UpPhotoOne","#wrapPhoto0","#suc0");
+			// 	console.log(document.querySelector("#file0"));
+			// })
+			// var storage = window.localStorage;
+
+     // 
+     $(".disUp").live("click",function(even){
+     		alert("还没有到时间喔，请耐心等待！");
+     		even.preventDefault();
+     })
+
+     // $("#J_upImg").on("click",function(){
+	    //  		$(".icon-close").hide();
+     // })
+
+     // 寻找已有数据
+     // for(var i = 0; i<0; i++){
+	    //  	$("#wrapPhoto"+i).show();
+	    //  	$("#wrapPhoto"+i).next().hide();
+	    //  	$("#suc"+i).removeClass("dis")
+	    //  	$("#wrapPhoto"+(i+1)).next().removeClass("disUp");
+	    //  	// $("#wrapPhoto"+i).html('<img class="userUpImg" src="data:image/jpeg;base64,' + _v + '"/>')
+     // }
+
+
+
+    
+
+
+		})
+
+
+
+	</script>
+</body>
+</html>

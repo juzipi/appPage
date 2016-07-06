@@ -92,13 +92,13 @@
   #ra-imglist .icon-cross {
     position: absolute;
     right: -0.5rem;
-    top: -2rem;
-    font-size: 2.6rem;
-    width: 3.5rem;
-    height: 3.5rem;
+    top: -1.5rem;
+    font-size: 2rem;
+    width: 2.6rem;
+    height: 2.6rem;
     background-color: #f46523;
     border-radius: 100px;
-    line-height: 3.5rem;
+    line-height: 2.5rem;
     color: #fff; }
 
 .Protocol {

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no"/>
+	<title>主播审核</title>
+	<link rel="stylesheet" type="text/css" href="base.css">
+</head>
+<body>
+	<div class="page">
+		<header class="header">
+			<img src="img/head_01.jpg">
+		</header>
+		<div class="wrap">
+			<h3 class="title-01">管家邀请你直播养狗生活，争做明星汪</h3>
+			<div class="p-b">开通狗管家直播即可获得蓝氏狗粮1磅+卡滋乐罐头2个套装。</div>
+			<h3 class="title-01">拿奖要求</h3>
+			<div class="p-b">
+				<p>1、找到直播页面，点击头图“我也要直播”，实名认证，开通狗管家直播；</p>
+				<p>2、直播结束后点击“完成并保存”，以便我们审核。（PS：直播时长超过<span class="f-c-orange">30分钟</span>才有保存按钮）；</p>
+				<p>3、不得出现挂机、暴力、色情、等不恰当或违法内容；</p>
+				<p>4、至少有10个观众和你交流过</p>
+			</div>
+			<h3 class="title-01">审核时间</h3>
+			<div class="p-b">
+				<p>1.如果您完成了以上操作，请点击下方<span class="f-c-orange">“已完成，求审核”</span>按钮，填写手机号码，我们的工作人员会在2个工作日内完成审核。</p>
+				<p>2.审核通过我们将以。短信通知您在<span class="f-c-orange">“广场-首播领奖”</span>填写收件地址，领取首播礼包</p>
+			</div>
+			<div class="btn btn-green">已完成，求审核</div>
+		</div>
+	</div>
+	<div class="popup" style="display: block">
+		<div class="mask"></div>
+		<div class="content enter-phone">
+			<h2>填写手机号</h2>
+			<input type="tel" value="" name="" class="box" />
+			<div class="btn-sure">确认</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="http://www.fdog.cn/htdocs/comApp/zepto/zepto.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){ 
+			var winHeight = $(window).height();
+			var docHeight = $(document).height();
+			if(docHeight<winHeight){
+				$(".mask").height(winHeight)
+			}else{
+				$(".mask").height(docHeight)
+			}
+			
+		})
+	</script>
+</body>
+</html>

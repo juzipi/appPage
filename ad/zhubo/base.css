@@ -1,0 +1,119 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, hr, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figure, figcaption, hgroup, menu, footer, header, nav, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; }
+embed { width: 100%; height: auto; }
+html { -ms-touch-action: manipulation; touch-action: manipulation; font-size: 62.5%; }
+/* 延迟300秒click事件 */
+article, aside, canvas, figure, sub, figure img, figcaption, hgroup, footer, header, nav, section, audio, video { display: block; }
+a, img { border: 0; }
+dl, dt, dd, ul, ol, li { list-style: none; }
+i, em { font-style: normal; }
+a { text-decoration: none; color: #607fa6; }
+html { -webkit-text-size-adjust: none; }
+* { -webkit-tap-highlight-color: transparent; -webkit-touch-callout: none; -webkit-user-select:none;}
+input { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-user-select: auto; -webkit-appearance: none; border-style: none; background-color: transparent; -webkit-tap-highlight-color: transparent; outline: none; -webkit-user-select:initial }
+input[type="checkbox"]:focus, input[type="submit"]:focus, input[type="reset"]:focus, input[type="radio"]:focus { outline: 1px solid #6FA1D9 !important; -webkit-user-select:initial }
+textarea{-webkit-user-select:initial}
+body { font-family: "Helvetica Neue", Helvetica, "Hiragino Sans GB", "Microsoft YaHei", Arial, sans-serif; font-size: 1.4rem; line-height: 1.5; color: #666; background-color: #f5f5f5;}
+p { line-height: 1.6; }
+h2, h3 { font-size: 100%; font-weight: normal; }
+ul, li { margin: 0px; padding: 0px; list-style: none; }
+select { -webkit-appearance: none; }
+.none{display: none;}
+.show{display: inline;}
+.bg-black{background: #000;}
+.t-c{text-align: center;}
+.t-l{text-align: left;}
+.clear:after { display:block; content:''; clear:both; visibility:hidden }
+.box{box-sizing:border-box; -webkit-box-sizing:border-box;}
+@media screen and (min-width: 1024px) {
+	.page{width: 360px; margin: 0 auto; }
+}
+.wrap{
+	padding: 10px 4%;
+}
+.header img{
+	width: 100%;
+	max-height: 300px;
+	overflow: hidden;
+}
+.title-01{
+	line-height: 2;
+	font-size: 1.6rem;
+	color: #000;
+	font-weight: bold;
+}
+/*font*/
+.f-s-mini{font-size: 1.2rem;}
+.f-s-big{font-size: 1.8rem;}
+.f-s-vbig{font-size: 2rem;}
+.f-s-vvbig{font-size: 3rem;}
+.f-c-red{color: #C65C5E;}
+.f-c-yellow{color: #E6AA76;}
+.f-c-green{color: #59b34e;}
+.f-c-blue{color: #2a31f5;}
+.f-c-orange{color: #f60;}
+.f-c-gray{color: #A7A7A7;}
+
+.p-b{padding-bottom: 15px;}
+
+
+.btn{text-align: center; line-height: 40px; border-radius: 5px; font-size: 1.8rem;}
+.btn-green{background-color: #67bd5e; color: #fff; }
+
+
+
+
+/*// popup*/
+.popup { height: 100%; width: 100%; position: absolute; top: 0px; left: 0px; display: none }
+.popup .mask { height: 100%; width: 100%; position: absolute; top: 0px; left: 0px; background-color: rgba(0, 0, 0, 0.4); z-index: 100; }
+.popup .content { z-index: 101; position: fixed; top: 30%; margin-left: 10%; width: 80%; }
+.popup .btn-box { display: flex; display: -webkit-flex; }
+
+.enter-phone{
+	background-color: #f5f5f5;
+	width: 80%;
+	margin-left: 10%;
+}
+.enter-phone h2{
+	background-color: #3ccccc;
+	color: #fff;
+	font-size: 1.8rem;
+	text-align: center;
+	line-height: 50px;
+}
+.enter-phone input{
+	border-radius: 10px;
+	background-color: #fff;
+	line-height: 40px;
+	width: 90%;
+	margin-left: 5%;
+	margin-top: 10px;
+	padding-left: 10px;
+	font-size: 1.8rem
+}
+.enter-phone .btn-sure{
+	border-radius: 10px;
+	background-color: #ff7257;
+	color: #fff;
+	text-align: center;
+	line-height: 40px;
+	width: 90%;
+	margin-left: 5%;
+	margin-top: 10px;
+	font-size: 1.8rem;
+	margin-bottom: 10px;
+}
+
+.tip-box{
+	padding: 30px 40px;
+	text-align: center;
+}
+.tip-box h2{
+	font-size: 3rem;
+}
+.title-sub{
+	color: #000;
+	font-size: 1.6rem;
+	margin-top: 10px;
+	margin-bottom: 60px;
+}
+.btn-orang{background-color: #ff7355; line-height: 46px; text-align: center; color: #fff; font-size: 1.8rem; margin-top: 50px; border-radius: 10px;}

@@ -42,7 +42,7 @@
          <iframe id="tmp_downloadhelper_iframe" style="display: none;"></iframe>
 		</div>
 		<div class="ra-photo-ex">
-			<img src="../../common/img/test.jpg">
+			<img src="../../common/img/video/ra_ex.jpg">
 		</div>
 	</div>
 	<div class="font-c-gray font-s-small mt-tiny ">
@@ -67,10 +67,11 @@
         var imgcount = 0;
         $('#upload_image').localResizeIMG({
             width: 320,
-            quality: 0.8,
+            quality: 0.5,
             success: function (result) {
                 var status = true;
-                if (result.height > 1600) {
+                console.log(result)
+                if (result.height > 200) {
                     status = false;
                     alert("照片最大高度不超过1600像素");
                 }
@@ -79,7 +80,7 @@
                     alert("最多上传1张照片");
                 }
                 if (status) {
-                	viewImg.show();
+                		viewImg.show();
                     viewImg.append('<li><span class="pic_time"><span class="p_img"></span><em>50%</em></span></li>');
                     viewImg.find("li:last-child").html('<span class="icon-cross"></span><img class="userUpImg" src="' + result.base64 + '"/><input type="hidden" id="file'
                     + imgcount

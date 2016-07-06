@@ -4,6 +4,38 @@
 		"selected_items":
 		[
 			[
+				"remc",
+				"removeClass〔function〕"
+			],
+			[
+				"revm",
+				"removeClass〔function〕"
+			],
+			[
+				"pre",
+				"preventDefault()	Event"
+			],
+			[
+				"bgc",
+				"background-color: 〔property〕"
+			],
+			[
+				"wi",
+				"window"
+			],
+			[
+				"mar",
+				"marginTop	Style CSS"
+			],
+			[
+				"p",
+				"p	Tag"
+			],
+			[
+				"win",
+				"winHeight"
+			],
+			[
 				"par",
 				"parent〔function〕"
 			],
@@ -482,115 +514,42 @@
 			[
 				"fcu",
 				"function"
-			],
-			[
-				"b",
-				"background"
-			],
-			[
-				"web",
-				"webkit-box"
-			],
-			[
-				"bac",
-				"background-size"
-			],
-			[
-				"inl",
-				"inline-block"
-			],
-			[
-				"border-to",
-				"border-top-left-radius"
-			],
-			[
-				"cont",
-				"contain"
-			],
-			[
-				"border-le",
-				"border-bottom-left-radius"
-			],
-			[
-				"tag",
-				"tagName"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "st/sass/plan.scss",
-			"settings":
-			{
-				"buffer_size": 7447,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "st/sass/noticecss.scss",
-			"settings":
-			{
-				"buffer_size": 53227,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "page/video/ra_protocol.html",
-			"settings":
-			{
-				"buffer_size": 5318,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "st/sass/globle.scss",
-			"settings":
-			{
-				"buffer_size": 1560,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 3524,
+				"buffer_size": 3722,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "page/video/suc.html",
+			"file": "ad/zhubo/loading.html",
 			"settings":
 			{
-				"buffer_size": 1234,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "page/video/apply_anchor.html",
-			"settings":
-			{
-				"buffer_size": 1344,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "common/js/view_v8.js",
-			"settings":
-			{
-				"buffer_size": 9054,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "Searching 300 files for \"paln-head\" (case sensitive)\n\n/Users/bigfish/Documents/github/dog/APP/html/common/css/css.css:\n  692    background-color: #f4f4f4; }\n  693  \n  694: .paln-head {\n  695    height: 6.4rem;\n  696    padding-left: 1.4rem;\n  ...\n  702    background-size: cover; }\n  703  \n  704: .paln-head h3 {\n  705    position: absolute;\n  706    bottom: 3rem;\n  ...\n  711    width: 85%; }\n  712  \n  713: .paln-head sub {\n  714    font-size: 1.6rem;\n  715    position: absolute;\n  ...\n  734    bottom: 8rem; }\n  735  \n  736: .paln-head .btn-yellow02 {\n  737    margin-top: 4.2rem;\n  738    margin-right: 1.4rem;\n  739    border-radius: 4px; }\n  740  \n  741: .paln-head .image {\n  742    position: absolute;\n  743    bottom: 0px;\n\n/Users/bigfish/Documents/github/dog/APP/html/common/css/noticecss.css:\n  744    background-color: #f4f4f4; }\n  745  \n  746: .paln-head {\n  747    height: 6.4rem;\n  748    padding-left: 1.4rem;\n  ...\n  754    background-size: cover; }\n  755  \n  756: .paln-head h3 {\n  757    position: absolute;\n  758    bottom: 3rem;\n  ...\n  763    width: 85%; }\n  764  \n  765: .paln-head sub {\n  766    font-size: 1.6rem;\n  767    position: absolute;\n  ...\n  786    bottom: 8rem; }\n  787  \n  788: .paln-head .btn-yellow02 {\n  789    margin-top: 4.2rem;\n  790    margin-right: 1.4rem;\n  791    border-radius: 4px; }\n  792  \n  793: .paln-head .image {\n  794    position: absolute;\n  795    bottom: 0px;\n\n/Users/bigfish/Documents/github/dog/APP/html/common/js/min/view-min.js:\n    1: $(document).ready(function(){function t(){var t=$(\".paln-fangan\").find(\".font-c-gray\").attr(\"data-init\");$(\".paln-fangan\").find(\".font-c-gray\").html(t)}function a(t,a,n){t=t.replace(/-/g,\"/\");var e=new Date(t);if(e=e.valueOf(),\"+\"==n)e+=24*a*60*60*1e3;else{if(\"-\"!=n)return!1;e-=24*a*60*60*1e3}e=new Date(e);var s=e.getFullYear(),i=e.getMonth()+1,l=e.getDate();9>=i&&(i=\"0\"+i),9>=l&&(l=\"0\"+l);var c=s+\"-\"+i+\"-\"+l;return c}FastClick.attach(document.body);var n={imgAuto:function(t){var a=$(t)[0],n=$(t).attr(\"src\"),e=$(\".paln-head\").width(),s=$(\".paln-head\").height(),i=e/s;if($(t)[0]){var l=\"<div class='i-loading'><div><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div></div>\";$(t).parent().append(l),$.ajax({url:n,type:\"GET\",global:!1,beforeSend:function(){},complete:function(){var n=a.naturalWidth,e=a.naturalHeight,s=n/e;$(t).parent().find(\".i-loading\").remove(),i>s?$(t).css(\"width\",\"100%\"):$(t).css(\"height\",\"100%\"),$(t).show()}})}},heightCenter:function(t){var a=$(window).height(),n=t.height(),e=n/2;a>n?t.css({\"margin-top\":-e}):(t.css({width:\"auto\",height:a,position:\"relative\",top:\"auto\"}),$(document).find(\"body\").css(\"overflow\",\"hidden\"))}};n.imgAuto(\"#headImage\"),$(document).on(\"click\",\".maskblack\",function(t){$(\"#J_imgPopup\").hide()});var e=function(t){var a;return function(){return a||(a=t.apply(this,arguments))}},s=function(t){var a=document.querySelector(\"meta[name=viewport]\"),n=document.createElement(\"div\");return n.id=\"J_imgPopup\",n.className=\"img-popup\",a.setAttribute(\"content\",\"width=device-width\"),$(document).find(\"body\").append(n),n},i=e(s);$(\"[data-popup]\").on(\"click\",function(t){var a=$(this).attr(\"src\"),e=i(),s=document.createElement(\"img\");s.src=a,s.id=\"J_popupImg\";var l='<div class=\"i-loading\"><div><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div></div><div class=\"maskblack\"></div>';$(e).html(l),$(e).show(),s.onload=function(){$(e).find(\".i-loading\").hide(),$(e).append(s),n.heightCenter($(\"#J_popupImg\"))}}),$(document).bind(\"mousedown touchstart\",function(t){var a=$(t.target);\"I\"==t.target.tagName&&(a=\"I\"==$(t.target).parent()[0].tagName?$(t.target).parent().parent():$(t.target).parent()),a.addClass(\"hover\")}),$(document).bind(\"mouseup touchend touchmove\",function(t){var a=$(t.target);\"I\"==t.target.tagName&&(a=\"I\"==$(t.target).parent()[0].tagName?$(t.target).parent().parent():$(t.target).parent()),a.removeClass(\"hover\")}),$(\".paln-fangan .i-point\").on(\"click\",function(){var a=$(this),n=a.parent(),e=\"electDis\"==n.prev().attr(\"class\")?!1:!0,s=n.parent().find(\"li\").length-1,i=n.parent().find(\"li\").length,d=n.index(),p=s==n.index()?!0:!1,o=n.index(),h=n.attr(\"class\");switch(h){case\"dis\":t(),n.parent().find(\"li\").each(function(t){$(this).hasClass(\"electDis\")||(t>d?$(this).attr(\"class\",\"select\"):$(this).attr(\"class\",\"dis\"))}),n.attr(\"class\",\"selected\"),n.next().attr(\"class\",\"select\").find(\".tip-lable-mini\").html(\"未注射\"),a.prev().find(\".tip-lable-mini\").html(\"将注射\"),n.find(\".font-c-gray\").html(\"建议下次注射日期:\"+c),n.prev().find(\".font-c-gray\").html(\"上次注射日期:\"+l);break;case\"selected\":t(),n.parent().find(\"li\").each(function(t){$(this).hasClass(\"electDis\")||t>d&&$(this).attr(\"class\",\"select\")}),n.attr(\"class\",\"dis\").next().attr(\"class\",\"selected\").find(\".tip-lable-mini\").html(\"将注射\"),a.prev().find(\".tip-lable-mini\").html(\"已注射\"),n.find(\".font-c-gray\").html(\"上次注射日期:\"+l),2==o?n.next().find(\".font-c-gray\").html(r):n.next().find(\".font-c-gray\").html(\"建议下次注射日期:\"+c);break;case\"select\":t(),n.parent().find(\"li\").each(function(t){$(this).hasClass(\"electDis\")||(d>t?$(this).attr(\"class\",\"dis\"):$(this).attr(\"class\",\"select\"),n.prev().hasClass(\"electDis\")?(n.attr(\"class\",\"dis\").next().attr(\"class\",\"selected\").find(\".tip-lable-mini\").html(\"将注射\"),n.find(\".font-c-gray\").html(\"上次注射日期:\"+l),n.next().find(\".font-c-gray\").html(\"建议下次注射日期:\"+c)):(n.attr(\"class\",\"dis\").next().attr(\"class\",\"selected\").find(\".tip-lable-mini\").html(\"将注射\"),n.prev().attr(\"class\",\"dis\").find(\".tip-lable-mini\").html(\"已注射\"),a.prev().find(\".tip-lable-mini\").html(\"已注射\"),n.find(\".font-c-gray\").html(\"上次注射日期:\"+l),2==o?n.next().find(\".font-c-gray\").html(r):n.next().find(\".font-c-gray\").html(\"建议下次注射日期:\"+c)))})}});var l=\"2015-02-12\",c=a(l,\"21\",\"+\"),r=a(l,\"356\",\"+\");$(\"#SelectLine\").on(\"click\",\"[data-select]\",function(){var t=$(this),a=t.hasClass(\"icon-cross\"),n=$(\"#SelectLine\").width()-26;a?$(\"#SelectLine\").find(\".i-point-big\").animate({left:n},300,function(){t.addClass(\"cur\").siblings().removeClass(\"cur\"),$(\"#J_showNone\").show(),$(\"#J_showYes\").hide()}):$(\"#SelectLine\").find(\".i-point-big\").animate({left:\"28px\"},300,function(){t.addClass(\"cur\").siblings().removeClass(\"cur\"),$(\"#J_showYes\").show(),$(\"#J_showNone\").hide()})}),$(\"[data-select]\").change(function(){var t=$(this),a=t[0].selectedIndex;0==a?t.addClass(\"font-c-gray\").removeClass(\"font-c-base\"):(t.removeClass(\"font-c-gray\").addClass(\"font-c-base\"),$(\"#J_preLeve\").show(),$(window).scrollTop($(document).height()))})});\n\n/Users/bigfish/Documents/github/dog/APP/html/common/js/min/view_v8-min.js:\n    1: $(document).ready(function(){function t(){var t=$(\".paln-fangan\").find(\".font-c-gray\").attr(\"data-init\");$(\".paln-fangan\").find(\".font-c-gray\").html(t)}function a(t,a,n){t=t.replace(/-/g,\"/\");var e=new Date(t);if(e=e.valueOf(),\"+\"==n)e+=24*a*60*60*1e3;else{if(\"-\"!=n)return!1;e-=24*a*60*60*1e3}e=new Date(e);var i=e.getFullYear(),s=e.getMonth()+1,c=e.getDate();9>=s&&(s=\"0\"+s),9>=c&&(c=\"0\"+c);var l=i+\"-\"+s+\"-\"+c;return l}function n(){$(\"#J_preLeve\").show(),$(window).scrollTop($(document).height())}FastClick.attach(document.body),$(\".popup\").height($(document).height());var e={imgAuto:function(t){var a=$(t)[0],n=$(t).attr(\"src\"),e=$(\".paln-head\").width(),i=$(\".paln-head\").height(),s=e/i;if($(t)[0]){var c=\"<div class='i-loading'><div><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div></div>\";$(t).parent().append(c),$.ajax({url:n,type:\"GET\",global:!1,beforeSend:function(){},complete:function(){var n=a.naturalWidth,e=a.naturalHeight,i=n/e;$(t).parent().find(\".i-loading\").remove(),s>i?$(t).css(\"width\",\"100%\"):$(t).css(\"height\",\"100%\"),$(t).show()}})}},heightCenter:function(t){var a=$(window).height(),n=t.height(),e=n/2;a>n?t.css({\"margin-top\":-e}):(t.css({width:\"auto\",height:a,position:\"relative\",top:\"auto\"}),$(document).find(\"body\").css(\"overflow\",\"hidden\"))},fullHeight:function(){var t=$(window).height()<$(document).height()?$(document).height():$(window).height();$(\".fullHeight\").height(t)}};e.imgAuto(\"#headImage\"),e.fullHeight(),$(document).on(\"click\",\".maskblack\",function(t){$(\"#J_imgPopup\").hide()});var i=function(t){var a;return function(){return a||(a=t.apply(this,arguments))}},s=function(t){var a=document.querySelector(\"meta[name=viewport]\"),n=document.createElement(\"div\");return n.id=\"J_imgPopup\",n.className=\"img-popup\",a.setAttribute(\"content\",\"width=device-width\"),$(document).find(\"body\").append(n),n},c=i(s);$(\"[data-popup]\").on(\"click\",function(t){var a=$(this).attr(\"src\"),n=c(),i=document.createElement(\"img\");i.src=a,i.id=\"J_popupImg\";var s='<div class=\"i-loading\"><div><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div></div><div class=\"maskblack\"></div>';$(n).html(s),$(n).show(),i.onload=function(){$(n).find(\".i-loading\").hide(),$(n).append(i),e.heightCenter($(\"#J_popupImg\"))}}),$(document).bind(\"mousedown touchstart\",function(t){var a=$(t.target);\"I\"==t.target.tagName&&(a=\"I\"==$(t.target).parent()[0].tagName?$(t.target).parent().parent():$(t.target).parent()),a.addClass(\"hover\")}),$(document).bind(\"mouseup touchend touchmove\",function(t){var a=$(t.target);\"I\"==t.target.tagName&&(a=\"I\"==$(t.target).parent()[0].tagName?$(t.target).parent().parent():$(t.target).parent()),a.removeClass(\"hover\")}),$(\".paln-fangan .i-point\").on(\"click\",function(){var a=$(this),n=a.parent(),e=\"electDis\"==n.prev().attr(\"class\")?!1:!0,i=n.parent().find(\"li\").length-1,s=n.parent().find(\"li\").length,c=n.index(),o=i==n.index()?!0:!1,d=n.index(),h=n.attr(\"class\");switch(h){case\"dis\":t(),n.parent().find(\"li\").each(function(t){$(this).hasClass(\"electDis\")||(t>c?$(this).attr(\"class\",\"select\"):$(this).attr(\"class\",\"dis\"))}),n.attr(\"class\",\"selected\"),n.next().attr(\"class\",\"select\").find(\".tip-lable-mini\").html(\"未注射\"),a.prev().find(\".tip-lable-mini\").html(\"将注射\"),n.find(\".font-c-gray\").html(\"建议下次注射日期:\"+r),n.prev().find(\".font-c-gray\").html(\"上次注射日期:\"+l);break;case\"selected\":t(),n.parent().find(\"li\").each(function(t){$(this).hasClass(\"electDis\")||t>c&&$(this).attr(\"class\",\"select\")}),n.attr(\"class\",\"dis\").next().attr(\"class\",\"selected\").find(\".tip-lable-mini\").html(\"将注射\"),a.prev().find(\".tip-lable-mini\").html(\"已注射\"),n.find(\".font-c-gray\").html(\"上次注射日期:\"+l),2==d?n.next().find(\".font-c-gray\").html(p):n.next().find(\".font-c-gray\").html(\"建议下次注射日期:\"+r);break;case\"select\":t(),n.parent().find(\"li\").each(function(t){$(this).hasClass(\"electDis\")||(c>t?$(this).attr(\"class\",\"dis\"):$(this).attr(\"class\",\"select\"),n.prev().hasClass(\"electDis\")?(n.attr(\"class\",\"dis\").next().attr(\"class\",\"selected\").find(\".tip-lable-mini\").html(\"将注射\"),n.find(\".font-c-gray\").html(\"上次注射日期:\"+l),n.next().find(\".font-c-gray\").html(\"建议下次注射日期:\"+r)):(n.attr(\"class\",\"dis\").next().attr(\"class\",\"selected\").find(\".tip-lable-mini\").html(\"将注射\"),n.prev().attr(\"class\",\"dis\").find(\".tip-lable-mini\").html(\"已注射\"),a.prev().find(\".tip-lable-mini\").html(\"已注射\"),n.find(\".font-c-gray\").html(\"上次注射日期:\"+l),2==d?n.next().find(\".font-c-gray\").html(p):n.next().find(\".font-c-gray\").html(\"建议下次注射日期:\"+r)))})}});var l=\"2015-02-12\",r=a(l,\"21\",\"+\"),p=a(l,\"356\",\"+\");$(\"#SelectLine\").on(\"click\",\"[data-select]\",function(){var t=$(this),a=t.hasClass(\"icon-cross\"),n=$(\"#SelectLine\").width()-26;a?$(\"#SelectLine\").find(\".i-point-big\").animate({left:n},300,function(){t.addClass(\"cur\").siblings().removeClass(\"cur\"),$(\"#J_showNone\").show(),$(\"#J_showYes\").hide()}):$(\"#SelectLine\").find(\".i-point-big\").animate({left:\"28px\"},300,function(){t.addClass(\"cur\").siblings().removeClass(\"cur\"),$(\"#J_showYes\").show(),$(\"#J_showNone\").hide()})}),$(\"[data-select]\").change(function(){var t=$(this),a=t[0].selectedIndex;0==a?t.addClass(\"font-c-gray\").removeClass(\"font-c-base\"):(t.removeClass(\"font-c-gray\").addClass(\"font-c-base\"),n())}),$(\".face-zan\").bind(\"tap\",function(){$(this).attr(\"class\",\"face-zan-dis\"),$(this).prev(\".face-num\").animate({opacity:1,marginTop:\"-28px\"},300),_that_zan=$(this),setTimeout('_that_zan.prev(\".face-num\").animate({opacity: 0,marginTop:\"-40px\"},300)',2e3)}),$(\".face-cai\").bind(\"tap\",function(){$(this).attr(\"class\",\"face-cai-dis\"),$(this).prev(\".face-num\").animate({opacity:1,marginTop:\"-28px\"},300),_that_cai=$(this),setTimeout('_that_cai.prev(\".face-num\").animate({opacity: 0,marginTop:\"-40px\"},300)',2e3)})});\n\n/Users/bigfish/Documents/github/dog/APP/html/common/js/view_old.js:\n    8  		var img = $(imgID)[0];\n    9  		var url = $(imgID).attr(\"src\");\n   10: 		var W = $(\".paln-head\").width(), H = $(\".paln-head\").height();\n   11  		var bl=W/H;\n   12  		if(!$(imgID)[0]){\n\n/Users/bigfish/Documents/github/dog/APP/html/common/js/view_v8.js:\n   12  		var img = $(imgID)[0];\n   13  		var url = $(imgID).attr(\"src\");\n   14: 		var W = $(\".paln-head\").width(), H = $(\".paln-head\").height();\n   15  		var bl=W/H;\n   16  		if(!$(imgID)[0]){\n\n/Users/bigfish/Documents/github/dog/APP/html/page/plan/detail.html:\n   18  \n   19  <!-- 使用用户自定义头像 -->\n   20: 	<div class=\"paln-head head-nobg\">\n   21  		<h3>注射疫苗注射疫苗注射疫苗</h3>\n   22  		<sub>狗狗一定要，必不可少狗狗一定要，必不可少</sub>\n\n/Users/bigfish/Documents/github/dog/APP/html/page/plan/mianyi-detail.html:\n   20  \n   21  <!-- 使用用户自定义头像 -->\n   22: 	<div class=\"paln-head head-nobg\">\n   23  		<h3>注射疫苗注射疫苗注射疫苗</h3>\n   24  		<sub>狗狗一定要，必不可少狗狗一定要，必不可少</sub>\n\n/Users/bigfish/Documents/github/dog/APP/html/page/plan/other.html:\n   17  \n   18  \n   19: 	<div class=\"paln-head\">\n   20  		<h3>注射疫苗这个提醒的必要性，，也不知道还</h3>\n   21  		<sub>狗狗一定要，必不可少</sub>\n\n/Users/bigfish/Documents/github/dog/APP/html/page/plan/pregnant-detail.html:\n   18  \n   19  <!-- 使用用户自定义头像 -->\n   20: 	<div class=\"paln-head head-nobg pregant-head\">\n   21  		<div  class=\"head-list\">\n   22  			<div class=\"item\">\n\n/Users/bigfish/Documents/github/dog/APP/html/page/plan/quchong-detail.html:\n   18  \n   19  <!-- 使用用户自定义头像 -->\n   20: 	<div class=\"paln-head head-nobg\">\n   21  		<h3>狗狗驱虫</h3>\n   22  		<sub>狗狗一定要，必不可少</sub>\n\n/Users/bigfish/Documents/github/dog/APP/html/st/sass/css.scss:\n  261  // 采纳\n  262  .paln-wrap{}\n  263: .paln-head{height:6.4rem; padding-left: 1.4rem; overflow: hidden; position: relative; padding-top: 10rem; color:#fff; background: url(../img/head_bg.jpg) no-repeat left bottom;background-size: cover; }\n  264: .paln-head h3{position: absolute; bottom:3rem; font-size:2.2rem; display:inline; font-weight:700;  z-index:3;width:85%;}\n  265: .paln-head sub{font-size:1.6rem; position: absolute; top:13.4rem; display:inline; z-index:3;text-overflow:ellipsis; overflow:hidden;  white-space:nowrap; width:85%;} \n  266  .head-nobg{ background:#fff;}\n  267  .specialHead{height:9.4rem;}\n  ...\n  269  .specialHead h3{bottom:8rem;}\n  270  \n  271: .paln-head .btn-yellow02{\n  272      margin-top: 4.2rem;\n  273      margin-right: 1.4rem;\n  ...\n  276  \n  277  \n  278: .paln-head .image{position: absolute;bottom:0px; left:0px; z-index:1; display:none;}\n  279  .img-mask{position: absolute; bottom:0px; left:0px; z-index:2; background:url(../img/mask.png) repeat-x left bottom; background-size: contain; width:100%; height:220px;}\n  280  .img-mask-02{position: absolute; top:0px; left:0px; z-index:1; \n\n/Users/bigfish/Documents/github/dog/APP/html/st/sass/noticecss.scss:\n  289  // 采纳\n  290  .paln-wrap{}\n  291: .paln-head{height:6.4rem; padding-left: 1.4rem; overflow: hidden; position: relative; padding-top: 10rem; color:#fff; background: url(../img/head_bg.jpg) no-repeat left bottom;background-size: cover; }\n  292: .paln-head h3{position: absolute; bottom:3rem; font-size:2.2rem; display:inline; font-weight:700;  z-index:3;width:85%;}\n  293: .paln-head sub{font-size:1.6rem; position: absolute; top:13.4rem; display:inline; z-index:3;text-overflow:ellipsis; overflow:hidden;  white-space:nowrap; width:85%;} \n  294  .head-nobg{ background:#fff;}\n  295  .specialHead{height:9.4rem;}\n  ...\n  297  .specialHead h3{bottom:8rem;}\n  298  \n  299: .paln-head .btn-yellow02{\n  300      margin-top: 4.2rem;\n  301      margin-right: 1.4rem;\n  ...\n  304  \n  305  \n  306: .paln-head .image{position: absolute;bottom:0px; left:0px; z-index:1; display:none;}\n  307  .img-mask{position: absolute; bottom:0px; left:0px; z-index:2; background:url(../img/mask.png) repeat-x left bottom; background-size: contain; width:100%; height:220px;}\n  308  .img-mask-02{position: absolute; top:0px; left:0px; z-index:1; \n\n33 matches across 13 files\n\n\nSearching 300 files for \"headImage\" (case sensitive)\n\n/Users/bigfish/Documents/github/dog/APP/html/common/js/min/view-min.js:\n    1: $(document).ready(function(){function t(){var t=$(\".paln-fangan\").find(\".font-c-gray\").attr(\"data-init\");$(\".paln-fangan\").find(\".font-c-gray\").html(t)}function a(t,a,n){t=t.replace(/-/g,\"/\");var e=new Date(t);if(e=e.valueOf(),\"+\"==n)e+=24*a*60*60*1e3;else{if(\"-\"!=n)return!1;e-=24*a*60*60*1e3}e=new Date(e);var s=e.getFullYear(),i=e.getMonth()+1,l=e.getDate();9>=i&&(i=\"0\"+i),9>=l&&(l=\"0\"+l);var c=s+\"-\"+i+\"-\"+l;return c}FastClick.attach(document.body);var n={imgAuto:function(t){var a=$(t)[0],n=$(t).attr(\"src\"),e=$(\".paln-head\").width(),s=$(\".paln-head\").height(),i=e/s;if($(t)[0]){var l=\"<div class='i-loading'><div><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div></div>\";$(t).parent().append(l),$.ajax({url:n,type:\"GET\",global:!1,beforeSend:function(){},complete:function(){var n=a.naturalWidth,e=a.naturalHeight,s=n/e;$(t).parent().find(\".i-loading\").remove(),i>s?$(t).css(\"width\",\"100%\"):$(t).css(\"height\",\"100%\"),$(t).show()}})}},heightCenter:function(t){var a=$(window).height(),n=t.height(),e=n/2;a>n?t.css({\"margin-top\":-e}):(t.css({width:\"auto\",height:a,position:\"relative\",top:\"auto\"}),$(document).find(\"body\").css(\"overflow\",\"hidden\"))}};n.imgAuto(\"#headImage\"),$(document).on(\"click\",\".maskblack\",function(t){$(\"#J_imgPopup\").hide()});var e=function(t){var a;return function(){return a||(a=t.apply(this,arguments))}},s=function(t){var a=document.querySelector(\"meta[name=viewport]\"),n=document.createElement(\"div\");return n.id=\"J_imgPopup\",n.className=\"img-popup\",a.setAttribute(\"content\",\"width=device-width\"),$(document).find(\"body\").append(n),n},i=e(s);$(\"[data-popup]\").on(\"click\",function(t){var a=$(this).attr(\"src\"),e=i(),s=document.createElement(\"img\");s.src=a,s.id=\"J_popupImg\";var l='<div class=\"i-loading\"><div><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div></div><div class=\"maskblack\"></div>';$(e).html(l),$(e).show(),s.onload=function(){$(e).find(\".i-loading\").hide(),$(e).append(s),n.heightCenter($(\"#J_popupImg\"))}}),$(document).bind(\"mousedown touchstart\",function(t){var a=$(t.target);\"I\"==t.target.tagName&&(a=\"I\"==$(t.target).parent()[0].tagName?$(t.target).parent().parent():$(t.target).parent()),a.addClass(\"hover\")}),$(document).bind(\"mouseup touchend touchmove\",function(t){var a=$(t.target);\"I\"==t.target.tagName&&(a=\"I\"==$(t.target).parent()[0].tagName?$(t.target).parent().parent():$(t.target).parent()),a.removeClass(\"hover\")}),$(\".paln-fangan .i-point\").on(\"click\",function(){var a=$(this),n=a.parent(),e=\"electDis\"==n.prev().attr(\"class\")?!1:!0,s=n.parent().find(\"li\").length-1,i=n.parent().find(\"li\").length,d=n.index(),p=s==n.index()?!0:!1,o=n.index(),h=n.attr(\"class\");switch(h){case\"dis\":t(),n.parent().find(\"li\").each(function(t){$(this).hasClass(\"electDis\")||(t>d?$(this).attr(\"class\",\"select\"):$(this).attr(\"class\",\"dis\"))}),n.attr(\"class\",\"selected\"),n.next().attr(\"class\",\"select\").find(\".tip-lable-mini\").html(\"未注射\"),a.prev().find(\".tip-lable-mini\").html(\"将注射\"),n.find(\".font-c-gray\").html(\"建议下次注射日期:\"+c),n.prev().find(\".font-c-gray\").html(\"上次注射日期:\"+l);break;case\"selected\":t(),n.parent().find(\"li\").each(function(t){$(this).hasClass(\"electDis\")||t>d&&$(this).attr(\"class\",\"select\")}),n.attr(\"class\",\"dis\").next().attr(\"class\",\"selected\").find(\".tip-lable-mini\").html(\"将注射\"),a.prev().find(\".tip-lable-mini\").html(\"已注射\"),n.find(\".font-c-gray\").html(\"上次注射日期:\"+l),2==o?n.next().find(\".font-c-gray\").html(r):n.next().find(\".font-c-gray\").html(\"建议下次注射日期:\"+c);break;case\"select\":t(),n.parent().find(\"li\").each(function(t){$(this).hasClass(\"electDis\")||(d>t?$(this).attr(\"class\",\"dis\"):$(this).attr(\"class\",\"select\"),n.prev().hasClass(\"electDis\")?(n.attr(\"class\",\"dis\").next().attr(\"class\",\"selected\").find(\".tip-lable-mini\").html(\"将注射\"),n.find(\".font-c-gray\").html(\"上次注射日期:\"+l),n.next().find(\".font-c-gray\").html(\"建议下次注射日期:\"+c)):(n.attr(\"class\",\"dis\").next().attr(\"class\",\"selected\").find(\".tip-lable-mini\").html(\"将注射\"),n.prev().attr(\"class\",\"dis\").find(\".tip-lable-mini\").html(\"已注射\"),a.prev().find(\".tip-lable-mini\").html(\"已注射\"),n.find(\".font-c-gray\").html(\"上次注射日期:\"+l),2==o?n.next().find(\".font-c-gray\").html(r):n.next().find(\".font-c-gray\").html(\"建议下次注射日期:\"+c)))})}});var l=\"2015-02-12\",c=a(l,\"21\",\"+\"),r=a(l,\"356\",\"+\");$(\"#SelectLine\").on(\"click\",\"[data-select]\",function(){var t=$(this),a=t.hasClass(\"icon-cross\"),n=$(\"#SelectLine\").width()-26;a?$(\"#SelectLine\").find(\".i-point-big\").animate({left:n},300,function(){t.addClass(\"cur\").siblings().removeClass(\"cur\"),$(\"#J_showNone\").show(),$(\"#J_showYes\").hide()}):$(\"#SelectLine\").find(\".i-point-big\").animate({left:\"28px\"},300,function(){t.addClass(\"cur\").siblings().removeClass(\"cur\"),$(\"#J_showYes\").show(),$(\"#J_showNone\").hide()})}),$(\"[data-select]\").change(function(){var t=$(this),a=t[0].selectedIndex;0==a?t.addClass(\"font-c-gray\").removeClass(\"font-c-base\"):(t.removeClass(\"font-c-gray\").addClass(\"font-c-base\"),$(\"#J_preLeve\").show(),$(window).scrollTop($(document).height()))})});\n\n/Users/bigfish/Documents/github/dog/APP/html/common/js/min/view_v8-min.js:\n    1: $(document).ready(function(){function t(){var t=$(\".paln-fangan\").find(\".font-c-gray\").attr(\"data-init\");$(\".paln-fangan\").find(\".font-c-gray\").html(t)}function a(t,a,n){t=t.replace(/-/g,\"/\");var e=new Date(t);if(e=e.valueOf(),\"+\"==n)e+=24*a*60*60*1e3;else{if(\"-\"!=n)return!1;e-=24*a*60*60*1e3}e=new Date(e);var i=e.getFullYear(),s=e.getMonth()+1,c=e.getDate();9>=s&&(s=\"0\"+s),9>=c&&(c=\"0\"+c);var l=i+\"-\"+s+\"-\"+c;return l}function n(){$(\"#J_preLeve\").show(),$(window).scrollTop($(document).height())}FastClick.attach(document.body),$(\".popup\").height($(document).height());var e={imgAuto:function(t){var a=$(t)[0],n=$(t).attr(\"src\"),e=$(\".paln-head\").width(),i=$(\".paln-head\").height(),s=e/i;if($(t)[0]){var c=\"<div class='i-loading'><div><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div></div>\";$(t).parent().append(c),$.ajax({url:n,type:\"GET\",global:!1,beforeSend:function(){},complete:function(){var n=a.naturalWidth,e=a.naturalHeight,i=n/e;$(t).parent().find(\".i-loading\").remove(),s>i?$(t).css(\"width\",\"100%\"):$(t).css(\"height\",\"100%\"),$(t).show()}})}},heightCenter:function(t){var a=$(window).height(),n=t.height(),e=n/2;a>n?t.css({\"margin-top\":-e}):(t.css({width:\"auto\",height:a,position:\"relative\",top:\"auto\"}),$(document).find(\"body\").css(\"overflow\",\"hidden\"))},fullHeight:function(){var t=$(window).height()<$(document).height()?$(document).height():$(window).height();$(\".fullHeight\").height(t)}};e.imgAuto(\"#headImage\"),e.fullHeight(),$(document).on(\"click\",\".maskblack\",function(t){$(\"#J_imgPopup\").hide()});var i=function(t){var a;return function(){return a||(a=t.apply(this,arguments))}},s=function(t){var a=document.querySelector(\"meta[name=viewport]\"),n=document.createElement(\"div\");return n.id=\"J_imgPopup\",n.className=\"img-popup\",a.setAttribute(\"content\",\"width=device-width\"),$(document).find(\"body\").append(n),n},c=i(s);$(\"[data-popup]\").on(\"click\",function(t){var a=$(this).attr(\"src\"),n=c(),i=document.createElement(\"img\");i.src=a,i.id=\"J_popupImg\";var s='<div class=\"i-loading\"><div><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div></div><div class=\"maskblack\"></div>';$(n).html(s),$(n).show(),i.onload=function(){$(n).find(\".i-loading\").hide(),$(n).append(i),e.heightCenter($(\"#J_popupImg\"))}}),$(document).bind(\"mousedown touchstart\",function(t){var a=$(t.target);\"I\"==t.target.tagName&&(a=\"I\"==$(t.target).parent()[0].tagName?$(t.target).parent().parent():$(t.target).parent()),a.addClass(\"hover\")}),$(document).bind(\"mouseup touchend touchmove\",function(t){var a=$(t.target);\"I\"==t.target.tagName&&(a=\"I\"==$(t.target).parent()[0].tagName?$(t.target).parent().parent():$(t.target).parent()),a.removeClass(\"hover\")}),$(\".paln-fangan .i-point\").on(\"click\",function(){var a=$(this),n=a.parent(),e=\"electDis\"==n.prev().attr(\"class\")?!1:!0,i=n.parent().find(\"li\").length-1,s=n.parent().find(\"li\").length,c=n.index(),o=i==n.index()?!0:!1,d=n.index(),h=n.attr(\"class\");switch(h){case\"dis\":t(),n.parent().find(\"li\").each(function(t){$(this).hasClass(\"electDis\")||(t>c?$(this).attr(\"class\",\"select\"):$(this).attr(\"class\",\"dis\"))}),n.attr(\"class\",\"selected\"),n.next().attr(\"class\",\"select\").find(\".tip-lable-mini\").html(\"未注射\"),a.prev().find(\".tip-lable-mini\").html(\"将注射\"),n.find(\".font-c-gray\").html(\"建议下次注射日期:\"+r),n.prev().find(\".font-c-gray\").html(\"上次注射日期:\"+l);break;case\"selected\":t(),n.parent().find(\"li\").each(function(t){$(this).hasClass(\"electDis\")||t>c&&$(this).attr(\"class\",\"select\")}),n.attr(\"class\",\"dis\").next().attr(\"class\",\"selected\").find(\".tip-lable-mini\").html(\"将注射\"),a.prev().find(\".tip-lable-mini\").html(\"已注射\"),n.find(\".font-c-gray\").html(\"上次注射日期:\"+l),2==d?n.next().find(\".font-c-gray\").html(p):n.next().find(\".font-c-gray\").html(\"建议下次注射日期:\"+r);break;case\"select\":t(),n.parent().find(\"li\").each(function(t){$(this).hasClass(\"electDis\")||(c>t?$(this).attr(\"class\",\"dis\"):$(this).attr(\"class\",\"select\"),n.prev().hasClass(\"electDis\")?(n.attr(\"class\",\"dis\").next().attr(\"class\",\"selected\").find(\".tip-lable-mini\").html(\"将注射\"),n.find(\".font-c-gray\").html(\"上次注射日期:\"+l),n.next().find(\".font-c-gray\").html(\"建议下次注射日期:\"+r)):(n.attr(\"class\",\"dis\").next().attr(\"class\",\"selected\").find(\".tip-lable-mini\").html(\"将注射\"),n.prev().attr(\"class\",\"dis\").find(\".tip-lable-mini\").html(\"已注射\"),a.prev().find(\".tip-lable-mini\").html(\"已注射\"),n.find(\".font-c-gray\").html(\"上次注射日期:\"+l),2==d?n.next().find(\".font-c-gray\").html(p):n.next().find(\".font-c-gray\").html(\"建议下次注射日期:\"+r)))})}});var l=\"2015-02-12\",r=a(l,\"21\",\"+\"),p=a(l,\"356\",\"+\");$(\"#SelectLine\").on(\"click\",\"[data-select]\",function(){var t=$(this),a=t.hasClass(\"icon-cross\"),n=$(\"#SelectLine\").width()-26;a?$(\"#SelectLine\").find(\".i-point-big\").animate({left:n},300,function(){t.addClass(\"cur\").siblings().removeClass(\"cur\"),$(\"#J_showNone\").show(),$(\"#J_showYes\").hide()}):$(\"#SelectLine\").find(\".i-point-big\").animate({left:\"28px\"},300,function(){t.addClass(\"cur\").siblings().removeClass(\"cur\"),$(\"#J_showYes\").show(),$(\"#J_showNone\").hide()})}),$(\"[data-select]\").change(function(){var t=$(this),a=t[0].selectedIndex;0==a?t.addClass(\"font-c-gray\").removeClass(\"font-c-base\"):(t.removeClass(\"font-c-gray\").addClass(\"font-c-base\"),n())}),$(\".face-zan\").bind(\"tap\",function(){$(this).attr(\"class\",\"face-zan-dis\"),$(this).prev(\".face-num\").animate({opacity:1,marginTop:\"-28px\"},300),_that_zan=$(this),setTimeout('_that_zan.prev(\".face-num\").animate({opacity: 0,marginTop:\"-40px\"},300)',2e3)}),$(\".face-cai\").bind(\"tap\",function(){$(this).attr(\"class\",\"face-cai-dis\"),$(this).prev(\".face-num\").animate({opacity:1,marginTop:\"-28px\"},300),_that_cai=$(this),setTimeout('_that_cai.prev(\".face-num\").animate({opacity: 0,marginTop:\"-40px\"},300)',2e3)})});\n\n/Users/bigfish/Documents/github/dog/APP/html/common/js/view_old.js:\n   43  	}\n   44  }\n   45: _defult.imgAuto(\"#headImage\");\n   46  \n   47  \n\n/Users/bigfish/Documents/github/dog/APP/html/common/js/view_v8.js:\n   65  		}\n   66  }\n   67: _defult.imgAuto(\"#headImage\");\n   68  _defult.fullHeight();\n   69  \n\n/Users/bigfish/Documents/github/dog/APP/html/page/plan/detail.html:\n   21  		<h3>注射疫苗注射疫苗注射疫苗</h3>\n   22  		<sub>狗狗一定要，必不可少狗狗一定要，必不可少</sub>\n   23: 		<img src=\"../../common/img/head_bg.jpg\" class=\"image\" alt=\"\" id=\"headImage\" />\n   24  		<div class=\"img-mask\"></div>\n   25  	</div>\n\n/Users/bigfish/Documents/github/dog/APP/html/page/plan/mianyi-detail.html:\n   23  		<h3>注射疫苗注射疫苗注射疫苗</h3>\n   24  		<sub>狗狗一定要，必不可少狗狗一定要，必不可少</sub>\n   25: 		<img src=\"../../common/img/head_bg.jpg\" class=\"image\" alt=\"\" id=\"headImage\" />\n   26  		<div class=\"img-mask\"></div>\n   27  	</div>\n\n/Users/bigfish/Documents/github/dog/APP/html/page/plan/pregnant-detail.html:\n   50  		</div> -->\n   51  \n   52: 		<img src=\"../../common/img/head_bg.jpg\" class=\"image\" alt=\"\" id=\"headImage\" />\n   53  		<div class=\"img-mask\"></div>\n   54  	</div>\n\n/Users/bigfish/Documents/github/dog/APP/html/page/plan/pregnant.html:\n   52  		\n   53  \n   54: 		<img src=\"../../common/img/head_bg.jpg\" class=\"image\" alt=\"\" id=\"headImage\" />\n   55  		<div class=\"img-mask-02\"></div>\n   56  	</div>\n\n/Users/bigfish/Documents/github/dog/APP/html/page/plan/quchong-detail.html:\n   21  		<h3>狗狗驱虫</h3>\n   22  		<sub>狗狗一定要，必不可少</sub>\n   23: 		<img src=\"http://pic1.bbzhi.com/huahuibizhi/gerenhuahuisheyingbizhiqi/flower_digital_flower_jp_05_47905_3.jpg\" class=\"image\" alt=\"\" id=\"headImage\" />\n   24  		<div class=\"img-mask\"></div>\n   25  	</div>\n\n9 matches across 9 files\n",
-			"settings":
-			{
-				"buffer_size": 29457,
+				"buffer_size": 450,
 				"line_ending": "Unix",
-				"name": "Find Results",
-				"scratch": true
+				"name": "<!DOCTYPE html>"
+			}
+		},
+		{
+			"file": "ad/audience/wait.html",
+			"settings":
+			{
+				"buffer_size": 604,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "page/video/ra.html",
+			"settings":
+			{
+				"buffer_size": 3734,
+				"line_ending": "Unix"
 			}
 		},
 		{
@@ -602,18 +561,10 @@
 			}
 		},
 		{
-			"file": "page/mall/test-get.html",
+			"file": "ad/audience/base.css",
 			"settings":
 			{
-				"buffer_size": 3048,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "st/sass/mall.scss",
-			"settings":
-			{
-				"buffer_size": 3004,
+				"buffer_size": 5791,
 				"line_ending": "Unix"
 			}
 		}
@@ -804,16 +755,37 @@
 	"expanded_folders":
 	[
 		"/Users/bigfish/Documents/github/dog/APP/html",
-		"/Users/bigfish/Documents/github/dog/APP/html/common",
-		"/Users/bigfish/Documents/github/dog/APP/html/common/video",
-		"/Users/bigfish/Documents/github/dog/APP/html/page",
-		"/Users/bigfish/Documents/github/dog/APP/html/page/square",
-		"/Users/bigfish/Documents/github/dog/APP/html/page/video",
-		"/Users/bigfish/Documents/github/dog/APP/html/st",
-		"/Users/bigfish/Documents/github/dog/APP/html/st/sass"
+		"/Users/bigfish/Documents/github/dog/APP/html/ad",
+		"/Users/bigfish/Documents/github/dog/APP/html/ad/audience",
+		"/Users/bigfish/Documents/github/dog/APP/html/ad/zhubo"
 	],
 	"file_history":
 	[
+		"/Users/bigfish/Documents/github/dog/APP/html/ad/audience/index.html",
+		"/Users/bigfish/Documents/github/dog/APP/html/ad/audience/suc.html",
+		"/Users/bigfish/Documents/github/dog/APP/html/ad/zhubo/index.html",
+		"/Users/bigfish/Documents/github/dog/APP/html/st/sass/noticecss.scss",
+		"/Users/bigfish/Documents/github/dog/APP/html/temp/base.css",
+		"/Users/bigfish/Documents/github/dog/APP/html/page/video/ra_protocol.html",
+		"/Users/bigfish/Documents/github/dog/APP/html/ad/zhubo/base.css",
+		"/Users/bigfish/Documents/github/dog/APP/html/ad/zhubo/wait.html",
+		"/Users/bigfish/Documents/github/dog/APP/html/page/food/food-detail.html",
+		"/Users/bigfish/Documents/github/dog/APP/html/common/js/view_v8.js",
+		"/Users/bigfish/Documents/github/dog/APP/html/page/food/food-list.html",
+		"/Users/bigfish/Documents/github/dog/APP/html/st/sass/base_zhubo.scss",
+		"/Users/bigfish/Documents/github/dog/APP/html/config.rb",
+		"/Users/bigfish/Documents/github/dog/APP/html/temp/index.html",
+		"/Users/bigfish/Documents/github/dog/APP/html/st/sass/mall.scss",
+		"/Users/bigfish/Documents/github/dog/APP/html/page/mall/test-get.html",
+		"/Users/bigfish/Documents/github/dog/APP/html/common/js/localResizeIMG2.js",
+		"/Users/bigfish/Documents/github/dog/APP/html/common/js/mobileBUGFix.mini.js",
+		"/Users/bigfish/Documents/github/dog/APP/html/st/sass/plan.scss",
+		"/Users/bigfish/Documents/github/dog/APP/html/st/sass/globle.scss",
+		"/Users/bigfish/Documents/github/dog/APP/html/index.html",
+		"/Users/bigfish/Documents/github/dog/APP/html/page/video/suc.html",
+		"/Users/bigfish/Documents/github/dog/APP/html/page/video/apply_anchor.html",
+		"/Users/bigfish/Documents/github/dog/APP/html/st/sass/video.scss",
+		"/Users/bigfish/Documents/github/dog/APP/html/page/video/ra.html",
 		"/Users/bigfish/Documents/github/dog/APP/html/page/plan/pregnant.html",
 		"/Users/bigfish/Documents/github/dog/APP/html/common/js/video.js",
 		"/Users/bigfish/Documents/github/dog/APP/html/common/js/video_hls.js",
@@ -825,20 +797,16 @@
 		"/Users/bigfish/Documents/github/dog/APP/html/common/img/share.png",
 		"/Users/bigfish/Documents/github/dog/APP/html/common/img/temp/head_01.jpg",
 		"/Users/bigfish/Documents/github/dog/APP/html/common/img/head.png",
-		"/Users/bigfish/Documents/github/dog/APP/html/st/sass/video.scss",
 		"/Users/bigfish/Documents/github/dog/APP/html/st/sass/css.scss",
 		"/Users/bigfish/Documents/github/dog/APP/html/page/video/apply_ anchor.html",
 		"/Users/bigfish/Documents/github/dog/APP/html/page/plan/topic.html",
 		"/Users/bigfish/Documents/github/dog/APP/html/page/news/get_qr.html",
 		"/Users/bigfish/Documents/github/dog/APP/html/page/plan/remind_detail.html",
 		"/Users/bigfish/Documents/github/dog/APP/html/page/my/period.html",
-		"/Users/bigfish/Documents/github/dog/APP/html/st/sass/globle.scss",
 		"/Users/bigfish/Documents/github/dog/APP/html/page/square/send-art.html",
 		"/Users/bigfish/Documents/github/dog/APP/html/st/sass/tool.scss",
-		"/Users/bigfish/Documents/github/dog/APP/html/st/sass/plan.scss",
 		"/Users/bigfish/Documents/github/dog/APP/html/st/sass/news.scss",
 		"/Users/bigfish/Documents/github/dog/APP/html/page/news/news-detail.html",
-		"/Users/bigfish/Documents/github/dog/APP/html/common/js/view_v8.js",
 		"/Users/bigfish/Documents/github/dog/APP/html/common/js/iscroll.js",
 		"/Users/bigfish/Documents/github/dog/APP/html/temp/view.js",
 		"/Users/bigfish/Documents/github/dog/APP/html/page/square/content.html",
@@ -874,17 +842,13 @@
 		"/Users/bigfish/Documents/github/dog/APP/html/common/img/tool/tooth/tooth1.png",
 		"/Users/bigfish/Documents/github/dog/APP/html/page/tool/fed.html",
 		"/Users/bigfish/Documents/github/dog/APP/html/page/mall/items-detail.html",
-		"/Users/bigfish/Documents/github/dog/APP/html/st/sass/mall.scss",
 		"/Users/bigfish/Documents/github/dog/APP/html/common/xml/dogmedication.xml",
 		"/Users/bigfish/Downloads/lu/assets/dogmedication.xml",
 		"/Users/bigfish/Documents/github/dog/APP/html/common/css/css.css",
 		"/Users/bigfish/Documents/github/dog/APP/html/page/mall/items-list.html",
 		"/Users/bigfish/Documents/github/dog/APP/html/page/tool/shit_detail.html",
 		"/Users/bigfish/Documents/github/dog/APP/html/page/food/index.html",
-		"/Users/bigfish/Documents/github/dog/APP/html/index.html",
 		"/Users/bigfish/Documents/github/dog/APP/html/st/sass/food.scss",
-		"/Users/bigfish/Documents/github/dog/APP/html/page/food/food-list.html",
-		"/Users/bigfish/Documents/github/dog/APP/html/page/food/food-detail.html",
 		"/Users/bigfish/Documents/github/dog/APP/html/common/img/square/head_01.png",
 		"/Users/bigfish/Documents/github/dog/APP/html/page/plan/quchong.html",
 		"/Users/bigfish/Documents/github/dog/APP/html/page/plan/quchong-detail.html",
@@ -924,24 +888,7 @@
 		"/Users/bigfish/Documents/fdog/workspace/fdog/site/site-web/src/main/webapp/view/app/activity/mengchong_query.vm",
 		"/Users/bigfish/Documents/fdog/workspace/fdog/site/site-web/src/main/webapp/view/app/activity/mengchong_detail.vm",
 		"/Users/bigfish/Documents/fdog/workspace/fdog/site/site-web/src/main/webapp/view/app/activity/mengchong_regist.vm",
-		"/Users/bigfish/Documents/fdog/workspace/fdog/site/site-web/src/main/webapp/view/app/activity/mengchong_start.vm",
-		"/Library/WebServer/Documents/d/d.htm",
-		"/Users/bigfish/Documents/github/dog/APP/html/common/img/tool/dog_logo.png",
-		"/Users/bigfish/Documents/github/dog/APP/html/common/css/square.css",
-		"/Users/bigfish/Documents/github/dog/APP/html/page/my.html",
-		"/Users/bigfish/Documents/github/dog/APP/html/common/zepto/fx.js",
-		"/Users/bigfish/Library/Application Support/Sublime Text 3/Packages/User/SublimeSimpleSync.sublime-settings",
-		"/Users/bigfish/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
-		"/Users/bigfish/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
-		"/Users/bigfish/Library/Application Support/Sublime Text 3/Packages/HTMLBeautify/HTMLBeautify.sublime-settings",
-		"/Users/bigfish/Library/Application Support/Sublime Text 3/Packages/User/HTMLBeautify.sublime-settings",
-		"/Users/bigfish/Library/Application Support/Sublime Text 3/Packages/Theme - Default/Default.sublime-theme",
-		"/Users/bigfish/Desktop/DefaultPlus Cobalt.sublime-theme",
-		"/Users/bigfish/Library/Application Support/Sublime Text 3/Packages/Color Scheme - Default/Cobalt.tmTheme",
-		"/Users/bigfish/Library/Application Support/Sublime Text 3/Packages/Theme - Default/tab_mask_152_gradient2.png",
-		"/Users/bigfish/Documents/github/dog/APP-page/ad/testLife/html/game_bad_v.html",
-		"/Users/bigfish/Documents/github/dog/APP-page/ad/testLife/html/view-min.js",
-		"/Users/bigfish/Documents/github/dog/APP-page/ad/testLife/html/game_step1.html"
+		"/Users/bigfish/Documents/fdog/workspace/fdog/site/site-web/src/main/webapp/view/app/activity/mengchong_start.vm"
 	],
 	"find":
 	{
@@ -966,6 +913,23 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"btn-green",
+			"_v",
+			"One",
+			"status",
+			"UpPhotoThree",
+			"One",
+			"cross",
+			"imgurl",
+			"ra-imglist",
+			"docHeight",
+			"winHeight",
+			"30",
+			"5",
+			"ra",
+			"已完成，求",
+			"填写收件地址，领取首播礼包",
+			"head",
 			"<p>",
 			"        ",
 			"headImage",
@@ -1076,24 +1040,7 @@
 			".form",
 			"form",
 			"items-title",
-			"<li>",
-			"huayan",
-			":ta",
-			"item",
-			"json",
-			".xml",
-			"乳牙期",
-			"heightCenter",
-			"dataLine",
-			"toothPush",
-			"autoHeight",
-			"page-swipe header nav",
-			"autoHeight",
-			"tooth-test",
-			"contain",
-			"</figure>",
-			"jpg",
-			"btn"
+			"<li>"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1116,117 +1063,30 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 5,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "st/sass/plan.scss",
+					"file": "index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 7447,
+						"buffer_size": 3722,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								147,
-								147
+								234,
+								234
 							]
 						],
 						"settings":
 						{
 							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content"
-							],
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 9,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "st/sass/noticecss.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 53227,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3951,
-								3943
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
+							"auto_complete": false,
 							"bh_regions":
 							[
 								"bh_round",
@@ -1285,389 +1145,225 @@
 								"bh_tag_close",
 								"bh_tag_content"
 							],
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										355,
+										360
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										212,
+										217
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"is_xml": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1766.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "page/video/ra_protocol.html",
+					"buffer": 1,
+					"file": "ad/zhubo/loading.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5318,
+						"buffer_size": 450,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3998,
-								3998
+								338,
+								338
 							]
 						],
 						"settings":
 						{
-							"BracketHighlighterBusy": false,
 							"auto_complete": false,
-							"bh_regions":
+							"auto_name": "<!DOCTYPE html>",
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										351,
+										352
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										335,
+										336
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
 							[
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
 								"bh_curly",
 								"bh_curly_center",
 								"bh_curly_open",
 								"bh_curly_close",
 								"bh_curly_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content"
-							],
-							"is_xml": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 3474.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "st/sass/globle.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1560,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								146,
-								146
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
 								"bh_tag_close",
 								"bh_tag_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
 								"bh_round_close",
-								"bh_round_content"
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
 							],
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"is_xml": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3524,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								351,
-								351
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"auto_complete": false,
-							"bh_regions":
-							[
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content"
-							],
-							"is_xml": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 166.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "page/video/suc.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1234,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								583,
-								567
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"auto_complete": false,
-							"bh_regions":
-							[
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content"
-							],
-							"is_xml": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 409.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 4,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
-					"file": "page/video/apply_anchor.html",
+					"buffer": 2,
+					"file": "ad/audience/wait.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1344,
+						"buffer_size": 604,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								642,
-								642
+								410,
+								410
 							]
 						],
 						"settings":
@@ -1732,9 +1428,260 @@
 								"bh_tag_close",
 								"bh_tag_content"
 							],
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										406,
+										409
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										240,
+										243
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
 							"is_xml": false,
 							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "page/video/ra.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3734,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1033,
+								1033
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"auto_complete": false,
+							"bh_regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										1029,
+										1032
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										933,
+										936
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"is_xml": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1744,366 +1691,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 7,
-					"file": "common/js/view_v8.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 9054,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								333,
-								333
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"auto_complete": false,
-							"bh_regions":
-							[
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content"
-							],
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 1.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 29457,
-						"regions":
-						{
-							"match":
-							{
-								"flags": 112,
-								"regions":
-								[
-									[
-										173,
-										182
-									],
-									[
-										298,
-										307
-									],
-									[
-										410,
-										419
-									],
-									[
-										530,
-										539
-									],
-									[
-										663,
-										672
-									],
-									[
-										859,
-										868
-									],
-									[
-										984,
-										993
-									],
-									[
-										1096,
-										1105
-									],
-									[
-										1216,
-										1225
-									],
-									[
-										1349,
-										1358
-									],
-									[
-										2019,
-										2028
-									],
-									[
-										2045,
-										2054
-									],
-									[
-										7346,
-										7355
-									],
-									[
-										7372,
-										7381
-									],
-									[
-										12710,
-										12719
-									],
-									[
-										12739,
-										12748
-									],
-									[
-										12971,
-										12980
-									],
-									[
-										13000,
-										13009
-									],
-									[
-										13193,
-										13202
-									],
-									[
-										13417,
-										13426
-									],
-									[
-										13615,
-										13624
-									],
-									[
-										13828,
-										13837
-									],
-									[
-										14057,
-										14066
-									],
-									[
-										14238,
-										14247
-									],
-									[
-										14447,
-										14456
-									],
-									[
-										14575,
-										14584
-									],
-									[
-										14873,
-										14882
-									],
-									[
-										14992,
-										15001
-									],
-									[
-										15435,
-										15444
-									],
-									[
-										15644,
-										15653
-									],
-									[
-										15772,
-										15781
-									],
-									[
-										16070,
-										16079
-									],
-									[
-										16189,
-										16198
-									],
-									[
-										17962,
-										17971
-									],
-									[
-										23425,
-										23434
-									],
-									[
-										27845,
-										27854
-									],
-									[
-										27987,
-										27996
-									],
-									[
-										28252,
-										28261
-									],
-									[
-										28541,
-										28550
-									],
-									[
-										28788,
-										28797
-									],
-									[
-										29018,
-										29027
-									],
-									[
-										29364,
-										29373
-									]
-								],
-								"scope": ""
-							}
-						},
-						"selection":
-						[
-							[
-								28980,
-								28980
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content"
-							],
-							"default_dir": "/Users/bigfish/Documents/github/dog/APP/html",
-							"detect_indentation": false,
-							"line_numbers": false,
-							"output_tag": 2,
-							"result_base_dir": "",
-							"result_file_regex": "^([A-Za-z\\\\/<].*):$",
-							"result_line_regex": "^ +([0-9]+):",
-							"scroll_past_end": true,
-							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 17055.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 9,
+					"buffer": 4,
 					"file": "st/sass/video.scss",
 					"semi_transient": false,
 					"settings":
@@ -2115,8 +1703,8 @@
 						"selection":
 						[
 							[
-								2020,
-								2020
+								1785,
+								1785
 							]
 						],
 						"settings":
@@ -2180,122 +1768,112 @@
 								"bh_tag_close",
 								"bh_tag_content"
 							],
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										1896,
+										1897
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										1694,
+										1695
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
 							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 3699.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 10,
-					"file": "page/mall/test-get.html",
+					"buffer": 5,
+					"file": "ad/audience/base.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3048,
+						"buffer_size": 5791,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1762,
-								1774
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"auto_complete": false,
-							"bh_regions":
-							[
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content"
-							],
-							"is_xml": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1296.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 10,
-					"type": "text"
-				},
-				{
-					"buffer": 11,
-					"file": "st/sass/mall.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3004,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2687,
-								2699
+								3055,
+								3055
 							]
 						],
 						"settings":
@@ -2303,70 +1881,151 @@
 							"BracketHighlighterBusy": false,
 							"bh_regions":
 							[
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
 								"bh_square_close",
 								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
 								"bh_curly",
 								"bh_curly_center",
 								"bh_curly_open",
 								"bh_curly_close",
-								"bh_curly_content"
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
 							],
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										3062,
+										3063
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										3044,
+										3045
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"syntax": "Packages/CSS/CSS.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 5496.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 11,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -2429,20 +2088,48 @@
 		"selected_items":
 		[
 			[
-				"ra_p",
-				"page/video/ra_protocol.html"
+				"no",
+				"st/sass/noticecss.scss"
+			],
+			[
+				"bas",
+				"temp/base.css"
+			],
+			[
+				"vie",
+				"st/sass/video.scss"
+			],
+			[
+				"ra",
+				"page/video/ra.html"
+			],
+			[
+				"mobilebugfix",
+				"common/js/mobileBUGFix.mini.js"
+			],
+			[
+				"localresizeimg2",
+				"common/js/localResizeIMG2.js"
+			],
+			[
+				"ra.",
+				"page/video/ra.html"
 			],
 			[
 				"v",
 				"st/sass/video.scss"
 			],
 			[
-				"app",
+				"apply_anchor",
 				"page/video/apply_anchor.html"
 			],
 			[
-				"vie",
-				"common/js/view_v8.js"
+				"ra_p",
+				"page/video/ra_protocol.html"
+			],
+			[
+				"app",
+				"page/video/apply_anchor.html"
 			],
 			[
 				"mal",
@@ -2793,10 +2480,6 @@
 				"page/保险/赎回-选择保单.html"
 			],
 			[
-				"bas",
-				"common/css/base.css"
-			],
-			[
 				"常见",
 				"常见问题.html"
 			],
@@ -2915,10 +2598,6 @@
 			[
 				"po",
 				"盛付通账户说明_popup.html"
-			],
-			[
-				"pcip",
-				"~/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings"
 			]
 		],
 		"width": 0.0
@@ -2948,7 +2627,7 @@
 	"show_minimap": true,
 	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 213.0,
 	"status_bar_visible": true,
 	"template_settings":
