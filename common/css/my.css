@@ -212,7 +212,6 @@
     line-height: 46px;
     font-size: 1.8rem;
     width: 80%;
-    margin-left: 10%;
     margin-bottom: 20px; }
   .join-content .join-quer, .join-content .join-dis {
     background-color: #67bd5e;
@@ -221,10 +220,11 @@
     text-align: center;
     font-size: 1.8rem;
     border-radius: 20px;
-    width: 48%;
+    width: 45%;
     margin-top: 50px; }
   .join-content .join-dis {
-    background-color: #919191; }
+    background-color: #919191;
+    margin-left: 8%; }
 
 .join-title {
   line-height: 36px;
