@@ -72,8 +72,9 @@ select { -webkit-appearance: none; }
 .popup { height: 100%; width: 100%; position: absolute; top: 0px; left: 0px; display: none }
 .popup .mask { height: 100%; width: 100%; position: absolute; top: 0px; left: 0px; background-color: rgba(0, 0, 0, 0.4); z-index: 100; }
 .popup .content { z-index: 101; position: fixed; top: 30%; margin-left: 10%; width: 80%; }
-.popup .btn-box { display: flex; display: -webkit-flex; }
-
+.popup .btn-box { display: flex; display: -webkit-flex; margin-top: 10px; }
+.btn-2{flex: 1; width: 1%; line-height: 46px; text-align: center; background-color: #fff; box-sizing: border-box; -webkit-box-sizing:border-box; font-size: 1.6rem;}
+.btn-2:last-child{border-left: 1px solid #f5f5f5; color: #999;}
 .enter-phone{
 	background-color: #f5f5f5;
 	width: 80%;
@@ -190,3 +191,12 @@ select { -webkit-appearance: none; }
 	.wrapPhoto img{
 		width: 100%;
 	}
+
+.waitUp .content{
+	background-color: #f4f4f4;
+	border-radius: 10px;
+	text-align: center;
+	padding: 20px 0px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}

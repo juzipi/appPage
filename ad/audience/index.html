@@ -63,9 +63,21 @@
 		<div class="content enter-phone">
 			<h2>填写手机号</h2>
 			<input type="tel" value="" name="" class="box" />
-			<div class="btn-sure">确认</div>
+			<div class="btn-box">
+				<div class="btn-2">确认</div>
+				<div class="btn-2">取消</div>
+			</div>
 		</div>
 	</div>
+
+	<div class="popup waitUp" id="waitUp">
+		<div class="mask"></div>
+		<div class="content">
+			<img src="img/loading.gif" />
+			<div>努力上传中....</div>
+		</div>
+	</div>
+
 	<script type="text/javascript" src="http://www.fdog.cn/htdocs/comApp/zepto/zepto.js"></script>
 	<script type="text/javascript"  src="../../common/js/mobileBUGFix.mini.js"></script>
 <script type="text/javascript"  src="../../common/js/localResizeIMG2.js"></script>
@@ -93,8 +105,11 @@
         $(upbox).localResizeIMG({
             width: 320,
             quality: 0.5,
+            before: function(){
+            	$("#waitUp").show();
+            },
             success: function (result) {
-            		alert(result)
+            	$("#waitUp").hide();
                 if (result) {
                 	$(iconSuc).removeClass('dis');
                 		viewImg.show();
