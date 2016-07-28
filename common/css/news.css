@@ -58,12 +58,11 @@ a {
 .art-data {
   font-size: 1.2rem;
   color: #bfbfbf;
-  padding-top: 0.5rem;
   border-bottom: 1px solid whitesmoke;
   margin: 0px -2rem;
   padding: 0px 2rem;
   line-height: 4rem;
-  margin-top: 0.5rem; }
+  margin-top: 1rem; }
 
 .f-right {
   float: right; }
