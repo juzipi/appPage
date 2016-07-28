@@ -161,6 +161,12 @@ a.link-orange:link, a.link-orange:visited, a.link-orange:hover, a.link-orange:ac
 .font-c-black {
   color: #333; }
 
+.font-c-red {
+  color: red; }
+
+.font-c-rose {
+  color: #ec3d4c; }
+
 /*布局*/
 /*@media only screen and (-webkit-min-device-pixel-ratio : 1){
     .bd{min-width:320px; max-width:720px; margin:0 auto;}
@@ -213,6 +219,9 @@ a.link-orange:link, a.link-orange:visited, a.link-orange:hover, a.link-orange:ac
   margin-right: -2rem;
   padding-left: 2rem;
   padding-right: 2rem; }
+
+.block {
+  display: block; }
 
 @font-face {
   font-family: 'icon';
@@ -1421,6 +1430,15 @@ a.link-orange:link, a.link-orange:visited, a.link-orange:hover, a.link-orange:ac
 
 .mb-mini {
   margin-bottom: 1rem; }
+
+.mb-normal {
+  margin-bottom: 2rem; }
+
+.mb-big {
+  margin-bottom: 3rem; }
+
+.mb-vbig {
+  margin-bottom: 5rem; }
 
 /*// popup*/
 .popup {

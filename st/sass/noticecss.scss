@@ -53,6 +53,8 @@ a.link-orange:link, a.link-orange:visited, a.link-orange:hover, a.link-orange:ac
 .font-c-yellow{color:$fontYellowColor;}
 .font-c-brown{color:#31695D;}
 .font-c-black{color: #333}
+.font-c-red{color: red}
+.font-c-rose{color: #ec3d4c}
 /*布局*/
 /*@media only screen and (-webkit-min-device-pixel-ratio : 1){
     .bd{min-width:320px; max-width:720px; margin:0 auto;}
@@ -73,6 +75,7 @@ a.link-orange:link, a.link-orange:visited, a.link-orange:hover, a.link-orange:ac
 .gray-bg{background-color:#F4F4F5;}
 .white-bg{background-color: #FFF}
 .b-top{border-top:1px solid #eee; padding-top:1rem; margin-top: 1rem; margin-left:-2rem; margin-right: -2rem; padding-left: 2rem; padding-right: 2rem;}
+.block{display:block}
 
 // icon 字体 公用
 @font-face { font-family: 'icon'; src: url('../fonts/icon.ttf?irkqfn') format('truetype'); font-weight: normal; font-style: normal; }
@@ -500,6 +503,9 @@ opacity: 0.8;
 .mt-normal{margin-top: 3rem ;}
 .mt-big{margin-top: 5rem;}
 .mb-mini{margin-bottom: 1rem;}
+.mb-normal{margin-bottom: 2rem;}
+.mb-big{margin-bottom: 3rem;}
+.mb-vbig{margin-bottom: 5rem;}
 
 /*// popup*/
 .popup { height: 100%; width: 100%; position: absolute; top: 0px; left: 0px; display: none }
